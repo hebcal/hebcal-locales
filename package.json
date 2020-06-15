@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/locales",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translations for Hebcal events in multiple languages",
   "main": "dist/index.js",
   "repository": {
@@ -16,6 +16,7 @@
   "dependencies": {
     "@hebcal/core": "^1.1.0"
   },
+  "files": ["dist"],
   "scripts": {
     "build:rollup": "rollup -c",
     "po2json": "node ./po2json.js po/*.po",
