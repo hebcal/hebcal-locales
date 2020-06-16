@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/locales",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Translations for Hebcal events in multiple languages",
   "main": "dist/index.js",
   "repository": {
@@ -14,16 +14,37 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/core": "^1.1.0"
+    "@hebcal/core": "^1.1.1"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build:rollup": "rollup -c",
     "po2json": "node ./po2json.js po/*.po",
     "build": "npm run po2json && npm run build:rollup",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "src/**/*.spec.js"
+    ],
+    "require": [
+      "@babel/register"
+    ],
+    "babel": {
+      "testOptions": {
+        "presets": [
+          "@babel/env"
+        ]
+      }
+    },
+    "inherit": true,
+    "verbose": true
   },
   "devDependencies": {
+    "@ava/babel": "^1.0.1",
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/register": "^7.10.1",
@@ -31,6 +52,7 @@
     "@rollup/plugin-commonjs": "^12.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
+    "ava": "^3.9.0",
     "eslint": "^7.1.0",
     "eslint-config-google": "^0.14.0",
     "rollup": "^1.29.0",
