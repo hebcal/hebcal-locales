@@ -22,7 +22,7 @@ $ npm install @hebcal/locales
 
 ## Synopsis
 ```javascript
-import {hebcal} from '@hebcal/core';
+import {HebrewCalendar} from '@hebcal/core';
 import '@hebcal/locales';
 
 const options = {
@@ -30,5 +30,6 @@ const options = {
   sedrot: true,
   locale: 'ru',
 };
-const events = hebcal.hebrewCalendar(options);
+const cal = new HebrewCalendar(options);
+const events = cal.events();
 ```
