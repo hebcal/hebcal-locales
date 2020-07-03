@@ -30,6 +30,6 @@ const options = {
   sedrot: true,
   locale: 'ru',
 };
-const cal = new HebrewCalendar(options);
-const events = cal.events();
+const events = HebrewCalendar.calendar(options);
+console.log(events[0].render());
 ```
