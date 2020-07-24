@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/core": "^2.0.0"
+    "@hebcal/core": "^2.2.3"
   },
   "files": [
     "dist"
@@ -45,17 +45,17 @@
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
-    "@babel/core": "^7.10.4",
+    "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.4",
-    "@rollup/plugin-babel": "^5.0.4",
-    "@rollup/plugin-commonjs": "^12.0.0",
+    "@babel/register": "^7.10.5",
+    "@rollup/plugin-babel": "^5.1.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^8.1.0",
-    "ava": "^3.9.0",
-    "eslint": "^7.3.1",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "ava": "^3.10.1",
+    "eslint": "^7.5.0",
     "eslint-config-google": "^0.14.0",
-    "rollup": "^1.29.0",
+    "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
     "ttag-cli": "^1.8.3"
   }
