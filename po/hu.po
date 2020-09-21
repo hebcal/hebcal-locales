@@ -680,3 +680,6 @@ msgstr "Jom Jerusáláim"
 
 msgid "Yom HaAliyah"
 msgstr "Jom háAlija"
+
+msgid "min"
+msgstr "perc"

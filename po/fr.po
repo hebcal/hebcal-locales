@@ -683,3 +683,6 @@ msgstr "Yom Yerouchalayim"
 
 msgid "Yom HaAliyah"
 msgstr "Yom ha'Alyah"
+
+msgid "min"
+msgstr "minutes"

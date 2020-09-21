@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/locales",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Translations for Hebcal events in multiple languages",
   "main": "dist/index.js",
   "repository": {
@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/core": "^2.2.3"
+    "@hebcal/core": "^2.6.1"
   },
   "files": [
     "dist"
@@ -45,18 +45,18 @@
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.5",
-    "@rollup/plugin-babel": "^5.1.0",
-    "@rollup/plugin-commonjs": "^14.0.0",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^8.4.0",
-    "ava": "^3.10.1",
-    "eslint": "^7.5.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "ava": "^3.12.1",
+    "eslint": "^7.9.0",
     "eslint-config-google": "^0.14.0",
-    "rollup": "^2.23.0",
+    "rollup": "^2.28.1",
     "rollup-plugin-terser": "^6.1.0",
-    "ttag-cli": "^1.8.3"
+    "ttag-cli": "^1.8.5"
   }
 }

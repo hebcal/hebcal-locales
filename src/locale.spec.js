@@ -1,5 +1,5 @@
 import test from 'ava';
-import {HebrewCalendar} from '@hebcal/core';
+import {HebrewCalendar, Location} from '@hebcal/core';
 import './locale';
 
 test('locale-ru', (t) => {
@@ -30,4 +30,23 @@ test('addHebrewDates-locale', (t) => {
   const evRU = HebrewCalendar.calendar(options)[0];
   t.is(evRU.getDesc(), '3 Adar 5777');
   t.is(evRU.render(), '3. Адар, 5777');
+});
+
+test('havdalah', (t) => {
+  const dt = new Date(2020, 10, 7);
+  const havdalah = HebrewCalendar.calendar({
+    start: dt,
+    end: dt,
+    location: Location.lookup('Budapest'),
+    candlelighting: true,
+    havdalahMins: 42,
+  })[0];
+  t.is(havdalah.getDesc(), 'Havdalah');
+  t.is(havdalah.render('en'), 'Havdalah (42 min): 16:59');
+  t.is(havdalah.render('fi'), 'Havdala (42 minuuttia): 16:59');
+  t.is(havdalah.render('fr'), 'Havdalah (42 minutes): 16:59');
+  t.is(havdalah.render('hu'), 'Hávdálá (42 perc): 16:59');
+  t.is(havdalah.render('he'), 'הַבדָלָה (42 דקות): 16:59');
+  t.is(havdalah.render('pl'), 'Hawdala (42 minut): 16:59');
+  t.is(havdalah.render('ru'), 'Авдала (42 мин.): 16:59');
 });

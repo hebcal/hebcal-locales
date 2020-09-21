@@ -678,3 +678,6 @@ msgstr "Jom Kippur"
 
 msgid "Yom Yerushalayim"
 msgstr "Jom Yerushalayim"
+
+msgid "min"
+msgstr "minut"

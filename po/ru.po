@@ -677,3 +677,6 @@ msgstr "День Раскаяния"
 
 msgid "Yom Yerushalayim"
 msgstr "День Иерусалима"
+
+msgid "min"
+msgstr "мин."
