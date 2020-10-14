@@ -680,3 +680,6 @@ msgstr "День Иерусалима"
 
 msgid "min"
 msgstr "мин."
+
+msgid "Tishrei"
+msgstr "Тишрей"
