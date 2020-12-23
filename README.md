@@ -6,6 +6,7 @@ Adds support for the following locales:
 * `ashkenazi_litvish`
 * `ashkenazi_poylish`
 * `ashkenazi_standard`
+* `es`
 * `fi`
 * `fr`
 * `hu`

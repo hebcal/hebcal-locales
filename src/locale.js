@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 import {Locale} from '@hebcal/core';
+import po_es from './es.po.json';
 import po_fi from './fi.po.json';
 import po_fr from './fr.po.json';
 import po_hu from './hu.po.json';
@@ -9,6 +10,7 @@ import po_ashkenazi_litvish from './ashkenazi_litvish.po.json';
 import po_ashkenazi_poylish from './ashkenazi_poylish.po.json';
 import po_ashkenazi_standard from './ashkenazi_standard.po.json';
 
+Locale.addLocale('es', po_es);
 Locale.addLocale('fi', po_fi);
 Locale.addLocale('fr', po_fr);
 Locale.addLocale('hu', po_hu);

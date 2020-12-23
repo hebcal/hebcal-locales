@@ -15,6 +15,12 @@ test('locale-ru-ordinal', (t) => {
   t.is(ev.render(), '1. day of the Omer');
 });
 
+test('locale-es', (t) => {
+  const options = {year: 2020, month: 4, locale: 'es'};
+  const ev = HebrewCalendar.calendar(options)[3];
+  t.is(ev.render(), 'Pésaj I');
+});
+
 test('addHebrewDates-locale', (t) => {
   const options = {
     year: 2017,
