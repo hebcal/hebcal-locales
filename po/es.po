@@ -790,3 +790,9 @@ msgstr "Rosh Jodesh Tevet"
 
 msgid "min"
 msgstr "min"
+
+msgid "Fast begins"
+msgstr "Empieza el ayuno"
+
+msgid "Fast ends"
+msgstr "Final del ayuno"

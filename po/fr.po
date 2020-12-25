@@ -686,3 +686,9 @@ msgstr "Yom ha'Alyah"
 
 msgid "min"
 msgstr "minutes"
+
+msgid "Fast begins"
+msgstr "Jeûne commence"
+
+msgid "Fast ends"
+msgstr "Fin du jeûne"

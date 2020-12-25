@@ -683,3 +683,9 @@ msgstr "мин."
 
 msgid "Tishrei"
 msgstr "Тишрей"
+
+msgid "Fast begins"
+msgstr "Пост начинается"
+
+msgid "Fast ends"
+msgstr "Пост завершается"

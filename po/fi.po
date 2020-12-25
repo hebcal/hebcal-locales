@@ -687,3 +687,9 @@ msgstr "Jom ha'alija"
 
 msgid "min"
 msgstr "minuuttia"
+
+msgid "Fast begins"
+msgstr "Paasto alkaa"
+
+msgid "Fast ends"
+msgstr "Paasto päättyy"

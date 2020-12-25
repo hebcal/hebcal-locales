@@ -681,3 +681,9 @@ msgstr "Jom Yerushalayim"
 
 msgid "min"
 msgstr "minut"
+
+msgid "Fast begins"
+msgstr "Czczo zaczyna"
+
+msgid "Fast ends"
+msgstr "Czczo końce"

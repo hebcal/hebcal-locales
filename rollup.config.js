@@ -1,5 +1,4 @@
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
+import {nodeResolve} from '@rollup/plugin-node-resolve';
 import babel from '@rollup/plugin-babel';
 import json from '@rollup/plugin-json';
 import pkg from './package.json';
@@ -14,7 +13,7 @@ export default [
       babel({
         babelHelpers: 'bundled',
         presets: [
-          ['@babel/env', {
+          ['@babel/preset-env', {
             modules: false,
             targets: {
               node: '10.21.0',
@@ -23,8 +22,28 @@ export default [
         ],
         exclude: ['node_modules/**'],
       }),
-      resolve(),
-      commonjs(),
+      nodeResolve(),
+    ],
+    external: ['@hebcal/core'],
+  },
+  {
+    input: 'src/locale.js',
+    output: {file: pkg.module, format: 'es', name: pkg.name},
+    plugins: [
+      json({compact: true}),
+      babel({
+        babelHelpers: 'bundled',
+        presets: [
+          ['@babel/preset-env', {
+            modules: false,
+            targets: {
+              node: '10.21.0',
+            },
+          }],
+        ],
+        exclude: ['node_modules/**'],
+      }),
+      nodeResolve(),
     ],
     external: ['@hebcal/core'],
   },
@@ -32,20 +51,18 @@ export default [
     input: 'src/locale.js',
     output: [
       {
-        file: 'dist/bundle.js',
-        format: 'umd',
-        name: 'hebcal__locales',
+        file: pkg.browser,
+        format: 'iife',
         globals: {
-          '@hebcal/core': 'hebcal__core',
+          '@hebcal/core': 'hebcal',
         },
         indent: false,
       },
       {
         file: 'dist/bundle.min.js',
-        format: 'umd',
-        name: 'hebcal__locales',
+        format: 'iife',
         globals: {
-          '@hebcal/core': 'hebcal__core',
+          '@hebcal/core': 'hebcal',
         },
         plugins: [terser()],
       },
@@ -55,7 +72,7 @@ export default [
       babel({
         babelHelpers: 'bundled',
         presets: [
-          ['@babel/env', {
+          ['@babel/preset-env', {
             modules: false,
             targets: {
               edge: '17',
@@ -69,8 +86,7 @@ export default [
         ],
         exclude: ['node_modules/**'],
       }),
-      resolve(),
-      commonjs(),
+      nodeResolve(),
     ],
     external: ['@hebcal/core'],
   },

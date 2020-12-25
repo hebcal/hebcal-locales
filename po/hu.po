@@ -683,3 +683,9 @@ msgstr "Jom háAlija"
 
 msgid "min"
 msgstr "perc"
+
+msgid "Fast begins"
+msgstr "A böjt kezdődik"
+
+msgid "Fast ends"
+msgstr "A böjt végét"
