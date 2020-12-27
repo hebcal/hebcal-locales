@@ -792,7 +792,7 @@ msgid "min"
 msgstr "min"
 
 msgid "Fast begins"
-msgstr "Empieza el ayuno"
+msgstr "El ayuno comienza"
 
 msgid "Fast ends"
-msgstr "Final del ayuno"
+msgstr "El ayuno finaliza"
