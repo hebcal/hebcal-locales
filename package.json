@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/locales",
-  "version": "2.4.1",
+  "version": "3.0.0",
   "description": "Translations for Hebcal events in multiple languages",
   "main": "dist/index.js",
   "browser": "dist/bundle.js",
@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/core": "^2.11.0"
+    "@hebcal/core": "^3.0.0"
   },
   "files": [
     "dist"
