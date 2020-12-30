@@ -648,6 +648,9 @@ msgstr "Táánit Eszter"
 msgid "Tish'a B'Av"
 msgstr "Tisá böÁv"
 
+msgid "Tish'a B'Av (observed)"
+msgstr "Tisá böÁv (megfigyelt)"
+
 msgid "Tu B'Av"
 msgstr "Tu böÁv"
 

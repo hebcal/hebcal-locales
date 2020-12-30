@@ -648,6 +648,9 @@ msgstr "Пост Эстер"
 msgid "Tish'a B'Av"
 msgstr "Девятое Ава"
 
+msgid "Tish'a B'Av (observed)"
+msgstr "Девятое Ава (отмечается)"
+
 msgid "Tu B'Av"
 msgstr "Пятнадцатое Ава"
 
