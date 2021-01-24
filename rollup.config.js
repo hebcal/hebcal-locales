@@ -35,7 +35,7 @@ export default [
     input: 'src/locale.js',
     output: [
       {
-        file: pkg.browser,
+        file: 'dist/bundle.js',
         format: 'iife',
         globals: {
           '@hebcal/core': 'hebcal',

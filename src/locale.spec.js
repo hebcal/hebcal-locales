@@ -31,11 +31,15 @@ test('addHebrewDates-locale', (t) => {
   };
   const evFR = HebrewCalendar.calendar(options)[0];
   t.is(evFR.getDesc(), '3 Adar 5777');
-  t.is(evFR.render(), '3ème Adar, 5777');
+  t.is(evFR.render(), '3. Adar, 5777');
   options.locale = 'ru';
   const evRU = HebrewCalendar.calendar(options)[0];
   t.is(evRU.getDesc(), '3 Adar 5777');
   t.is(evRU.render(), '3. Адар, 5777');
+  options.locale = 'es';
+  const evES = HebrewCalendar.calendar(options)[0];
+  t.is(evES.getDesc(), '3 Adar 5777');
+  t.is(evES.render(), '3º Adar, 5777');
 });
 
 test('havdalah', (t) => {
