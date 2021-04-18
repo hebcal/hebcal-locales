@@ -40,6 +40,9 @@ test('addHebrewDates-locale', (t) => {
   const evES = HebrewCalendar.calendar(options)[0];
   t.is(evES.getDesc(), '3 Adar 5777');
   t.is(evES.render(), '3º Adar, 5777');
+  options.locale = 'de';
+  const evDE = HebrewCalendar.calendar(options)[0];
+  t.is(evDE.render(), '3. Adar, 5777');
 });
 
 test('havdalah', (t) => {
@@ -59,4 +62,11 @@ test('havdalah', (t) => {
   t.is(havdalah.render('he'), 'הַבדָלָה (42 דקות): 16:59');
   t.is(havdalah.render('pl'), 'Hawdala (42 minut): 16:59');
   t.is(havdalah.render('ru'), 'Авдала (42 мин.): 16:59');
+  t.is(havdalah.render('de'), 'Hawdalah (42 Min): 16:59');
+});
+
+test('locale-de', (t) => {
+  const options = {year: 2020, month: 4, locale: 'de'};
+  const ev = HebrewCalendar.calendar(options)[3];
+  t.is(ev.render(), 'Pessach I');
 });
