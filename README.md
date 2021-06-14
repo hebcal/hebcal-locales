@@ -1,4 +1,4 @@
-# hebcal-locales
+# @hebcal/locales
 Translations for Hebcal events in multiple languages
 
 Adds support for the following locales:
