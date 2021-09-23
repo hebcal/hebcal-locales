@@ -17,7 +17,8 @@ test('locale-ru-ordinal', (t) => {
 
 test('locale-es', (t) => {
   const options = {year: 2020, month: 4, locale: 'es'};
-  const ev = HebrewCalendar.calendar(options)[3];
+  const events = HebrewCalendar.calendar(options);
+  const ev = events.find((ev) => ev.getDesc() === 'Pesach I');
   t.is(ev.render(), 'Pésaj I');
 });
 
@@ -67,6 +68,7 @@ test('havdalah', (t) => {
 
 test('locale-de', (t) => {
   const options = {year: 2020, month: 4, locale: 'de'};
-  const ev = HebrewCalendar.calendar(options)[3];
+  const events = HebrewCalendar.calendar(options);
+  const ev = events.find((ev) => ev.getDesc() === 'Pesach I');
   t.is(ev.render(), 'Pessach I');
 });
