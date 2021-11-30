@@ -796,3 +796,6 @@ msgstr "Fasten beginnt"
 
 msgid "Fast ends"
 msgstr "Fasten endet"
+
+msgid "day"
+msgstr "Tag"

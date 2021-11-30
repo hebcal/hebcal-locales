@@ -695,3 +695,6 @@ msgstr "Jeûne commence"
 
 msgid "Fast ends"
 msgstr "Fin du jeûne"
+
+msgid "day"
+msgstr "jour"

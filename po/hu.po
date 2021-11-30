@@ -692,3 +692,6 @@ msgstr "A böjt kezdődik"
 
 msgid "Fast ends"
 msgstr "A böjt végét"
+
+msgid "day"
+msgstr "nap"

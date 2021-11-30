@@ -696,3 +696,6 @@ msgstr "Paasto alkaa"
 
 msgid "Fast ends"
 msgstr "Paasto päättyy"
+
+msgid "day"
+msgstr "päivä"

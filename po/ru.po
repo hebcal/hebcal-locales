@@ -695,3 +695,6 @@ msgstr "Пост завершается"
 
 msgid "Shabbat Mevarchim Chodesh"
 msgstr "Шаббат Mevarchim Новомесячьем"
+
+msgid "day"
+msgstr "день"

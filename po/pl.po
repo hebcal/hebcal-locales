@@ -687,3 +687,6 @@ msgstr "Czczo zaczyna"
 
 msgid "Fast ends"
 msgstr "Czczo końce"
+
+msgid "day"
+msgstr "dzień"

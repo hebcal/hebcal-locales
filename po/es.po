@@ -799,3 +799,6 @@ msgstr "El ayuno comienza"
 
 msgid "Fast ends"
 msgstr "El ayuno finaliza"
+
+msgid "day"
+msgstr "día"
