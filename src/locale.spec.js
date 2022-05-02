@@ -72,3 +72,17 @@ test('locale-de', (t) => {
   const ev = events.find((ev) => ev.getDesc() === 'Pesach I');
   t.is(ev.render(), 'Pessach I');
 });
+
+test('ro', (t) => {
+  const options = {year: 2020, month: 4, locale: 'ro'};
+  const events = HebrewCalendar.calendar(options);
+  const ev = events.find((ev) => ev.getDesc() === 'Pesach I');
+  t.is(ev.render(), 'Pesaĥ I');
+});
+
+test('ashkenazi_romanian', (t) => {
+  const options = {year: 2020, month: 4, locale: 'ashkenazi_romanian'};
+  const events = HebrewCalendar.calendar(options);
+  const ev = events.find((ev) => ev.getDesc() === 'Pesach I');
+  t.is(ev.render(), 'Peisaĥ I');
+});

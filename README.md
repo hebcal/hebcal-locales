@@ -6,6 +6,7 @@ Adds support for the following locales:
 * `ashkenazi_litvish`
 * `ashkenazi_poylish`
 * `ashkenazi_standard`
+* `ashkenazi_romanian`
 * `de`
 * `es`
 * `fi`
@@ -13,6 +14,7 @@ Adds support for the following locales:
 * `hu`
 * `pl`
 * `ru`
+* `ro`
 
 Note that `@hebcal/core` has built-in support for `he` and `ashkenazi` locales.
 This package is needed only if you need other locales.
