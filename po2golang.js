@@ -14,17 +14,25 @@ for (const arg of process.argv.slice(2)) {
 }
 
 const outstream = fs.createWriteStream('./go/locales.go', {flags: 'w'});
-outstream.write(`
-package locales
+outstream.write(`package locales
 
 import "strings"
+
+// AllLocales is an array of all supported locale names.
+var AllLocales = []string{
+\t"en",
+`);
+for (const langName of langs.values()) {
+  outstream.write(`\t"${langName}",\n`);
+}
+outstream.write(`}
 
 // LookupTranslation returns a message for the given key.
 // It returns false for ok if such a message could not be found.
 func LookupTranslation(key string, locale string) (string, bool) {
 \tlang := strings.ToLower(locale)
 \tswitch lang {
-\tcase "en", "sephardic":
+\tcase "", "en", "sephardic":
 \t\treturn key, true
 `);
 for (const langName of langs.values()) {

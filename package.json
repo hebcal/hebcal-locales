@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/core": "^3.43.0"
+    "@hebcal/core": "^3.44.2"
   },
   "files": [
     "dist"
@@ -38,8 +38,8 @@
     "verbose": true
   },
   "devDependencies": {
-    "@babel/core": "^7.19.0",
-    "@babel/preset-env": "^7.19.0",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
     "@babel/register": "^7.18.9",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-json": "^4.1.0",
