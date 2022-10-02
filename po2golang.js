@@ -58,7 +58,7 @@ function writePoFile(inpath, outpath, langName) {
       Array.isArray(msgstr) && typeof msgstr[0] === 'string' && msgstr[0].length) {
       const src = msgid.replace(/\"/g, '\\"');
       const dest = msgstr[0].replace(/\"/g, '\\"');
-      if (src !== dest) {
+      if (dest !== "") {
         outstream.write(`\t"${src}": "${dest}",\n`);
       }
     }
