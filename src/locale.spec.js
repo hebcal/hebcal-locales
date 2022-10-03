@@ -63,6 +63,7 @@ test('havdalah', (t) => {
   t.is(havdalah.render('he'), 'הַבדָלָה (42 דקות): 16:59');
   t.is(havdalah.render('pl'), 'Hawdala (42 minut): 16:59');
   t.is(havdalah.render('ru'), 'Авдала (42 мин.): 16:59');
+  t.is(havdalah.render('uk'), 'Авдала (42 мін.): 16:59');
   t.is(havdalah.render('de'), 'Hawdalah (42 Min): 16:59');
 });
 
@@ -85,4 +86,11 @@ test('ashkenazi_romanian', (t) => {
   const events = HebrewCalendar.calendar(options);
   const ev = events.find((ev) => ev.getDesc() === 'Pesach I');
   t.is(ev.render(), 'Peisaĥ I');
+});
+
+test('uk', (t) => {
+  const options = {year: 2022, month: 10, locale: 'uk'};
+  const events = HebrewCalendar.calendar(options);
+  const ev = events.find((ev) => ev.getDesc() === 'Yom Kippur');
+  t.is(ev.render(), 'День Розкаяння');
 });
