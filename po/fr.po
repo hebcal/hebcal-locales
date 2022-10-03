@@ -175,11 +175,6 @@ msgstr "Midot"
 msgid "Niddah"
 msgstr "Niddah"
 
-#: ../dafyomi.c:141
-#, c-format
-msgid "Daf Yomi: %s %d"
-msgstr "Daf Yomi: %s %d"
-
 #: ../holidays.c:380
 msgid "Unable to allocate memory for holiday."
 msgstr "Impossible d'allouer de la mémoire pour la fête."

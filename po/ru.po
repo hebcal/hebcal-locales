@@ -13,59 +13,6 @@ msgstr ""
 "X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;"
 
-#: ../holidays.c:380
-msgid "Unable to allocate memory for holiday."
-msgstr ""
-
-#: ../holidays.c:679
-#, c-format
-msgid "input file read error. Skipping line %s"
-msgstr ""
-
-#: ../holidays.c:686
-#, c-format
-msgid "Error in input file.  Skipping line %s"
-msgstr ""
-
-#: ../holidays.c:691
-#, c-format
-msgid "Numeric hebrew month in input file.  Skipping line %s"
-msgstr ""
-
-#: ../holidays.c:697
-#, c-format
-msgid "Unrecognized hebrew month in input file.  Skipping line %s"
-msgstr ""
-
-#: ../holidays.c:703
-#, c-format
-msgid "Date out of range in input file. Skipping line %s"
-msgstr ""
-
-#: ../holidays.c:749
-#, c-format
-msgid "yahrtzeit file read error. Skipping line %s"
-msgstr ""
-
-#: ../holidays.c:756
-#, c-format
-msgid "Error in yahrtzeit file.  Skipping line %s"
-msgstr ""
-
-#: ../holidays.c:761
-#, c-format
-msgid "Non-numeric month in yahrtzeit file. Skipping line %s"
-msgstr ""
-
-#: ../holidays.c:771
-#, c-format
-msgid "Date out of range in yahrtzeit file. Skipping line %s"
-msgstr ""
-
-#: ../sedra.c:257 ../sedra.c:296
-msgid "improper sedra year type calculated."
-msgstr ""
-
 #: ../dafyomi.c:26
 msgid "Berachot"
 msgstr "Благословения"
@@ -221,11 +168,6 @@ msgstr "Мидот"
 #: ../dafyomi.c:65
 msgid "Niddah"
 msgstr "Нида"
-
-#: ../dafyomi.c:141
-#, c-format
-msgid "Daf Yomi: %s %d"
-msgstr "Страница Дня: %s %d"
 
 msgid "Daf Yomi"
 msgstr "Страница Дня"

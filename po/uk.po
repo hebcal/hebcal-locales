@@ -169,11 +169,6 @@ msgstr "Мідот"
 msgid "Niddah"
 msgstr "Ніда"
 
-#: ../dafyomi.c:141
-#, c-format
-msgid "Daf Yomi: %s %d"
-msgstr "Сторінка Дня: %s %d"
-
 msgid "Daf Yomi"
 msgstr "Сторінка Дня"
 

@@ -175,11 +175,6 @@ msgstr "Midos"
 msgid "Niddah"
 msgstr "Nido"
 
-#: ../dafyomi.c:141
-#, c-format
-msgid "Daf Yomi: %s %d"
-msgstr "Daf Ioimi: %s %d"
-
 msgid "Daf Yomi"
 msgstr "Daf Ioimi"
 
