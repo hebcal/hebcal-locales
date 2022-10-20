@@ -2,4 +2,3 @@
 node_modules
 dist
 src/*.po.json
-package-lock.json
