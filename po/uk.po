@@ -636,7 +636,7 @@ msgid "Fast ends"
 msgstr "Піст завершується"
 
 msgid "Shabbat Mevarchim Chodesh"
-msgstr "Шаббат Mevarchim Новим місяцем"
+msgstr "Шаббат мевархім Новим місяцем"
 
 msgid "day"
 msgstr "день"
