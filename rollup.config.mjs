@@ -1,7 +1,9 @@
 import babel from '@rollup/plugin-babel';
 import json from '@rollup/plugin-json';
-import pkg from './package.json';
-import {terser} from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
+import {createRequire} from 'node:module';
+const require = createRequire(import.meta.url);
+const pkg = require('./package.json');
 
 const banner = '/*! ' + pkg.name + ' v' + pkg.version + ' */';
 
