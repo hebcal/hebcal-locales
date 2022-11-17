@@ -39,16 +39,16 @@
     "verbose": true
   },
   "devDependencies": {
-    "@babel/core": "^7.19.6",
-    "@babel/preset-env": "^7.19.4",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
     "@babel/register": "^7.18.9",
     "@rollup/plugin-babel": "^6.0.2",
     "@rollup/plugin-json": "^5.0.1",
     "@rollup/plugin-terser": "^0.1.0",
-    "ava": "^5.0.1",
-    "eslint": "^8.26.0",
+    "ava": "^5.1.0",
+    "eslint": "^8.27.0",
     "eslint-config-google": "^0.14.0",
-    "rollup": "^3.2.5",
+    "rollup": "^3.3.0",
     "ttag-cli": "^1.10.1"
   }
 }
