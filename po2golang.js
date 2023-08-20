@@ -5,11 +5,26 @@ const parser = require('ttag-cli/dist/src/lib/parser');
 const utils = require('ttag-cli/dist/src/lib/utils');
 
 const langs = new Set();
+const parsedPoData = new Map();
 for (const arg of process.argv.slice(2)) {
-  const langName = path.basename(arg).replace(/\.po$/, '').replace(/\./g, '_');
+  const contents = fs.readFileSync(arg);
+  const poData = parser.parse(
+      contents.toString().normalize(),
+  );
+  const langName = getLangFromBase(arg);
+  const arr = parsedPoData.get(langName);
+  if (arr) {
+    arr.push(poData);
+  } else {
+    parsedPoData.set(langName, [poData]);
+  }
+  langs.add(langName);
+}
+
+for (const langName of langs.values()) {
   const outpath = `./go/strings_${langName}.go`;
-  console.log(`${arg} => ${outpath}`);
-  writePoFile(arg, outpath, langName);
+  console.log(`${langName} => ${outpath}`);
+  writePoFile(parsedPoData.get(langName), outpath, langName);
   langs.add(langName);
 }
 
@@ -43,23 +58,26 @@ for (const langName of langs.values()) {
 outstream.write(`\t}\n\treturn key, false\n}\n`);
 outstream.end();
 
-function writePoFile(inpath, outpath, langName) {
-  const poData = parser.parse(
-      fs.readFileSync(inpath).toString().normalize(),
-  );
+function getLangFromBase(arg) {
+  return path.basename(arg).replace(/\.po$/, '').replace(/\./g, '_');
+}
+
+function writePoFile(poDatas, outpath, langName) {
   const outstream = fs.createWriteStream(outpath, {flags: 'w'});
   outstream.write('package locales\n\n');
   outstream.write(`var dict_${langName} = map[string]string{\n`);
-  const messages = utils.iterateTranslations(poData.translations);
-  for (const msg of messages) {
-    const msgid = msg.msgid;
-    const msgstr = msg.msgstr;
-    if (typeof msgid === 'string' && msgid.length &&
-      Array.isArray(msgstr) && typeof msgstr[0] === 'string' && msgstr[0].length) {
-      const src = msgid.replace(/\"/g, '\\"');
-      const dest = msgstr[0].replace(/\"/g, '\\"');
-      if (dest !== "") {
-        outstream.write(`\t"${src}": "${dest}",\n`);
+  for (const poData of poDatas) {
+    const messages = utils.iterateTranslations(poData.translations);
+    for (const msg of messages) {
+      const msgid = msg.msgid;
+      const msgstr = msg.msgstr;
+      if (typeof msgid === 'string' && msgid.length &&
+        Array.isArray(msgstr) && typeof msgstr[0] === 'string' && msgstr[0].length) {
+        const src = msgid.replace(/\"/g, '\\"');
+        const dest = msgstr[0].replace(/\"/g, '\\"');
+        if (dest !== '') {
+          outstream.write(`\t"${src}": "${dest}",\n`);
+        }
       }
     }
   }
