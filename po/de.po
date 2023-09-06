@@ -276,8 +276,8 @@ msgstr "Eikew"
 msgid "Emor"
 msgstr "Emor"
 
-msgid "Ha'Azinu"
-msgstr "haAzinu"
+msgid "Ha'azinu"
+msgstr "haazinu"
 
 msgid "Kedoshim"
 msgstr "Kedoschim"

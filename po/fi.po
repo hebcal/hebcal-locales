@@ -222,7 +222,7 @@ msgstr "Eikev"
 msgid "Emor"
 msgstr "Emor"
 
-msgid "Ha'Azinu"
+msgid "Ha'azinu"
 msgstr "Ha'azinu"
 
 msgid "Kedoshim"

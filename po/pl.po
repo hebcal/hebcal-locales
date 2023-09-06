@@ -219,7 +219,7 @@ msgstr "Ekew"
 msgid "Emor"
 msgstr ""
 
-msgid "Ha'Azinu"
+msgid "Ha'azinu"
 msgstr "Haazinu"
 
 msgid "Kedoshim"

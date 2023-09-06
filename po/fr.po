@@ -274,7 +274,7 @@ msgstr "Ekev"
 msgid "Emor"
 msgstr "Emor"
 
-msgid "Ha'Azinu"
+msgid "Ha'azinu"
 msgstr "Ha'Azinou"
 
 msgid "Kedoshim"

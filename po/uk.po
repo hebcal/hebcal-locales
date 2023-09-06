@@ -217,7 +217,7 @@ msgstr "Єйкев"
 msgid "Emor"
 msgstr "Емор"
 
-msgid "Ha'Azinu"
+msgid "Ha'azinu"
 msgstr "А-Азіну"
 
 msgid "Kedoshim"
