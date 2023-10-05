@@ -60,7 +60,7 @@ test('havdalah', (t) => {
   t.is(havdalah.render('fi'), 'Havdala (42 minuuttia): 16:59');
   t.is(havdalah.render('fr'), 'Havdalah (42 minutes): 16:59');
   t.is(havdalah.render('hu'), 'Hávdálá (42 perc): 16:59');
-  t.is(havdalah.render('he'), 'הַבְדָּלָה (42 דקות): 16:59');
+  t.is(havdalah.render('he'), 'הַבְדָּלָה (42 דַּקּוֹת): 16:59');
   t.is(havdalah.render('pl'), 'Hawdala (42 minut): 16:59');
   t.is(havdalah.render('ru'), 'Авдала (42 мин.): 16:59');
   t.is(havdalah.render('uk'), 'Авдала (42 мін.): 16:59');
