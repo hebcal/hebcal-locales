@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/locales",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Translations for Hebcal events in multiple languages",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
