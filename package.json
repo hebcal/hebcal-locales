@@ -1,9 +1,14 @@
 {
   "name": "@hebcal/locales",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Translations for Hebcal events in multiple languages",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
   "module": "dist/index.mjs",
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hebcal/hebcal-locales.git"
@@ -15,35 +20,26 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/core": "^5.0.0-rc2"
+    "@hebcal/core": "^5.0.3"
   },
   "files": [
     "dist"
   ],
   "scripts": {
     "build:rollup": "rollup -c",
-    "po2json": "node ./po2json.js po/*.po",
-    "po2golang": "node ./po2golang.js ../hebcal-es6/po/ashkenazi.po ../hebcal-es6/po/he.po ../hebcal-learning/po/*.po po/*.po",
+    "po2json": "node ./po2json.cjs po/*.po",
+    "po2golang": "node ./po2golang.cjs ../hebcal-es6/po/ashkenazi.po ../hebcal-es6/po/he.po ../hebcal-learning/po/*.po po/*.po",
     "build": "npm run po2json && npm run build:rollup",
     "prepublish": "npm run build",
     "test": "ava"
   },
-  "ava": {
-    "require": [
-      "@babel/register"
-    ]
-  },
   "devDependencies": {
-    "@babel/core": "^7.23.3",
-    "@babel/preset-env": "^7.23.3",
-    "@babel/register": "^7.22.15",
-    "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-json": "^6.0.1",
+    "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-terser": "^0.4.4",
-    "ava": "^5.3.1",
-    "eslint": "^8.54.0",
+    "ava": "^6.0.1",
+    "eslint": "^8.56.0",
     "eslint-config-google": "^0.14.0",
-    "rollup": "^4.5.1",
-    "ttag-cli": "^1.10.9"
+    "rollup": "^4.9.1",
+    "ttag-cli": "^1.10.10"
   }
 }

@@ -1,6 +1,6 @@
 import test from 'ava';
 import {HebrewCalendar, Location} from '@hebcal/core';
-import './locale';
+import './locale.js';
 
 test('locale-ru', (t) => {
   const options = {year: 2020, month: 4, locale: 'ru'};
