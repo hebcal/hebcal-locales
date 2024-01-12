@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/core": "^5.0.3"
+    "@hebcal/core": "^5.0.8"
   },
   "files": [
     "dist"
@@ -39,7 +39,7 @@
     "ava": "^6.0.1",
     "eslint": "^8.56.0",
     "eslint-config-google": "^0.14.0",
-    "rollup": "^4.9.1",
+    "rollup": "^4.9.5",
     "ttag-cli": "^1.10.10"
   }
 }
