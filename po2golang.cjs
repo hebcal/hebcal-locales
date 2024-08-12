@@ -36,6 +36,7 @@ import "strings"
 // AllLocales is an array of all supported locale names.
 var AllLocales = []string{
 \t"en",
+\t"he-x-NoNikud",
 `);
 for (const langName of langs.values()) {
   outstream.write(`\t"${langName}",\n`);
@@ -49,6 +50,12 @@ func LookupTranslation(key string, locale string) (string, bool) {
 \tswitch lang {
 \tcase "", "en", "sephardic":
 \t\treturn key, true
+\tcase "he-x-nonikud":
+\t\tv, ok := Lookup_he(key)
+\t\tif ok {
+\t\t\treturn HebrewStripNikkud(v), true
+\t\t}
+\t\treturn v, ok
 `);
 for (const langName of langs.values()) {
   outstream.write(`\tcase "${langName}":\n`);
