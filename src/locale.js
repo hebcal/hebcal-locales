@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import {Locale} from '@hebcal/core';
+import {Locale} from '@hebcal/hdate';
 import po_de from './de.po.js';
 import po_es from './es.po.js';
 import po_fi from './fi.po.js';

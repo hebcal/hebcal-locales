@@ -13,7 +13,7 @@ module.exports = [
     plugins: [
       json({compact: true, preferConst: true}),
     ],
-    external: ['@hebcal/core'],
+    external: ['@hebcal/hdate', '@hebcal/core'],
   },
   {
     input: 'src/locale.js',
@@ -23,7 +23,7 @@ module.exports = [
     plugins: [
       json({compact: true, preferConst: true}),
     ],
-    external: ['@hebcal/core'],
+    external: ['@hebcal/hdate', '@hebcal/core'],
   },
   {
     input: 'src/locale.js',
@@ -32,6 +32,7 @@ module.exports = [
         file: 'dist/bundle.js',
         format: 'iife',
         globals: {
+          '@hebcal/hdate': 'hebcal',
           '@hebcal/core': 'hebcal',
         },
         indent: false,
@@ -41,6 +42,7 @@ module.exports = [
         file: 'dist/bundle.min.js',
         format: 'iife',
         globals: {
+          '@hebcal/hdate': 'hebcal',
           '@hebcal/core': 'hebcal',
         },
         plugins: [terser()],
@@ -50,6 +52,6 @@ module.exports = [
     plugins: [
       json({compact: true, preferConst: true}),
     ],
-    external: ['@hebcal/core'],
+    external: ['@hebcal/hdate', '@hebcal/core'],
   },
 ];
