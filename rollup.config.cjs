@@ -6,34 +6,31 @@ const banner = '/*! ' + pkg.name + ' v' + pkg.version + ' */';
 
 module.exports = [
   {
-    input: 'src/locale.js',
+    input: 'src/index.js',
     output: [
-      {file: pkg.main, format: 'cjs', name: pkg.name, banner},
+      {
+        dir: 'dist',
+        format: 'es',
+        name: pkg.name,
+        banner,
+        preserveModules: true,
+        preserveModulesRoot: 'src',
+        sourcemap: true,
+      },
     ],
     plugins: [
       json({compact: true, preferConst: true}),
     ],
-    external: ['@hebcal/hdate', '@hebcal/core'],
+    external: ['@hebcal/hdate'],
   },
   {
-    input: 'src/locale.js',
-    output: [
-      {file: pkg.module, format: 'es', name: pkg.name, banner},
-    ],
-    plugins: [
-      json({compact: true, preferConst: true}),
-    ],
-    external: ['@hebcal/hdate', '@hebcal/core'],
-  },
-  {
-    input: 'src/locale.js',
+    input: 'src/index.js',
     output: [
       {
         file: 'dist/bundle.js',
         format: 'iife',
         globals: {
           '@hebcal/hdate': 'hebcal',
-          '@hebcal/core': 'hebcal',
         },
         indent: false,
         banner,
@@ -43,7 +40,6 @@ module.exports = [
         format: 'iife',
         globals: {
           '@hebcal/hdate': 'hebcal',
-          '@hebcal/core': 'hebcal',
         },
         plugins: [terser()],
         banner,
@@ -52,6 +48,6 @@ module.exports = [
     plugins: [
       json({compact: true, preferConst: true}),
     ],
-    external: ['@hebcal/hdate', '@hebcal/core'],
+    external: ['@hebcal/hdate'],
   },
 ];

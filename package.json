@@ -1,13 +1,14 @@
 {
   "name": "@hebcal/locales",
-  "version": "5.0.2",
+  "version": "6.0.0",
   "description": "Translations for Hebcal events in multiple languages",
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
+  "module": "dist/index.js",
   "type": "module",
   "exports": {
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.cjs"
+    ".": {
+      "import": "./dist/index.js"
+    },
+    "./dist/*": "./dist/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/core": "^5.8.0",
-    "@hebcal/hdate": "^0.12.0"
+    "@hebcal/hdate": "^0.13.1"
   },
   "files": [
     "dist"
@@ -38,7 +38,7 @@
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-terser": "^0.4.4",
     "ava": "^6.2.0",
-    "rollup": "^4.25.0",
+    "rollup": "^4.28.1",
     "ttag-cli": "^1.10.12"
   }
 }

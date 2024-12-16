@@ -1,0 +1,13 @@
+import './de.js';
+import './es.js';
+import './fi.js';
+import './fr.js';
+import './hu.js';
+import './pl.js';
+import './ru.js';
+import './ro.js';
+import './uk.js';
+import './ashkenazi_litvish.js';
+import './ashkenazi_poylish.js';
+import './ashkenazi_standard.js';
+import './ashkenazi_romanian.js';
