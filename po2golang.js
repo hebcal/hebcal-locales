@@ -1,16 +1,14 @@
 /* eslint-disable require-jsdoc */
-const fs = require('fs');
-const path = require('path');
-const parser = require('ttag-cli/dist/src/lib/parser');
-const utils = require('ttag-cli/dist/src/lib/utils');
+import fs from 'fs';
+import path from 'path';
+import {po} from 'gettext-parser';
 
 const langs = new Set();
 const parsedPoData = new Map();
 for (const arg of process.argv.slice(2)) {
   const contents = fs.readFileSync(arg);
-  const poData = parser.parse(
-      contents.toString().normalize(),
-  );
+  const input = contents.toString().normalize();
+  const poData = po.parse(input);
   const langName = getLangFromBase(arg);
   const arr = parsedPoData.get(langName);
   if (arr) {
@@ -69,13 +67,21 @@ function getLangFromBase(arg) {
   return path.basename(arg).replace(/\.po$/, '').replace(/\./g, '_');
 }
 
+function assertHeader(name, value) {
+  if (!value) {
+    throw new Error(`Bad .po file. "${name}" header is missing`);
+  }
+}
+
 function writePoFile(poDatas, outpath, langName) {
-  const outstream = fs.createWriteStream(outpath, {flags: 'w'});
-  outstream.write('package locales\n\n');
-  outstream.write(`var dict_${langName} = map[string]string{\n`);
+  const dict = new Map();
   for (const poData of poDatas) {
-    const messages = utils.iterateTranslations(poData.translations);
-    for (const msg of messages) {
+    const pluralHeader =
+      poData.headers['plural-forms'] || poData.headers['Plural-Forms'];
+    const language = poData.headers.language || poData.headers.Language;
+    assertHeader('Plural-Forms', pluralHeader);
+    assertHeader('Language', language);
+    for (const msg of Object.values(poData.translations[''])) {
       const msgid = msg.msgid;
       const msgstr = msg.msgstr;
       if (typeof msgid === 'string' && msgid.length &&
@@ -83,10 +89,18 @@ function writePoFile(poDatas, outpath, langName) {
         const src = msgid.replace(/\"/g, '\\"');
         const dest = msgstr[0].replace(/\"/g, '\\"');
         if (dest !== '') {
-          outstream.write(`\t"${src}": "${dest}",\n`);
+          dict.set(src, dest);
         }
       }
     }
+  }
+  const outstream = fs.createWriteStream(outpath, {flags: 'w'});
+  outstream.write('package locales\n\n');
+  outstream.write(`var dict_${langName} = map[string]string{\n`);
+  const keys = Array.from(dict.keys()).sort();
+  for (const src of keys) {
+    const dest = dict.get(src);
+    outstream.write(`\t"${src}": "${dest}",\n`);
   }
   outstream.write(`}\n`);
   outstream.write(`
