@@ -100,7 +100,9 @@ function writePoFile(poDatas, outpath, langName) {
   const keys = Array.from(dict.keys()).sort();
   for (const src of keys) {
     const dest = dict.get(src);
-    outstream.write(`\t"${src}": "${dest}",\n`);
+    if (src !== dest) {
+      outstream.write(`\t"${src}": "${dest}",\n`);
+    }
   }
   outstream.write(`}\n`);
   outstream.write(`
