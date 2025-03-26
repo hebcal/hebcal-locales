@@ -693,3 +693,12 @@ msgstr "Fin du jeûne"
 
 msgid "day"
 msgstr "jour"
+
+msgid "and"
+msgstr "et"
+
+msgid "after"
+msgstr "après"
+
+msgid "chalakim"
+msgstr "'halakim"
