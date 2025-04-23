@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/locales",
-  "version": "6.0.2",
+  "version": "6.0.3",
   "description": "Translations for Hebcal events in multiple languages",
   "module": "dist/index.js",
   "type": "module",
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/hdate": "^0.13.6"
+    "@hebcal/hdate": "^0.14.0"
   },
   "files": [
     "dist"
@@ -37,6 +37,6 @@
     "@rollup/plugin-terser": "^0.4.4",
     "ava": "^6.2.0",
     "gettext-parser": "^8.0.0",
-    "rollup": "^4.37.0"
+    "rollup": "^4.40.0"
   }
 }
