@@ -4,6 +4,7 @@ import './fi.js';
 import './fr.js';
 import './hu.js';
 import './pl.js';
+import './pt.js';
 import './ru.js';
 import './ro.js';
 import './uk.js';
