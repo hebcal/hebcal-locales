@@ -794,3 +794,6 @@ msgstr "Fasten endet"
 
 msgid "day"
 msgstr "Tag"
+
+msgid "Yom Kippur Katan"
+msgstr "Jom Kippur Katan"

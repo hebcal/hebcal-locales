@@ -641,3 +641,6 @@ msgstr "Paasto päättyy"
 
 msgid "day"
 msgstr "päivä"
+
+msgid "Yom Kippur Katan"
+msgstr "Jom kipur katan"

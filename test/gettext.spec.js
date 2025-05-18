@@ -22,6 +22,10 @@ test('uk', (t) => {
   t.is(Locale.gettext('Yom Kippur', 'uk'), 'День Розкаяння');
 });
 
+test('pt', (t) => {
+  t.is(Locale.gettext('Fast ends', 'pt'), 'O jejum termina');
+});
+
 test('getLocaleNames', (t) => {
   const names = Locale.getLocaleNames();
   t.true(names.includes('es'));

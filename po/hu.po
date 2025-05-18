@@ -686,3 +686,6 @@ msgstr "A böjt végét"
 
 msgid "day"
 msgstr "nap"
+
+msgid "Yom Kippur Katan"
+msgstr "Jom kipur Kátán"

@@ -702,3 +702,6 @@ msgstr "après"
 
 msgid "chalakim"
 msgstr "'halakim"
+
+msgid "Yom Kippur Katan"
+msgstr "Yom Kippour Katan"

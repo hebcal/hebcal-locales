@@ -629,3 +629,6 @@ msgstr "Yom Yerusholayim"
 
 msgid "Yom HaAliyah"
 msgstr "Yom HaAliyah"
+
+msgid "Yom Kippur Katan"
+msgstr "Yom Kippur Koton"

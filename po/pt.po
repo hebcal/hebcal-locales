@@ -794,3 +794,6 @@ msgstr "O jejum termina"
 
 msgid "day"
 msgstr "dia"
+
+msgid "Yom Kippur Katan"
+msgstr "Yom Kipur Katan"

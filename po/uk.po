@@ -640,3 +640,6 @@ msgstr "Шаббат мевархім Новим місяцем"
 
 msgid "day"
 msgstr "день"
+
+msgid "Yom Kippur Katan"
+msgstr "День Розкаяння Катан"
