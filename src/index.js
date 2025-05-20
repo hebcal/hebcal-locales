@@ -2,6 +2,7 @@ import './de.js';
 import './es.js';
 import './fi.js';
 import './fr.js';
+import './he.js';
 import './hu.js';
 import './pl.js';
 import './pt.js';
