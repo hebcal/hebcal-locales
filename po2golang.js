@@ -34,7 +34,6 @@ import "strings"
 // AllLocales is an array of all supported locale names.
 var AllLocales = []string{
 \t"en",
-\t"he-x-NoNikud",
 `);
 for (const langName of langs.values()) {
   outstream.write(`\t"${langName}",\n`);
@@ -49,15 +48,21 @@ func LookupTranslation(key string, locale string) (string, bool) {
 \tcase "", "en", "sephardic":
 \t\treturn key, true
 \tcase "he-x-nonikud":
-\t\tv, ok := Lookup_he(key)
+\t\tv, ok := Lookup_he_x_NoNikud(key)
+\t\tif ok {
+\t\t\treturn v, true
+\t\t}
+\t\tv, ok = Lookup_he(key)
 \t\tif ok {
 \t\t\treturn HebrewStripNikkud(v), true
 \t\t}
 \t\treturn v, ok
 `);
 for (const langName of langs.values()) {
-  outstream.write(`\tcase "${langName}":\n`);
-  outstream.write(`\t\treturn Lookup_${langName}(key)\n`);
+  if (langName !== 'he-x-NoNikud') {
+    outstream.write(`\tcase "${langName}":\n`);
+    outstream.write(`\t\treturn Lookup_${langName}(key)\n`);
+  }
 }
 
 outstream.write(`\t}\n\treturn key, false\n}\n`);
@@ -96,7 +101,8 @@ function writePoFile(poDatas, outpath, langName) {
   }
   const outstream = fs.createWriteStream(outpath, {flags: 'w'});
   outstream.write('package locales\n\n');
-  outstream.write(`var dict_${langName} = map[string]string{\n`);
+  const varName = langName.replace(/-/g, '_');
+  outstream.write(`var dict_${varName} = map[string]string{\n`);
   const keys = Array.from(dict.keys()).sort();
   for (const src of keys) {
     const dest = dict.get(src);
@@ -106,8 +112,8 @@ function writePoFile(poDatas, outpath, langName) {
   }
   outstream.write(`}\n`);
   outstream.write(`
-func Lookup_${langName}(s string) (string, bool) {
-\tv, ok := dict_${langName}[s]
+func Lookup_${varName}(s string) (string, bool) {
+\tv, ok := dict_${varName}[s]
 \tif ok {
 \t\treturn v, true
 \t}
