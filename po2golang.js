@@ -20,7 +20,8 @@ for (const arg of process.argv.slice(2)) {
 }
 
 for (const langName of langs.values()) {
-  const outpath = `./go/strings_${langName}.go`;
+  const baseName = langName.replace(/-/g, '_');
+  const outpath = `./go/strings_${baseName}.go`;
   console.log(`${langName} => ${outpath}`);
   writePoFile(parsedPoData.get(langName), outpath, langName);
   langs.add(langName);
