@@ -686,7 +686,7 @@ msgid "min"
 msgstr "minutes"
 
 msgid "Fast begins"
-msgstr "Jeûne commence"
+msgstr "Début du jeüne"
 
 msgid "Fast ends"
 msgstr "Fin du jeûne"
