@@ -34,8 +34,7 @@ import '@hebcal/locales';
 const options = {
   year: 2020,
   sedrot: true,
-  locale: 'ru',
 };
 const events = HebrewCalendar.calendar(options);
-console.log(events[0].render());
+console.log(events[0].render('ru'));
 ```
