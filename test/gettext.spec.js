@@ -26,6 +26,15 @@ test('pt', (t) => {
   t.is(Locale.gettext('Fast ends', 'pt'), 'O jejum termina');
 });
 
+test('ashkenazi', (t) => {
+  t.is(Locale.lookupTranslation('Tevet', 'ashkenazi'), 'Teves');
+});
+
+test('Hebrew', (t) => {
+  t.is(Locale.lookupTranslation('Elul', 'he'), 'אֱלוּל');
+  t.is(Locale.lookupTranslation('Elul', 'he-x-NoNikud'), 'אלול');
+});
+
 test('getLocaleNames', (t) => {
   const names = Locale.getLocaleNames();
   t.true(names.includes('es'));
@@ -33,4 +42,6 @@ test('getLocaleNames', (t) => {
   t.true(names.includes('uk'));
   t.true(names.includes('fi'));
   t.true(names.includes('ashkenazi_poylish'));
+  t.true(names.includes('he'));
+  t.true(names.includes('he-x-nonikud'));
 });
