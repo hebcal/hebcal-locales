@@ -33,6 +33,8 @@ test('ashkenazi', (t) => {
 test('Hebrew', (t) => {
   t.is(Locale.lookupTranslation('Elul', 'he'), 'אֱלוּל');
   t.is(Locale.lookupTranslation('Elul', 'he-x-NoNikud'), 'אלול');
+  t.is(Locale.lookupTranslation('Shabbat times for', 'he'), 'זמני שַׁבָּת');
+  t.is(Locale.lookupTranslation('Shabbat times for', 'he-x-NoNikud'), 'זמני שבת');
 });
 
 test('getLocaleNames', (t) => {
