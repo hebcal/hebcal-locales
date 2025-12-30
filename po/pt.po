@@ -797,15 +797,3 @@ msgstr "dia"
 
 msgid "Yom Kippur Katan"
 msgstr "Yom Kipur Katan"
-
-msgid "This week's Torah portion is"
-msgstr "A porção da Torá desta semana é"
-
-msgid "on"
-msgstr "é na"
-
-msgid "occurs on"
-msgstr "ocorre na"
-
-msgid "Shabbat times for"
-msgstr "Horários de Shabat para"

@@ -797,15 +797,3 @@ msgstr "El ayuno finaliza"
 
 msgid "day"
 msgstr "día"
-
-msgid "This week's Torah portion is"
-msgstr "La parashá de la semana es"
-
-msgid "on"
-msgstr "en el"
-
-msgid "occurs on"
-msgstr "se celebra el"
-
-msgid "Shabbat times for"
-msgstr "Horarios de Shabat para"
