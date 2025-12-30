@@ -1,6 +1,6 @@
 /* eslint-disable require-jsdoc */
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import {po} from 'gettext-parser';
 
 const langs = new Set();
@@ -20,7 +20,7 @@ for (const arg of process.argv.slice(2)) {
 }
 
 for (const langName of langs.values()) {
-  const baseName = langName.replace(/-/g, '_');
+  const baseName = langName.replaceAll('-', '_');
   const outpath = `./go/strings_${baseName}.go`;
   console.log(`${langName} => ${outpath}`);
   writePoFile(parsedPoData.get(langName), outpath, langName);
@@ -92,8 +92,8 @@ function writePoFile(poDatas, outpath, langName) {
       const msgstr = msg.msgstr;
       if (typeof msgid === 'string' && msgid.length &&
         Array.isArray(msgstr) && typeof msgstr[0] === 'string' && msgstr[0].length) {
-        const src = msgid.replace(/\"/g, '\\"');
-        const dest = msgstr[0].replace(/\"/g, '\\"');
+        const src = msgid.replaceAll('"', '\\"');
+        const dest = msgstr[0].replaceAll('"', '\\"');
         if (dest !== '') {
           dict.set(src, dest);
         }
@@ -102,9 +102,9 @@ function writePoFile(poDatas, outpath, langName) {
   }
   const outstream = fs.createWriteStream(outpath, {flags: 'w'});
   outstream.write('package locales\n\n');
-  const varName = langName.replace(/-/g, '_');
+  const varName = langName.replaceAll('-', '_');
   outstream.write(`var dict_${varName} = map[string]string{\n`);
-  const keys = Array.from(dict.keys()).sort();
+  const keys = Array.from(dict.keys()).sort((a, b) => a.localeCompare(b));
   for (const src of keys) {
     const dest = dict.get(src);
     if (src !== dest) {
