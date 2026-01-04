@@ -673,19 +673,19 @@ msgid "Tzom Tammuz"
 msgstr "Tzom Tamuz"
 
 msgid "Yom HaAtzma'ut"
-msgstr "Dia da Independência Sionista"
+msgstr "Dia da Independência de Israel"
 
 msgid "Yom HaShoah"
 msgstr "Dia da Lembrança do Holocausto"
 
 msgid "Yom HaZikaron"
-msgstr "Dia da Memória dos Soldados Sionistas Caídos"
+msgstr "Dia da Memória"
 
 msgid "Yom Kippur"
 msgstr "Yom Kipur"
 
 msgid "Yom Yerushalayim"
-msgstr "Dia da Reunificação Sionista de Jerusalém"
+msgstr "Dia de Jerusalém"
 
 msgid "Yom HaAliyah"
 msgstr "Dia da Imigração"
