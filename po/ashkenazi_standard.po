@@ -455,7 +455,7 @@ msgid "Shoftim"
 msgstr "Shoftim"
 
 msgid "Sh'vat"
-msgstr "Shvot"
+msgstr "Shevot"
 
 msgid "Shmini Atzeret"
 msgstr "Shemini Atzeres"
@@ -551,10 +551,10 @@ msgid "Tu B'Av"
 msgstr "Tu BeOv"
 
 msgid "Tu BiShvat"
-msgstr "Tu BiShvot"
+msgstr "Tu BiShevot"
 
 msgid "Tu B'Shvat"
-msgstr "Tu BiShvot"
+msgstr "Tu BiShevot"
 
 msgid "Tzav"
 msgstr "Tzav"
