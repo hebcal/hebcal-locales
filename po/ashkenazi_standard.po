@@ -9,8 +9,10 @@
 # # Vowels
 #
 #   - Shevo no and nekudos chatufos are spelled out with letters,
-#     unless it is overwhelmingly common to elide them in speech.
-#     Ex. Bechoros, Ta'anis; but Achrei, Hoshano Rabo and Toldos.
+#     unless it is overwhelmingly common to not distinguish them in speech.
+#     Ex. Bechoros, Ta'anis Hosha'ano Rabo; but Tol[e]dos.
+#     Note that some dialects will pronounce a'a as ai
+#     or at least lengthen the syllable.
 #   - Shevo noch ends a syllable and is not spelled out.
 #     Ex. Tishoh BeOv.
 #   - Tzeireh is spelled ei. Ex. Teiveis.
@@ -501,7 +503,7 @@ msgid "Sukkot VI (CH''M)"
 msgstr "Sukkos VI (CH''M)"
 
 msgid "Sukkot VII (Hoshana Raba)"
-msgstr "Sukkos VII (Hoshano Raboh)"
+msgstr "Sukkos VII (Hosha'ano Raboh)"
 
 msgid "Taanit"
 msgstr "Ta'anis"
