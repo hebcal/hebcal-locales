@@ -2,10 +2,6 @@
 # Copyright (C) 2016 Danny Sadinoff
 # This file is distributed under the same license as the hebcal-locales package.
 #
-# # Punctuation
-#
-#   - No smart quotes or double quotes. Straight single quotes only.
-#
 # # Vowels
 #
 #   - Sh'vo no is indicated with an apostrophe. Ex. B'choros, D'vorim.
@@ -34,13 +30,25 @@
 # # Consonants
 #
 #   - Oyin is not given any special symbol.
-#   - A final Hei is skipped. Ex. Avodo[h] Zoro[h], Chanuko[h], Rosh HaShono[h].
+#     Ex. [']Erev Pesach, [']Asoro B'Teiveis.
+#   - A final Hei is skipped.
+#     Ex. Avodo[h] Zoro[h], Chanuko[h], Rosh HaShono[h].
 #   - Sof is spelled with an s,
 #     unless the word is from Modern Hebrew, when we spell it as t.
 #     Ex. B'rachos, but Yom HaAtzma'ut.
 #   - Sof at the beginning of a grammatical unit turns into a Tof
 #     and is spelled with a t.
 #     Ex. Ki Seitzei, but Tazria; Tammuz, but Shivo Osor B'Sammuz.
+#   - Consonants are doubled, if doubled in the en locale.
+#     Ex. Bovo Kammo, Tammuz.
+#
+# # Other
+#
+#   - No smart quotes or double quotes. Straight single quotes only.
+#   - Where not otherwise specified above,
+#     and there are conflicts of opinion about the n'kudos,
+#     we use the more common opinion among Ashkenazic speakers.
+#     Ex. Yumo [vs. Yomo], Ador [vs. Odor].
 #
 msgid ""
 msgstr ""
@@ -94,7 +102,7 @@ msgid "Baba Batra"
 msgstr "Bovo Basro"
 
 msgid "Baba Kamma"
-msgstr "Bovo Kamo"
+msgstr "Bovo Kammo"
 
 msgid "Baba Metzia"
 msgstr "Bovo Metzi'o"
