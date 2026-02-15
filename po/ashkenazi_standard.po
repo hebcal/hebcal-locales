@@ -15,7 +15,7 @@
 #   - If a vowel is lengthened by the same vowel
 #     or the m'chutof version of the same vowel,
 #     it is indicated with an intervening apostrophe, and not skipped,
-#     even if they are overwhelmingly not pronounced as a separate syllables.
+#     even if they are overwhelmingly not pronounced as separate syllables.
 #     Note that major Ashkenazic dialects will pronounce a'a as ai
 #     or at least lengthen the syllable. Ex. Ta'anis, Hosha'ano Rabo.
 #   - Sh'vo noch ends a syllable and is not spelled out.
