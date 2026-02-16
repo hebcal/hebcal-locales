@@ -1,0 +1,623 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hebcal 4.23\n"
+"Report-Msgid-Bugs-To: hebcal-bugs@sadinoff.com\n"
+"POT-Creation-Date: 2015-12-30 14:54-0500\n"
+"PO-Revision-Date: 2024-05-18 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: yi\n"
+
+msgid "Berachot"
+msgstr "ברכות"
+
+msgid "Shabbat"
+msgstr "שבת"
+
+msgid "Eruvin"
+msgstr "עירובין"
+
+msgid "Pesachim"
+msgstr "פסחים"
+
+msgid "Shekalim"
+msgstr "שקלים"
+
+msgid "Yoma"
+msgstr "יומא"
+
+msgid "Sukkah"
+msgstr "סוכה"
+
+msgid "Beitzah"
+msgstr "ביצה"
+
+msgid "Taanit"
+msgstr "תענית"
+
+msgid "Megillah"
+msgstr "מגילה"
+
+msgid "Moed Katan"
+msgstr "מועד קטן"
+
+msgid "Chagigah"
+msgstr "חגיגה"
+
+msgid "Yevamot"
+msgstr "יבמות"
+
+msgid "Ketubot"
+msgstr "כתובות"
+
+msgid "Nedarim"
+msgstr "נדרים"
+
+msgid "Nazir"
+msgstr "נזיר"
+
+msgid "Sotah"
+msgstr "סוטה"
+
+msgid "Gitin"
+msgstr "גיטין"
+
+msgid "Kiddushin"
+msgstr "קידושין"
+
+msgid "Baba Kamma"
+msgstr "בבא קמא"
+
+msgid "Baba Metzia"
+msgstr "בבא מציעא"
+
+msgid "Baba Batra"
+msgstr "בבא בתרא"
+
+msgid "Sanhedrin"
+msgstr "סנהדרין"
+
+msgid "Makkot"
+msgstr "מכות"
+
+msgid "Shevuot"
+msgstr "שבועות"
+
+msgid "Avodah Zarah"
+msgstr "עבודה זרה"
+
+msgid "Horayot"
+msgstr "הוריות"
+
+msgid "Zevachim"
+msgstr "זבחים"
+
+msgid "Menachot"
+msgstr "מנחות"
+
+msgid "Chullin"
+msgstr "חולין"
+
+msgid "Bechorot"
+msgstr "בכורות"
+
+msgid "Arachin"
+msgstr "ערכין"
+
+msgid "Temurah"
+msgstr "תמורה"
+
+msgid "Keritot"
+msgstr "כריתות"
+
+msgid "Meilah"
+msgstr "מעילה"
+
+msgid "Kinnim"
+msgstr "קנים"
+
+msgid "Tamid"
+msgstr "תמיד"
+
+msgid "Midot"
+msgstr "מדות"
+
+msgid "Niddah"
+msgstr "נדה"
+
+msgid "Daf Yomi"
+msgstr "דף יומי"
+
+msgid "Parashat"
+msgstr "פרשת"
+
+msgid "Achrei Mot"
+msgstr "אחרי מות"
+
+msgid "Balak"
+msgstr "בלק"
+
+msgid "Bamidbar"
+msgstr "במדבר"
+
+msgid "Bechukotai"
+msgstr "בחוקותי"
+
+msgid "Beha'alotcha"
+msgstr "בהעלותך"
+
+msgid "Behar"
+msgstr "בהר"
+
+msgid "Bereshit"
+msgstr "בראשית"
+
+msgid "Beshalach"
+msgstr "בשלח"
+
+msgid "Bo"
+msgstr "בא"
+
+msgid "Chayei Sara"
+msgstr "חיי שרה"
+
+msgid "Chukat"
+msgstr "חקת"
+
+msgid "Devarim"
+msgstr "דברים"
+
+msgid "Eikev"
+msgstr "עקב"
+
+msgid "Emor"
+msgstr "אמור"
+
+msgid "Ha'azinu"
+msgstr "האזינו"
+
+msgid "Kedoshim"
+msgstr "קדושים"
+
+msgid "Ki Tavo"
+msgstr "כי תבוא"
+
+msgid "Ki Teitzei"
+msgstr "כי תצא"
+
+msgid "Ki Tisa"
+msgstr "כי תשא"
+
+msgid "Korach"
+msgstr "קרח"
+
+msgid "Lech-Lecha"
+msgstr "לך לך"
+
+msgid "Masei"
+msgstr "מסעי"
+
+msgid "Matot"
+msgstr "מטות"
+
+msgid "Metzora"
+msgstr "מצורע"
+
+msgid "Miketz"
+msgstr "מקץ"
+
+msgid "Mishpatim"
+msgstr "משפטים"
+
+msgid "Nasso"
+msgstr "נשא"
+
+msgid "Nitzavim"
+msgstr "נצבים"
+
+msgid "Noach"
+msgstr "נח"
+
+msgid "Pekudei"
+msgstr "פקודי"
+
+msgid "Pinchas"
+msgstr "פנחס"
+
+msgid "Re'eh"
+msgstr "ראה"
+
+msgid "Sh'lach"
+msgstr "שלח לך"
+
+msgid "Shemot"
+msgstr "שמות"
+
+msgid "Shmini"
+msgstr "שמיני"
+
+msgid "Shoftim"
+msgstr "שופטים"
+
+msgid "Tazria"
+msgstr "תזריע"
+
+msgid "Terumah"
+msgstr "תרומה"
+
+msgid "Tetzaveh"
+msgstr "תצוה"
+
+msgid "Toldot"
+msgstr "תולדות"
+
+msgid "Tzav"
+msgstr "צו"
+
+msgid "Vaera"
+msgstr "וארא"
+
+msgid "Vaetchanan"
+msgstr "ואתחנן"
+
+msgid "Vayakhel"
+msgstr "ויקהל"
+
+msgid "Vayechi"
+msgstr "ויחי"
+
+msgid "Vayeilech"
+msgstr "וילך"
+
+msgid "Vayera"
+msgstr "וירא"
+
+msgid "Vayeshev"
+msgstr "וישב"
+
+msgid "Vayetzei"
+msgstr "ויצא"
+
+msgid "Vayigash"
+msgstr "ויגש"
+
+msgid "Vayikra"
+msgstr "ויקרא"
+
+msgid "Vayishlach"
+msgstr "וישלח"
+
+msgid "Vezot Haberakhah"
+msgstr "וזאת הברכה"
+
+msgid "Yitro"
+msgstr "יתרו"
+
+msgid "Asara B'Tevet"
+msgstr "עשרה בטבת"
+
+msgid "Candle lighting"
+msgstr "ליכט צינדן"
+
+msgid "Chanukah"
+msgstr "חנוכה"
+
+msgid "Chanukah: 1 Candle"
+msgstr "חנוכה: 1 ליכטל"
+
+msgid "Chanukah: 2 Candles"
+msgstr "חנוכה: 2 ליכטלעך"
+
+msgid "Chanukah: 3 Candles"
+msgstr "חנוכה: 3 ליכטלעך"
+
+msgid "Chanukah: 4 Candles"
+msgstr "חנוכה: 4 ליכטלעך"
+
+msgid "Chanukah: 5 Candles"
+msgstr "חנוכה: 5 ליכטלעך"
+
+msgid "Chanukah: 6 Candles"
+msgstr "חנוכה: 6 ליכטלעך"
+
+msgid "Chanukah: 7 Candles"
+msgstr "חנוכה: 7 ליכטלעך"
+
+msgid "Chanukah: 8 Candles"
+msgstr "חנוכה: 8 ליכטלעך"
+
+msgid "Chanukah: 8th Day"
+msgstr "חנוכה: אכטער טאג"
+
+msgid "Days of the Omer"
+msgstr "ספירת העומר"
+
+msgid "Omer"
+msgstr "עומר"
+
+msgid "day of the Omer"
+msgstr "טאג פונעם עומר"
+
+msgid "Erev Pesach"
+msgstr "ערב פסח"
+
+msgid "Erev Purim"
+msgstr "ערב פורים"
+
+msgid "Erev Rosh Hashana"
+msgstr "ערב ראש השנה"
+
+msgid "Erev Shavuot"
+msgstr "ערב שבועות"
+
+msgid "Erev Simchat Torah"
+msgstr "ערב שמחת תורה"
+
+msgid "Erev Sukkot"
+msgstr "ערב סוכות"
+
+msgid "Erev Tish'a B'Av"
+msgstr "ערב תשעה באב"
+
+msgid "Erev Yom Kippur"
+msgstr "ערב יום כיפור"
+
+msgid "Havdalah"
+msgstr "הבדלה"
+
+msgid "Lag BaOmer"
+msgstr "ל\"ג בעומר"
+
+msgid "Leil Selichot"
+msgstr "סליחות"
+
+msgid "Pesach"
+msgstr "פסח"
+
+msgid "Pesach I"
+msgstr "פסח א'"
+
+msgid "Pesach II"
+msgstr "פסח ב'"
+
+msgid "Pesach II (CH''M)"
+msgstr "פסח ב' (חול המועד)"
+
+msgid "Pesach III (CH''M)"
+msgstr "פסח ג' (חול המועד)"
+
+msgid "Pesach IV (CH''M)"
+msgstr "פסח ד' (חול המועד)"
+
+msgid "Pesach Sheni"
+msgstr "פסח שני"
+
+msgid "Pesach V (CH''M)"
+msgstr "פסח ה' (חול המועד)"
+
+msgid "Pesach VI (CH''M)"
+msgstr "פסח ו' (חול המועד)"
+
+msgid "Pesach VII"
+msgstr "פסח ז'"
+
+msgid "Pesach VIII"
+msgstr "פסח ח'"
+
+msgid "Purim"
+msgstr "פורים"
+
+msgid "Purim Katan"
+msgstr "פורים קטן"
+
+msgid "Rosh Chodesh %s"
+msgstr "ראש חודש %s"
+
+msgid "Rosh Chodesh"
+msgstr "ראש חודש"
+
+msgid "Adar"
+msgstr "אדר"
+
+msgid "Adar I"
+msgstr "אדר א'"
+
+msgid "Adar II"
+msgstr "אדר ב'"
+
+msgid "Av"
+msgstr "אב"
+
+msgid "Cheshvan"
+msgstr "חשוון"
+
+msgid "Elul"
+msgstr "אלול"
+
+msgid "Iyyar"
+msgstr "אייר"
+
+msgid "Kislev"
+msgstr "כסלו"
+
+msgid "Nisan"
+msgstr "ניסן"
+
+msgid "Sh'vat"
+msgstr "שבט"
+
+msgid "Sivan"
+msgstr "סיוון"
+
+msgid "Tamuz"
+msgstr "תמוז"
+
+msgid "Tevet"
+msgstr "טבת"
+
+msgid "Tishrei"
+msgstr "תשרי"
+
+msgid "Rosh Hashana"
+msgstr "ראש השנה"
+
+msgid "Rosh Hashana I"
+msgstr "ראש השנה א'"
+
+msgid "Rosh Hashana II"
+msgstr "ראש השנה ב'"
+
+msgid "Shabbat Chazon"
+msgstr "שבת חזון"
+
+msgid "Shabbat HaChodesh"
+msgstr "שבת החודש"
+
+msgid "Shabbat HaGadol"
+msgstr "שבת הגדול"
+
+msgid "Shabbat Machar Chodesh"
+msgstr "שבת מחר חודש"
+
+msgid "Shabbat Nachamu"
+msgstr "שבת נחמו"
+
+msgid "Shabbat Parah"
+msgstr "שבת פרה"
+
+msgid "Shabbat Rosh Chodesh"
+msgstr "שבת ראש חודש"
+
+msgid "Shabbat Shekalim"
+msgstr "שבת שקלים"
+
+msgid "Shabbat Shuva"
+msgstr "שבת שובה"
+
+msgid "Shabbat Zachor"
+msgstr "שבת זכור"
+
+msgid "Shavuot"
+msgstr "שבועות"
+
+msgid "Shavuot I"
+msgstr "שבועות א'"
+
+msgid "Shavuot II"
+msgstr "שבועות ב'"
+
+msgid "Shmini Atzeret"
+msgstr "שמיני עצרת"
+
+msgid "Shushan Purim"
+msgstr "שושן פורים"
+
+msgid "Sigd"
+msgstr "סיגד"
+
+msgid "Simchat Torah"
+msgstr "שמחת תורה"
+
+msgid "Sukkot"
+msgstr "סוכות"
+
+msgid "Sukkot I"
+msgstr "סוכות א'"
+
+msgid "Sukkot II"
+msgstr "סוכות ב'"
+
+msgid "Sukkot II (CH''M)"
+msgstr "סוכות ב' (חול המועד)"
+
+msgid "Sukkot III (CH''M)"
+msgstr "סוכות ג' (חול המועד)"
+
+msgid "Sukkot IV (CH''M)"
+msgstr "סוכות ד' (חול המועד)"
+
+msgid "Sukkot V (CH''M)"
+msgstr "סוכות ה' (חול המועד)"
+
+msgid "Sukkot VI (CH''M)"
+msgstr "סוכות ו' (חול המועד)"
+
+msgid "Sukkot VII (Hoshana Raba)"
+msgstr "סוכות ז' (הושענא רבה)"
+
+msgid "Ta'anit Bechorot"
+msgstr "תענית בכורות"
+
+msgid "Ta'anit Esther"
+msgstr "תענית אסתר"
+
+msgid "Tish'a B'Av"
+msgstr "תשעה באב"
+
+msgid "Tish'a B'Av (observed)"
+msgstr "תשעה באב (נדחה)"
+
+msgid "Tu B'Av"
+msgstr "ט\"ו באב"
+
+msgid "Tu BiShvat"
+msgstr "ט\"ו בשבט"
+
+msgid "Tu B'Shvat"
+msgstr "ט\"ו בשבט"
+
+msgid "Tzom Gedaliah"
+msgstr "צום גדליה"
+
+msgid "Tzom Tammuz"
+msgstr "שבעה עשר בתמוז"
+
+msgid "Yom HaAtzma'ut"
+msgstr "יום העצמאות"
+
+msgid "Yom HaShoah"
+msgstr "יום השואה"
+
+msgid "Yom HaZikaron"
+msgstr "יום הזיכרון"
+
+msgid "Yom Kippur"
+msgstr "יום כיפור"
+
+msgid "Yom Yerushalayim"
+msgstr "יום ירושלים"
+
+msgid "Yom HaAliyah"
+msgstr "יום העליה"
+
+msgid "min"
+msgstr "מינוט"
+
+msgid "Fast begins"
+msgstr "תענית הויבט זיך אן"
+
+msgid "Fast ends"
+msgstr "תענית ענדיגט זיך"
+
+msgid "day"
+msgstr "טאג"
+
+msgid "and"
+msgstr "און"
+
+msgid "after"
+msgstr "נאך"
+
+msgid "Israel"
+msgstr "ישראל"
+
+msgid "Diaspora"
+msgstr "חוץ לארץ"
+
+msgid "Jewish Calendar"
+msgstr "יידישער לוח"
