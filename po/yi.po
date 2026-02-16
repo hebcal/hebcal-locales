@@ -371,7 +371,7 @@ msgid "Havdalah"
 msgstr "הבדלה"
 
 msgid "Lag BaOmer"
-msgstr "ל\"ג בעומר"
+msgstr "ל״ג בעומר"
 
 msgid "Leil Selichot"
 msgstr "סליחות"
@@ -380,34 +380,34 @@ msgid "Pesach"
 msgstr "פסח"
 
 msgid "Pesach I"
-msgstr "פסח א'"
+msgstr "פסח א׳"
 
 msgid "Pesach II"
-msgstr "פסח ב'"
+msgstr "פסח ב׳"
 
 msgid "Pesach II (CH''M)"
-msgstr "פסח ב' (חול המועד)"
+msgstr "פסח ב׳ (חול המועד)"
 
 msgid "Pesach III (CH''M)"
-msgstr "פסח ג' (חול המועד)"
+msgstr "פסח ג׳ (חול המועד)"
 
 msgid "Pesach IV (CH''M)"
-msgstr "פסח ד' (חול המועד)"
+msgstr "פסח ד׳ (חול המועד)"
 
 msgid "Pesach Sheni"
 msgstr "פסח שני"
 
 msgid "Pesach V (CH''M)"
-msgstr "פסח ה' (חול המועד)"
+msgstr "פסח ה׳ (חול המועד)"
 
 msgid "Pesach VI (CH''M)"
-msgstr "פסח ו' (חול המועד)"
+msgstr "פסח ו׳ (חול המועד)"
 
 msgid "Pesach VII"
-msgstr "פסח ז'"
+msgstr "פסח ז׳"
 
 msgid "Pesach VIII"
-msgstr "פסח ח'"
+msgstr "פסח ח׳"
 
 msgid "Purim"
 msgstr "פורים"
@@ -425,10 +425,10 @@ msgid "Adar"
 msgstr "אדר"
 
 msgid "Adar I"
-msgstr "אדר א'"
+msgstr "אדר א׳"
 
 msgid "Adar II"
-msgstr "אדר ב'"
+msgstr "אדר ב׳"
 
 msgid "Av"
 msgstr "אב"
@@ -467,10 +467,10 @@ msgid "Rosh Hashana"
 msgstr "ראש השנה"
 
 msgid "Rosh Hashana I"
-msgstr "ראש השנה א'"
+msgstr "ראש השנה א׳"
 
 msgid "Rosh Hashana II"
-msgstr "ראש השנה ב'"
+msgstr "ראש השנה ב׳"
 
 msgid "Shabbat Chazon"
 msgstr "שבת חזון"
@@ -506,10 +506,10 @@ msgid "Shavuot"
 msgstr "שבועות"
 
 msgid "Shavuot I"
-msgstr "שבועות א'"
+msgstr "שבועות א׳"
 
 msgid "Shavuot II"
-msgstr "שבועות ב'"
+msgstr "שבועות ב׳"
 
 msgid "Shmini Atzeret"
 msgstr "שמיני עצרת"
@@ -527,28 +527,28 @@ msgid "Sukkot"
 msgstr "סוכות"
 
 msgid "Sukkot I"
-msgstr "סוכות א'"
+msgstr "סוכות א׳"
 
 msgid "Sukkot II"
-msgstr "סוכות ב'"
+msgstr "סוכות ב׳"
 
 msgid "Sukkot II (CH''M)"
-msgstr "סוכות ב' (חול המועד)"
+msgstr "סוכות ב׳ (חול המועד)"
 
 msgid "Sukkot III (CH''M)"
-msgstr "סוכות ג' (חול המועד)"
+msgstr "סוכות ג׳ (חול המועד)"
 
 msgid "Sukkot IV (CH''M)"
-msgstr "סוכות ד' (חול המועד)"
+msgstr "סוכות ד׳ (חול המועד)"
 
 msgid "Sukkot V (CH''M)"
-msgstr "סוכות ה' (חול המועד)"
+msgstr "סוכות ה׳ (חול המועד)"
 
 msgid "Sukkot VI (CH''M)"
-msgstr "סוכות ו' (חול המועד)"
+msgstr "סוכות ו׳ (חול המועד)"
 
 msgid "Sukkot VII (Hoshana Raba)"
-msgstr "סוכות ז' (הושענא רבה)"
+msgstr "סוכות ז׳ (הושענא רבה)"
 
 msgid "Ta'anit Bechorot"
 msgstr "תענית בכורות"
@@ -563,13 +563,13 @@ msgid "Tish'a B'Av (observed)"
 msgstr "תשעה באב (נדחה)"
 
 msgid "Tu B'Av"
-msgstr "ט\"ו באב"
+msgstr "ט״ו באב"
 
 msgid "Tu BiShvat"
-msgstr "ט\"ו בשבט"
+msgstr "ט״ו בשבט"
 
 msgid "Tu B'Shvat"
-msgstr "ט\"ו בשבט"
+msgstr "ט״ו בשבט"
 
 msgid "Tzom Gedaliah"
 msgstr "צום גדליה"
