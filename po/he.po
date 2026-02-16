@@ -8,3 +8,12 @@ msgstr ""
 
 msgid "Shabbat times for"
 msgstr "זמני שַׁבָּת"
+
+msgid "Israel"
+msgstr "יִשְׂרָאֵל"
+
+msgid "Diaspora"
+msgstr "תְּפוּצוֹת"
+
+msgid "Jewish Calendar"
+msgstr "לוּחַ עִבְרִי"

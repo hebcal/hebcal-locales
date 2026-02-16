@@ -178,59 +178,6 @@ msgstr "Niddah"
 msgid "Daf Yomi"
 msgstr "Daf Jomi"
 
-#: ../holidays.c:380
-msgid "Unable to allocate memory for holiday."
-msgstr "Dem Feiertag kann kein Speicher zugewiesen werden."
-
-#: ../holidays.c:679
-#, c-format
-msgid "input file read error. Skipping line %s"
-msgstr "Fehler beim Einlesen der Datei. Zeile %s übersprungen"
-
-#: ../holidays.c:686
-#, c-format
-msgid "Error in input file.  Skipping line %s"
-msgstr "Fehler in Eingabedatei. Zeile %s übersprungen"
-
-#: ../holidays.c:691
-#, c-format
-msgid "Numeric hebrew month in input file.  Skipping line %s"
-msgstr "Nummerischer hebräischer Monat in Eingabedatei. Zeile %s übersprungen"
-
-#: ../holidays.c:697
-#, c-format
-msgid "Unrecognized hebrew month in input file.  Skipping line %s"
-msgstr "Unbekannter hebräischer Monat in Eingabedatei. Zeile %s übersprungen"
-
-#: ../holidays.c:703
-#, c-format
-msgid "Date out of range in input file. Skipping line %s"
-msgstr "Datum außerhalb des Bereichs in Eingabedatei. Zeile %s übersprungen"
-
-#: ../holidays.c:749
-#, c-format
-msgid "yahrtzeit file read error. Skipping line %s"
-msgstr "Fehler beim Einlesen der Jahrzeit-Datei. Zeile %s übersprungen"
-
-#: ../holidays.c:756
-#, c-format
-msgid "Error in yahrtzeit file.  Skipping line %s"
-msgstr "Fehler in Jahrzeit-Datei. Zeile %s übersprungen"
-
-#: ../holidays.c:761
-#, c-format
-msgid "Non-numeric month in yahrtzeit file. Skipping line %s"
-msgstr "Nicht nummerischer Monat in Jahrzeit-Datei. Zeile %s übersprungen"
-
-#: ../holidays.c:771
-#, c-format
-msgid "Date out of range in yahrtzeit file. Skipping line %s"
-msgstr "Datum außerhalb des Bereichs in Jahrzeit-Datei. Zeile %s übersprungen"
-
-#: ../sedra.c:257 ../sedra.c:296
-msgid "improper sedra year type calculated."
-msgstr "Falscher Jahresart für die Parascha berechnet."
-
 msgid "Parashat"
 msgstr "Parascha"
 
@@ -797,3 +744,12 @@ msgstr "Tag"
 
 msgid "Yom Kippur Katan"
 msgstr "Jom Kippur Katan"
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid "Diaspora"
+msgstr "Diaspora"
+
+msgid "Jewish Calendar"
+msgstr "Jüdischer Kalender"

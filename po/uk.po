@@ -643,3 +643,12 @@ msgstr "день"
 
 msgid "Yom Kippur Katan"
 msgstr "День Розкаяння Катан"
+
+msgid "Israel"
+msgstr "Ізраїль"
+
+msgid "Diaspora"
+msgstr "Діаспора"
+
+msgid "Jewish Calendar"
+msgstr "Єврейський календар"

@@ -177,59 +177,6 @@ msgstr "Nida"
 msgid "Daf Yomi"
 msgstr "Daf Ioimi"
 
-#: ../holidays.c:380
-msgid "Unable to allocate memory for holiday."
-msgstr "Imposibil de alocat memorie pemtru sărbătorea."
-
-#: ../holidays.c:679
-#, c-format
-msgid "input file read error. Skipping line %s"
-msgstr "eroare citire fişier de intrare. Trecere peste linia %s"
-
-#: ../holidays.c:686
-#, c-format
-msgid "Error in input file.  Skipping line %s"
-msgstr "Eroare în fişier de intrare.  Trecere peste linia %s"
-
-#: ../holidays.c:691
-#, c-format
-msgid "Numeric hebrew month in input file.  Skipping line %s"
-msgstr "Lună ebraică în fişier intrare.  Trecere peste linia %s"
-
-#: ../holidays.c:697
-#, c-format
-msgid "Unrecognized hebrew month in input file.  Skipping line %s"
-msgstr "Lună ebraică nerecunoscută în fişier intrare.  Trecere peste linia %s"
-
-#: ../holidays.c:703
-#, c-format
-msgid "Date out of range in input file. Skipping line %s"
-msgstr "Fecha fuera de rango en el archivo de entrada. Saltando la línea %s"
-
-#: ../holidays.c:749
-#, c-format
-msgid "yahrtzeit file read error. Skipping line %s"
-msgstr "eroare citire fişier iahrţeit. Trecere peste linia %s"
-
-#: ../holidays.c:756
-#, c-format
-msgid "Error in yahrtzeit file.  Skipping line %s"
-msgstr "Eroare în fişierul iahrţeit.  Trecere peste linia %s"
-
-#: ../holidays.c:761
-#, c-format
-msgid "Non-numeric month in yahrtzeit file. Skipping line %s"
-msgstr "Lună non-numerică în fişierul iahrţeit. Trecere peste linia %s"
-
-#: ../holidays.c:771
-#, c-format
-msgid "Date out of range in yahrtzeit file. Skipping line %s"
-msgstr "Dată în afara gamei în fişierul iahrţeit. Trecere peste linia %s"
-
-#: ../sedra.c:257 ../sedra.c:296
-msgid "improper sedra year type calculated."
-msgstr "tip de an sedra inpropriu calculat."
-
 msgid "Parashat"
 msgstr "Paraşat"
 
@@ -800,3 +747,12 @@ msgstr "zi"
 
 msgid "Yom Kippur Katan"
 msgstr "Iom Chipur Catan"
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid "Diaspora"
+msgstr "Diaspora"
+
+msgid "Jewish Calendar"
+msgstr "Calendar evreiesc"

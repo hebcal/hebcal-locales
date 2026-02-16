@@ -644,3 +644,12 @@ msgstr "päivä"
 
 msgid "Yom Kippur Katan"
 msgstr "Jom kipur katan"
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid "Diaspora"
+msgstr "diaspora"
+
+msgid "Jewish Calendar"
+msgstr "Juutalainen kalenteri"

@@ -173,55 +173,6 @@ msgstr "Nidá"
 msgid "Daf Yomi"
 msgstr "Daf Jomi"
 
-#: ../holidays.c:679
-#, c-format
-msgid "input file read error. Skipping line %s"
-msgstr "Olvasási hiba a beviteli fájlban. Sor kihagyása %s"
-
-#: ../holidays.c:686
-#, c-format
-msgid "Error in input file.  Skipping line %s"
-msgstr "Hiba a beviteli fájlban. Sor kihagyása %s"
-
-#: ../holidays.c:691
-#, c-format
-msgid "Numeric hebrew month in input file.  Skipping line %s"
-msgstr "Numerikus héber hónap a beviteli fájlban. Sor kihagyása %s"
-
-#: ../holidays.c:697
-#, c-format
-msgid "Unrecognized hebrew month in input file.  Skipping line %s"
-msgstr "Ismeretlen héber hónap a beviteli fájlban. Sor kihagyása %s"
-
-#: ../holidays.c:703
-#, c-format
-msgid "Date out of range in input file. Skipping line %s"
-msgstr "Dátum a beviteli fájlon kívül. Sor kihagyása %s"
-
-#: ../holidays.c:749
-#, c-format
-msgid "yahrtzeit file read error. Skipping line %s"
-msgstr "Jorcájt fájl-olvasási hiba. Sor kihagyása %s"
-
-#: ../holidays.c:756
-#, c-format
-msgid "Error in yahrtzeit file.  Skipping line %s"
-msgstr "Hiba a jorcájt fájlban. Sor kihagyása %s"
-
-#: ../holidays.c:761
-#, c-format
-msgid "Non-numeric month in yahrtzeit file. Skipping line %s"
-msgstr "Nem numerikus hónap a jorcájt fájlban. Sor kihagyása %s"
-
-#: ../holidays.c:771
-#, c-format
-msgid "Date out of range in yahrtzeit file. Skipping line %s"
-msgstr "Jorcájton kívül eső dátum. Sor kihagyása %s"
-
-#: ../sedra.c:257 ../sedra.c:296
-msgid "improper sedra year type calculated."
-msgstr "Nem megfelelő szidra évtípus lett kiszámítva."
-
 msgid "Parashat"
 msgstr "Párását"
 
@@ -689,3 +640,12 @@ msgstr "nap"
 
 msgid "Yom Kippur Katan"
 msgstr "Jom kipur Kátán"
+
+msgid "Israel"
+msgstr "Izrael"
+
+msgid "Diaspora"
+msgstr "Diaszpóra"
+
+msgid "Jewish Calendar"
+msgstr "Zsidó naptár"

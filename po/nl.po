@@ -177,59 +177,6 @@ msgstr "Nidda"
 msgid "Daf Yomi"
 msgstr "Daf Jomi"
 
-#: ../holidays.c:380
-msgid "Unable to allocate memory for holiday."
-msgstr "Kan geen geheugen toewijzen voor feestdag."
-
-#: ../holidays.c:679
-#, c-format
-msgid "input file read error. Skipping line %s"
-msgstr "Leesfout in invoerbestand. Regel %s overgeslagen"
-
-#: ../holidays.c:686
-#, c-format
-msgid "Error in input file.  Skipping line %s"
-msgstr "Fout in invoerbestand. Regel %s overgeslagen"
-
-#: ../holidays.c:691
-#, c-format
-msgid "Numeric hebrew month in input file.  Skipping line %s"
-msgstr "Numerieke Hebreeuwse maand in invoerbestand. Regel %s overgeslagen"
-
-#: ../holidays.c:697
-#, c-format
-msgid "Unrecognized hebrew month in input file.  Skipping line %s"
-msgstr "Onbekende Hebreeuwse maand in invoerbestand. Regel %s overgeslagen"
-
-#: ../holidays.c:703
-#, c-format
-msgid "Date out of range in input file. Skipping line %s"
-msgstr "Datum buiten bereik in invoerbestand. Regel %s overgeslagen"
-
-#: ../holidays.c:749
-#, c-format
-msgid "yahrtzeit file read error. Skipping line %s"
-msgstr "Leesfout in jaartsijd-bestand. Regel %s overgeslagen"
-
-#: ../holidays.c:756
-#, c-format
-msgid "Error in yahrtzeit file.  Skipping line %s"
-msgstr "Fout in jaartsijd-bestand. Regel %s overgeslagen"
-
-#: ../holidays.c:761
-#, c-format
-msgid "Non-numeric month in yahrtzeit file. Skipping line %s"
-msgstr "Niet-numerieke maand in jaartsijd-bestand. Regel %s overgeslagen"
-
-#: ../holidays.c:771
-#, c-format
-msgid "Date out of range in yahrtzeit file. Skipping line %s"
-msgstr "Datum buiten bereik in jaartsijd-bestand. Regel %s overgeslagen"
-
-#: ../sedra.c:257 ../sedra.c:296
-msgid "improper sedra year type calculated."
-msgstr "Onjuist sedra-jaartype berekend."
-
 msgid "Parashat"
 msgstr "Parasja"
 
@@ -808,3 +755,12 @@ msgstr "chalakiem"
 
 msgid "Yom Kippur Katan"
 msgstr "Jom Kipoer Katan"
+
+msgid "Israel"
+msgstr "Israël"
+
+msgid "Diaspora"
+msgstr "Diaspora"
+
+msgid "Jewish Calendar"
+msgstr "Joodse kalender"
