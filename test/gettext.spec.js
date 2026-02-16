@@ -39,6 +39,19 @@ test('nl', (t) => {
   t.is(Locale.gettext('Purim', 'nl'), 'Poeriem');
 });
 
+test('yi', (t) => {
+  t.is(Locale.gettext('Shabbat', 'yi'), 'שבת');
+  t.is(Locale.gettext('Yom Kippur', 'yi'), 'יום כיפור');
+  t.is(Locale.gettext('Pesach I', 'yi'), 'פסח א\'');
+  t.is(Locale.gettext('Chanukah', 'yi'), 'חנוכה');
+  t.is(Locale.gettext('Sukkot', 'yi'), 'סוכות');
+  t.is(Locale.gettext('Candle lighting', 'yi'), 'ליכט צינדן');
+  t.is(Locale.gettext('Fast begins', 'yi'), 'תענית הויבט זיך אן');
+  t.is(Locale.gettext('Rosh Hashana', 'yi'), 'ראש השנה');
+  t.is(Locale.gettext('Shavuot', 'yi'), 'שבועות');
+  t.is(Locale.gettext('Purim', 'yi'), 'פורים');
+});
+
 test('ashkenazi', (t) => {
   t.is(Locale.lookupTranslation('Tevet', 'ashkenazi'), 'Teves');
 });
@@ -60,4 +73,5 @@ test('getLocaleNames', (t) => {
   t.true(names.includes('ashkenazi_poylish'));
   t.true(names.includes('he'));
   t.true(names.includes('he-x-nonikud'));
+  t.true(names.includes('yi'));
 });
