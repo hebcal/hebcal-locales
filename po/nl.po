@@ -116,7 +116,7 @@ msgstr "Makkot"
 
 #: ../dafyomi.c:51
 msgid "Shevuot"
-msgstr "Sjewoeot"
+msgstr "Sjavoeot"
 
 #: ../dafyomi.c:52
 msgid "Avodah Zarah"
@@ -450,10 +450,10 @@ msgid "Erev Rosh Hashana"
 msgstr "Erev Rosj Hasjana"
 
 msgid "Erev Shavuot"
-msgstr "Erev Sjawoeot"
+msgstr "Erev Sjavoeot"
 
 msgid "Erev Simchat Torah"
-msgstr "Erev Simchat Tora"
+msgstr "Erev Simchat Thora"
 
 msgid "Erev Sukkot"
 msgstr "Erev Soekot"
@@ -462,13 +462,13 @@ msgid "Erev Tish'a B'Av"
 msgstr "Erev Tisja BeAv"
 
 msgid "Erev Yom Kippur"
-msgstr "Erev Jom Kippoer"
+msgstr "Erev Jom Kipoer"
 
 msgid "Havdalah"
 msgstr "Havdala"
 
 msgid "Lag BaOmer"
-msgstr "Lag BaOmer"
+msgstr "Lag Baomer"
 
 msgid "Leil Selichot"
 msgstr "Leil Selichot"
@@ -531,7 +531,7 @@ msgid "Av"
 msgstr "Av"
 
 msgid "Cheshvan"
-msgstr "Chesjwan"
+msgstr "Chesjvan"
 
 msgid "Elul"
 msgstr "Eloel"
@@ -540,16 +540,16 @@ msgid "Iyyar"
 msgstr "Ijar"
 
 msgid "Kislev"
-msgstr "Kislev"
+msgstr "Kislew"
 
 msgid "Nisan"
 msgstr "Nisan"
 
 msgid "Sh'vat"
-msgstr "Sjewat"
+msgstr "Sjevat"
 
 msgid "Sivan"
-msgstr "Siwan"
+msgstr "Sivan"
 
 msgid "Tamuz"
 msgstr "Tammoez"
@@ -600,13 +600,13 @@ msgid "Shabbat Zachor"
 msgstr "Sjabbat Zachor"
 
 msgid "Shavuot"
-msgstr "Sjawoeot"
+msgstr "Sjavoeot"
 
 msgid "Shavuot I"
-msgstr "Sjawoeot I"
+msgstr "Sjavoeot I"
 
 msgid "Shavuot II"
-msgstr "Sjawoeot II"
+msgstr "Sjavoeot II"
 
 msgid "Shmini Atzeret"
 msgstr "Sjemini Atseret"
@@ -618,7 +618,7 @@ msgid "Sigd"
 msgstr "Sigd"
 
 msgid "Simchat Torah"
-msgstr "Simchat Tora"
+msgstr "Simchat Thora"
 
 msgid "Sukkot"
 msgstr "Soekot"
@@ -663,10 +663,10 @@ msgid "Tu B'Av"
 msgstr "Toe BeAv"
 
 msgid "Tu BiShvat"
-msgstr "Toe BiSjwat"
+msgstr "Toe Biesjwat"
 
 msgid "Tu B'Shvat"
-msgstr "Toe BeSjwat"
+msgstr "Toe Biesjwat"
 
 msgid "Tzom Gedaliah"
 msgstr "Tsom Gedalja"
@@ -684,7 +684,7 @@ msgid "Yom HaZikaron"
 msgstr "Jom Hazikaron"
 
 msgid "Yom Kippur"
-msgstr "Jom Kippoer"
+msgstr "Jom Kipoer"
 
 msgid "Yom Yerushalayim"
 msgstr "Jeruzalemdag"
@@ -711,19 +711,19 @@ msgid "Pesach Shabbat Chol ha-Moed"
 msgstr "Pesach Sjabbat Chol haMoëd"
 
 msgid "Shavuot II (on Shabbat)"
-msgstr "Sjawoeot II (op Sjabbat)"
+msgstr "Sjavoeot II (op Sjabbat)"
 
 msgid "Rosh Hashana I (on Shabbat)"
 msgstr "Rosj Hasjana I (op Sjabbat)"
 
 msgid "Yom Kippur (on Shabbat)"
-msgstr "Jom Kippoer (op Sjabbat)"
+msgstr "Jom Kipoer (op Sjabbat)"
 
 msgid "Yom Kippur (Mincha, Traditional)"
-msgstr "Jom Kippoer (Mincha, traditioneel)"
+msgstr "Jom Kipoer (Mincha, traditioneel)"
 
 msgid "Yom Kippur (Mincha, Alternate)"
-msgstr "Jom Kippoer (Mincha, alternatief)"
+msgstr "Jom Kipoer (Mincha, alternatief)"
 
 msgid "Sukkot I (on Shabbat)"
 msgstr "Soekot I (op Sjabbat)"
@@ -759,7 +759,7 @@ msgid "Rosh Chodesh Av"
 msgstr "Rosj Chodesj Av"
 
 msgid "Rosh Chodesh Cheshvan"
-msgstr "Rosj Chodesj Chesjwan"
+msgstr "Rosj Chodesj Chesjvan"
 
 msgid "Rosh Chodesh Elul"
 msgstr "Rosj Chodesj Eloel"
@@ -768,16 +768,16 @@ msgid "Rosh Chodesh Iyyar"
 msgstr "Rosj Chodesj Ijar"
 
 msgid "Rosh Chodesh Kislev"
-msgstr "Rosj Chodesj Kislev"
+msgstr "Rosj Chodesj Kislew"
 
 msgid "Rosh Chodesh Nisan"
 msgstr "Rosj Chodesj Nisan"
 
 msgid "Rosh Chodesh Sh'vat"
-msgstr "Rosj Chodesj Sjewat"
+msgstr "Rosj Chodesj Sjevat"
 
 msgid "Rosh Chodesh Sivan"
-msgstr "Rosj Chodesj Siwan"
+msgstr "Rosj Chodesj Sivan"
 
 msgid "Rosh Chodesh Tamuz"
 msgstr "Rosj Chodesj Tammoez"
@@ -807,4 +807,4 @@ msgid "chalakim"
 msgstr "chalakiem"
 
 msgid "Yom Kippur Katan"
-msgstr "Jom Kippoer Katan"
+msgstr "Jom Kipoer Katan"
