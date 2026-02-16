@@ -77,6 +77,9 @@ msgstr "Ador II"
 msgid "Adar"
 msgstr "Ador"
 
+msgid "Alot haShachar"
+msgstr "Alos HaShachar"
+
 msgid "Alot HaShachar"
 msgstr "Alos HaShachar"
 
@@ -124,6 +127,9 @@ msgstr "B'ha'aloscho"
 
 msgid "Behar"
 msgstr "B'har"
+
+msgid "Bein HaShemashot"
+msgstr "Bein HaSh'mashos"
 
 msgid "Beitzah"
 msgstr "Beitzo"
@@ -175,6 +181,15 @@ msgstr "Chanuko: 8 Candles"
 
 msgid "Chanukah: 8th Day"
 msgstr "Chanuko: 8th Day"
+
+msgid "Chatzot HaYom"
+msgstr "Chatzos HaYom"
+
+msgid "Chatzot hayom"
+msgstr "Chatzos HaYom"
+
+msgid "Chatzot hayom"
+msgstr "Chatzos HaYom"
 
 msgid "Chayei Sara"
 msgstr "Chayei Soro"
@@ -278,6 +293,9 @@ msgstr "Kisleiv"
 msgid "Korach"
 msgstr "Korach"
 
+msgid "Kriat Shema, sof zeman"
+msgstr "Sof Z'man Kri'as Sh'ma"
+
 msgid "Lag BaOmer"
 msgstr "Lag BoOmer"
 
@@ -313,6 +331,12 @@ msgstr "Midos"
 
 msgid "Miketz"
 msgstr "Mikeitz"
+
+msgid "Mincha Gedolah"
+msgstr "Mincho G'dolo"
+
+msgid "Mincha Ketanah"
+msgstr "Mincho K'tano"
 
 msgid "Mishpatim"
 msgstr "Mishpotim"
@@ -382,6 +406,9 @@ msgstr "Pesach VIII"
 
 msgid "Pesachim"
 msgstr "P'sochim"
+
+msgid "Plag HaMincha"
+msgstr "Plag HaMincho"
 
 msgid "Purim"
 msgstr "Purim"
@@ -527,6 +554,12 @@ msgstr "Sukkos VI (CH''M)"
 msgid "Sukkot VII (Hoshana Raba)"
 msgstr "Sukkos VII (Hosha'ano Rabo)"
 
+msgid "Sunrise"
+msgid "Neitz HaChamo"
+
+msgid "Sunset"
+msgid "Shki'o"
+
 msgid "Taanit"
 msgstr "Ta'anis"
 
@@ -559,6 +592,9 @@ msgstr "T'tzave"
 
 msgid "Tevet"
 msgstr "Teiveis"
+
+msgid "Tefilah, sof zeman"
+msgstr "Sof Z'man T'fillo"
 
 msgid "Tish'a B'Av"
 msgstr "Tisho B'Ov"
