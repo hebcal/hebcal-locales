@@ -431,6 +431,9 @@ msgstr "Shabbos HaGodol"
 msgid "Shabbat Machar Chodesh"
 msgstr "Shabbos Mochor Chodesh"
 
+msgid "Shabbat Mevarchim Chodesh"
+msgstr "Shabbos M'vorchim Chodesh"
+
 msgid "Shabbat Nachamu"
 msgstr "Shabbos Nachamu"
 
