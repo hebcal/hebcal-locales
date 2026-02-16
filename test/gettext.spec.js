@@ -42,7 +42,7 @@ test('nl', (t) => {
 test('yi', (t) => {
   t.is(Locale.gettext('Shabbat', 'yi'), 'שבת');
   t.is(Locale.gettext('Yom Kippur', 'yi'), 'יום כיפור');
-  t.is(Locale.gettext('Pesach I', 'yi'), 'פסח א\'');
+  t.is(Locale.gettext('Pesach I', 'yi'),  "פּייסעך א׳");
   t.is(Locale.gettext('Chanukah', 'yi'), 'חנוכה');
   t.is(Locale.gettext('Sukkot', 'yi'), 'סוכות');
   t.is(Locale.gettext('Candle lighting', 'yi'), 'ליכט צינדן');

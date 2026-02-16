@@ -23,7 +23,7 @@ msgid "Eruvin"
 msgstr "עירובין"
 
 msgid "Pesachim"
-msgstr "פסחים"
+msgstr "פּייסעךים"
 
 msgid "Shekalim"
 msgstr "שקלים"
@@ -344,7 +344,7 @@ msgid "day of the Omer"
 msgstr "טאג פונעם עומר"
 
 msgid "Erev Pesach"
-msgstr "ערב פסח"
+msgstr "ערב פּייסעך"
 
 msgid "Erev Purim"
 msgstr "ערב פורים"
@@ -377,37 +377,37 @@ msgid "Leil Selichot"
 msgstr "סליחות"
 
 msgid "Pesach"
-msgstr "פסח"
+msgstr "פּייסעך"
 
 msgid "Pesach I"
-msgstr "פסח א׳"
+msgstr "פּייסעך א׳"
 
 msgid "Pesach II"
-msgstr "פסח ב׳"
+msgstr "פּייסעך ב׳"
 
 msgid "Pesach II (CH''M)"
-msgstr "פסח ב׳ (חול המועד)"
+msgstr "פּייסעך ב׳ (חול המועד)"
 
 msgid "Pesach III (CH''M)"
-msgstr "פסח ג׳ (חול המועד)"
+msgstr "פּייסעך ג׳ (חול המועד)"
 
 msgid "Pesach IV (CH''M)"
-msgstr "פסח ד׳ (חול המועד)"
+msgstr "פּייסעך ד׳ (חול המועד)"
 
 msgid "Pesach Sheni"
-msgstr "פסח שני"
+msgstr "פּייסעך שני"
 
 msgid "Pesach V (CH''M)"
-msgstr "פסח ה׳ (חול המועד)"
+msgstr "פּייסעך ה׳ (חול המועד)"
 
 msgid "Pesach VI (CH''M)"
-msgstr "פסח ו׳ (חול המועד)"
+msgstr "פּייסעך ו׳ (חול המועד)"
 
 msgid "Pesach VII"
-msgstr "פסח ז׳"
+msgstr "פּייסעך ז׳"
 
 msgid "Pesach VIII"
-msgstr "פסח ח׳"
+msgstr "פּייסעך ח׳"
 
 msgid "Purim"
 msgstr "פורים"
@@ -602,7 +602,7 @@ msgid "Fast begins"
 msgstr "תענית הויבט זיך אן"
 
 msgid "Fast ends"
-msgstr "תענית ענדיגט זיך"
+msgstr "שנעלע ענדס"
 
 msgid "day"
 msgstr "טאג"
@@ -620,4 +620,4 @@ msgid "Diaspora"
 msgstr "חוץ לארץ"
 
 msgid "Jewish Calendar"
-msgstr "יידישער לוח"
+msgstr "ייִדישער קאַלענדאַר"
