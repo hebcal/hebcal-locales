@@ -20,7 +20,7 @@
 #     or at least lengthen the syllable. Ex. Ta'anis, Hosha'ano Rabo.
 #   - Sh'vo noch ends a syllable and is not spelled out.
 #     Ex. Tish[']o B'Ov.
-#   - Tzeireh is spelled ei. Ex. Teiveis.
+#   - Tzeire is spelled ei. Ex. Teiveis.
 #   - Dipthongs into Yud spell the Yud with an i. Ex. Vaichi.
 #   - Cholom is spelled with an o. Ex. Bo, B'choros.
 #   - Komatz is spelled with an o,
@@ -38,7 +38,7 @@
 #     Ex. B'rachos, but Yom HaAtzma'ut.
 #   - Sof at the beginning of a grammatical unit turns into a Tof
 #     and is spelled with a t.
-#     Ex. Ki Seitzei, but Tazria; Tammuz, but Shivo Osor B'Sammuz.
+#     Ex. Ki Seitzei, but Tazri'a; Tammuz, but Shivo Osor B'Sammuz.
 #   - Consonants are doubled, if doubled in the en locale.
 #     Ex. Bovo Kammo, Tammuz.
 #
@@ -579,7 +579,7 @@ msgid "Tammuz"
 msgstr "Tammuz"
 
 msgid "Tazria"
-msgstr "Tazria"
+msgstr "Tazri'a"
 
 msgid "Temurah"
 msgstr "T'muro"
