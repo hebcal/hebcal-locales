@@ -20,7 +20,13 @@
 #     or at least lengthen the syllable. Ex. Ta'anis, Hosha'ano Rabo.
 #   - Sh'vo noch ends a syllable and is not spelled out.
 #     Ex. Tish[']o B'Ov.
-#   - Tzeire is spelled ei. Ex. Teiveis.
+#   - Tzeireh is spelled ei when either:
+#     1. the syllable continues into a soft, open letter
+#        like Alef, Hei, Vav (non-consonant) or Yud; or
+#     2. when most Ashkenaz speakers give the syllable the primary stress.
+#     Otherwise, it is spelled e.
+#     Ex. Kisle[i]v, Mike[i]tz, Vayakhe[i]l;
+#     but Teive[i]s, Beitzo, B'reishis, P'kudei.
 #   - Dipthongs into Yud spell the Yud with an i. Ex. Vaichi.
 #   - Cholom is spelled with an o. Ex. Bo, B'choros.
 #   - Komatz is spelled with an o,
@@ -30,7 +36,7 @@
 # # Consonants
 #
 #   - Oyin is not given any special symbol.
-#     Ex. [']Erev Pesach, [']Asoro B'Teiveis.
+#     Ex. [']Erev Pesach, [']Asoro B'Teives.
 #   - A final Hei is skipped.
 #     Ex. Avodo[h] Zoro[h], Chanuko[h], Rosh HaShono[h].
 #   - Sof is spelled with an s,
@@ -87,10 +93,10 @@ msgid "Arachin"
 msgstr "Arochin"
 
 msgid "Asara B'Tevet (Mincha)"
-msgstr "Asoro B'Teiveis (Mincho)"
+msgstr "Asoro B'Teives (Mincho)"
 
 msgid "Asara B'Tevet"
-msgstr "Asoro B'Teiveis"
+msgstr "Asoro B'Teives"
 
 msgid "Av"
 msgstr "Ov"
@@ -285,7 +291,7 @@ msgid "Kinnim"
 msgstr "Kinnim"
 
 msgid "Kislev"
-msgstr "Kisleiv"
+msgstr "Kislev"
 
 msgid "Korach"
 msgstr "Korach"
@@ -327,7 +333,7 @@ msgid "Midot"
 msgstr "Midos"
 
 msgid "Miketz"
-msgstr "Mikeitz"
+msgstr "Miketz"
 
 msgid "Mincha Gedolah"
 msgstr "Mincho G'dolo"
@@ -564,7 +570,7 @@ msgid "Ta'anit Bechorot"
 msgstr "Ta'anis B'choros"
 
 msgid "Ta'anit Esther"
-msgstr "Ta'anis Esteir"
+msgstr "Ta'anis Ester"
 
 msgid "Tamid"
 msgstr "Tomid"
@@ -588,7 +594,7 @@ msgid "Tetzaveh"
 msgstr "T'tzave"
 
 msgid "Tevet"
-msgstr "Teiveis"
+msgstr "Teives"
 
 msgid "Tefilah, sof zeman"
 msgstr "Sof Z'man T'fillo"
@@ -627,7 +633,7 @@ msgid "Vaetchanan"
 msgstr "Vo'eschanan"
 
 msgid "Vayakhel"
-msgstr "Vayakheil"
+msgstr "Vayakhel"
 
 msgid "Vayechi"
 msgstr "Vaichi"
