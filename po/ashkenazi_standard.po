@@ -188,9 +188,6 @@ msgstr "Chatzos HaYom"
 msgid "Chatzot hayom"
 msgstr "Chatzos HaYom"
 
-msgid "Chatzot hayom"
-msgstr "Chatzos HaYom"
-
 msgid "Chayei Sara"
 msgstr "Chayei Soro"
 
