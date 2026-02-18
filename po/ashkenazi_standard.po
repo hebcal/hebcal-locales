@@ -61,7 +61,7 @@
 #
 # # Other
 #
-#   - No smart quotes or double quotes. Straight single quotes only.
+#   - No smart quotes. Straight single and double quotes only.
 #   - Where not otherwise specified above,
 #     and there are conflicts of opinion about the nekudos,
 #     we use the more common opinion among Ashkenazic speakers.
@@ -72,7 +72,7 @@ msgstr ""
 "Project-Id-Version: hebcal 4.2\n"
 "Report-Msgid-Bugs-To: hebcal-bugs@sadinoff.com\n"
 "POT-Creation-Date: 2015-12-30 14:54-0500\n"
-"PO-Revision-Date: 2026-02-17 21:30-0700\n"
+"PO-Revision-Date: 2026-02-17 23:30-0700\n"
 "Language: ashkenazi_standard\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -395,22 +395,22 @@ msgid "Pesach II"
 msgstr "Pesach II"
 
 msgid "Pesach II (CH''M)"
-msgstr "Pesach II (CH''M)"
+msgstr "Pesach II (CH\"M)"
 
 msgid "Pesach III (CH''M)"
-msgstr "Pesach III (CH''M)"
+msgstr "Pesach III (CH\"M)"
 
 msgid "Pesach IV (CH''M)"
-msgstr "Pesach IV (CH''M)"
+msgstr "Pesach IV (CH\"M)"
 
 msgid "Pesach Sheni"
 msgstr "Pesach Sheini"
 
 msgid "Pesach V (CH''M)"
-msgstr "Pesach V (CH''M)"
+msgstr "Pesach V (CH\"M)"
 
 msgid "Pesach VI (CH''M)"
-msgstr "Pesach VI (CH''M)"
+msgstr "Pesach VI (CH\"M)"
 
 msgid "Pesach VII"
 msgstr "Pesach VII"
@@ -551,19 +551,19 @@ msgid "Sukkot II"
 msgstr "Sukkos II"
 
 msgid "Sukkot II (CH''M)"
-msgstr "Sukkos II (CH''M)"
+msgstr "Sukkos II (CH\"M)"
 
 msgid "Sukkot III (CH''M)"
-msgstr "Sukkos III (CH''M)"
+msgstr "Sukkos III (CH\"M)"
 
 msgid "Sukkot IV (CH''M)"
-msgstr "Sukkos IV (CH''M)"
+msgstr "Sukkos IV (CH\"M)"
 
 msgid "Sukkot V (CH''M)"
-msgstr "Sukkos V (CH''M)"
+msgstr "Sukkos V (CH\"M)"
 
 msgid "Sukkot VI (CH''M)"
-msgstr "Sukkos VI (CH''M)"
+msgstr "Sukkos VI (CH\"M)"
 
 msgid "Sukkot VII (Hoshana Raba)"
 msgstr "Sukkos VII (Hosha'ana Rabah)"
