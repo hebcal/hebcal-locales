@@ -42,7 +42,7 @@
 #   - Dipthongs into Yud spell the Yud with an i. Ex. Vaichi.
 #   - Cholam is spelled with an o. Ex. Bo, Bechoros.
 #   - Kamatz is spelled with an a.
-#     Ex. Bava Basra, Yom Y'rushalayim.
+#     Ex. Bava Basra, Yom Yerushalayim.
 #
 # # Consonants
 #
@@ -52,10 +52,10 @@
 #     Ex. Avodah Zarah, Chanukah, Rosh HaShanah.
 #   - Sof is spelled with an s,
 #     unless the word is from Modern Hebrew, when we spell it as t.
-#     Ex. Berachos, but Yom HaAtzma'ut.
+#     Ex. Berachos, but Yom HaAtzmaut.
 #   - Sof at the beginning of a grammatical unit turns into a Tof
 #     and is spelled with a t.
-#     Ex. Ki Seitzei, but Tazri'a; Tammuz, but Shivah Asar BeSammuz.
+#     Ex. Ki Seitzei, but Tazria; Tammuz, but Shivah Asar BeSammuz.
 #   - Consonants are doubled, if doubled in the en locale.
 #     Ex. Bava Kamma, Tammuz.
 #
