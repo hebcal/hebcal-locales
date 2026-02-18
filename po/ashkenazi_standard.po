@@ -13,10 +13,10 @@
 #     unless already indicated with a letter casing change.
 #     Ex. Shovu'os, but Lag BoOmer.
 #   - If a vowel is lengthened by the same vowel
-#     or the m'chutof version of the same vowel,
-#     it is indicated with an intervening apostrophe, and not skipped,
-#     even if they are overwhelmingly not pronounced as separate syllables.
-#     Note that major Ashkenazic dialects will pronounce a'a as ai
+#     or the chatof version of the same vowel,
+#     it is indicated with an intervening apostrophe.
+#     It is not skipped, even if overwhelmingly pronounced as one syllable.
+#     Note that major Ashkenaz dialects will pronounce a'a as ai
 #     or at least lengthen the syllable. Ex. Ta'anis, Hosha'ano Rabo.
 #   - Sh'vo noch ends a syllable and is not spelled out.
 #     Ex. Tish[']o B'Ov.
@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: hebcal 4.2\n"
 "Report-Msgid-Bugs-To: hebcal-bugs@sadinoff.com\n"
 "POT-Creation-Date: 2015-12-30 14:54-0500\n"
-"PO-Revision-Date: 2026-02-16 07:40-0700\n"
+"PO-Revision-Date: 2026-02-17 18:40-0700\n"
 "Language: ashkenazi_standard\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
