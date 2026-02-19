@@ -1,14 +1,14 @@
-# ashkenazi_standard.po
+# ashkenazi_komatz.po
 # Copyright (C) 2016 Danny Sadinoff
 # This file is distributed under the same license as the hebcal-locales package.
 #
-# # Goals
+# Goals
 #
 # - Consistent, rule-based spelling.
-# - Standard spelling for Ashkenaz US English.
-#   In other words, this locale should not depart too far
-#   from spellings used in major Ashkenaz publications.
-# - Readable and typable. No characters allowed outside ASCII.
+# - Indicate komatz as o.
+# - Readable/recognizable.
+# - Typable. Avoid non-ASCII special characters.
+# - Aid knowledgeable speakers to be precise in Ashkenaz vowellization.
 #
 # These rules are listed so that contributors can help
 # keep transliterations consistent.
@@ -17,55 +17,57 @@
 #
 # # Vowels
 #
-#   - Sheva na is indicated with an e. Ex. Bechoros, Devarim.
+#   - Sh'vo no is indicated with an apostrophe. Ex. B'choros, D'vorim.
 #   - If it is overwhelmingly common to not pronounce a vowel in speech,
 #     it is not indicated.
-#     Ex. Par[a]shas, S[e]lichos, Tol[e]dos, Shof[e]tim.
+#     Ex. Por[o]shas, S[']lichos, Tol[']dos, Shof[']tim.
 #   - Two sequential vowels pronounced as separate syllables
-#     are not separated with any mark.
-#     Ex. Shavuos, Lag BaOmer.
+#     are separated with an apostrophe,
+#     unless already indicated with a letter casing change.
+#     Ex. Shovu'os, but Lag BoOmer.
 #   - If a vowel is lengthened by the same vowel
-#     or the chataf version of the same vowel,
+#     or the chatof version of the same vowel,
 #     it is indicated with an intervening apostrophe.
 #     It is not skipped, even if overwhelmingly pronounced as one syllable.
 #     Note that major Ashkenaz dialects will pronounce a'a as ai
-#     or at least lengthen the syllable. Ex. Ta'anis, Hosha'ana Rabah.
-#   - Sheva nach ends a syllable and is not spelled out.
-#     Ex. Tish[']ah BeAv.
+#     or at least lengthen the syllable. Ex. Ta'anis, Hosha'ano Rabo.
+#   - Sh'vo noch ends a syllable and is not spelled out.
+#     Ex. Tish[']o B'Ov.
 #   - Tzeireh is spelled ei when either:
 #     1. the syllable continues into a soft, open letter
 #        like Alef, Hei, Vav (non-consonant) or Yud; or
 #     2. when most Ashkenaz speakers give the syllable the primary stress.
 #     Otherwise, it is spelled e.
 #     Ex. Kisle[i]v, Mike[i]tz, Vayakhe[i]l;
-#     but Teive[i]s, Beitzah, Bereishis, Pekudei.
+#     but Teive[i]s, Beitzo, B'reishis, P'kudei.
 #   - Dipthongs into Yud spell the Yud with an i. Ex. Vaichi.
-#   - Cholam is spelled with an o. Ex. Bo, Bechoros.
-#   - Kamatz is spelled with an a.
-#     Ex. Bava Basra, Yom Y'rushalayim.
+#   - Cholom is spelled with an o. Ex. Bo, B'choros.
+#   - Komatz is spelled with an o,
+#     unless the word is from Modern Hebrew, when we spell it as a.
+#     Ex. Bovo Basro, but Yom Y'rushalayim.
 #
 # # Consonants
 #
-#   - Ayin is not given any special symbol.
-#     Ex. [']Erev Pesach, [']Asarah BeTeives.
-#   - A final Hei is always indicated with h.
-#     Ex. Avodah Zarah, Chanukah, Rosh HaShanah.
+#   - Oyin is not given any special symbol.
+#     Ex. [']Erev Pesach, [']Asoro B'Teives.
+#   - A final Hei is skipped.
+#     Ex. Avodo[h] Zoro[h], Chanuko[h], Rosh HaShono[h].
 #   - Sof is spelled with an s,
 #     unless the word is from Modern Hebrew, when we spell it as t.
-#     Ex. Berachos, but Yom HaAtzma'ut.
+#     Ex. B'rachos, but Yom HaAtzma'ut.
 #   - Sof at the beginning of a grammatical unit turns into a Tof
 #     and is spelled with a t.
-#     Ex. Ki Seitzei, but Tazri'a; Tammuz, but Shivah Asar BeSammuz.
+#     Ex. Ki Seitzei, but Tazri'a; Tammuz, but Shivo Osor B'Sammuz.
 #   - Consonants are doubled, if doubled in the en locale.
-#     Ex. Bava Kamma, Tammuz.
+#     Ex. Bovo Kammo, Tammuz.
 #
 # # Other
 #
 #   - No smart quotes or double quotes. Straight single quotes only.
 #   - Where not otherwise specified above,
-#     and there are conflicts of opinion about the nekudos,
+#     and there are conflicts of opinion about the n'kudos,
 #     we use the more common opinion among Ashkenazic speakers.
-#     Ex. Yuma [vs. Yoma].
+#     Ex. Yumo [vs. Yomo], Ador [vs. Odor].
 #
 msgid ""
 msgstr ""
@@ -73,7 +75,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: hebcal-bugs@sadinoff.com\n"
 "POT-Creation-Date: 2015-12-30 14:54-0500\n"
 "PO-Revision-Date: 2026-02-17 21:30-0700\n"
-"Language: ashkenazi_standard\n"
+"Language: ashkenazi_komatz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -86,13 +88,13 @@ msgid "Achrei Mot"
 msgstr "Acharei"
 
 msgid "Adar I"
-msgstr "Adar I"
+msgstr "Ador I"
 
 msgid "Adar II"
-msgstr "Adar II"
+msgstr "Ador II"
 
 msgid "Adar"
-msgstr "Adar"
+msgstr "Ador"
 
 msgid "Alot haShachar"
 msgstr "Alos HaShachar"
@@ -101,103 +103,103 @@ msgid "Alot HaShachar"
 msgstr "Alos HaShachar"
 
 msgid "Arachin"
-msgstr "Arachin"
+msgstr "Arochin"
 
 msgid "Asara B'Tevet (Mincha)"
-msgstr "Asarah BeTeives (Minchah)"
+msgstr "Asoro B'Teives (Mincho)"
 
 msgid "Asara B'Tevet"
-msgstr "Asarah BeTeives"
+msgstr "Asoro B'Teives"
 
 msgid "Av"
-msgstr "Av"
+msgstr "Ov"
 
 msgid "Avodah Zarah"
-msgstr "Avodah Zarah"
+msgstr "Avodo Zoro"
 
 msgid "Avot"
-msgstr "Avos"
+msgstr "Ovos"
 
 msgid "Baba Batra"
-msgstr "Bava Basra"
+msgstr "Bovo Basro"
 
 msgid "Baba Kamma"
-msgstr "Bava Kamma"
+msgstr "Bovo Kammo"
 
 msgid "Baba Metzia"
-msgstr "Bava Metzia"
+msgstr "Bovo Metzi'o"
 
 msgid "Balak"
-msgstr "Balak"
+msgstr "Bolok"
 
 msgid "Bamidbar"
-msgstr "Bemidbar"
+msgstr "B'midbar"
 
 msgid "Bechorot"
-msgstr "Bechoros"
+msgstr "B'choros"
 
 msgid "Bechukotai"
-msgstr "Bechukosai"
+msgstr "B'chukosai"
 
 msgid "Beha'alotcha"
-msgstr "Beha'aloscha"
+msgstr "B'ha'aloscho"
 
 msgid "Behar"
-msgstr "Behar"
+msgstr "B'har"
 
 msgid "Bein HaShemashot"
-msgstr "Bein HaShemashos"
+msgstr "Bein HaSh'mashos"
 
 msgid "Beitzah"
-msgstr "Beitzah"
+msgstr "Beitzo"
 
 msgid "Bekhorot"
-msgstr "Bechoros"
+msgstr "B'choros"
 
 msgid "Berachot"
-msgstr "Berachos"
+msgstr "B'rachos"
 
 msgid "Bereshit"
-msgstr "Bereishis"
+msgstr "B'reishis"
 
 msgid "Beshalach"
-msgstr "Beshalach"
+msgstr "B'shalach"
 
 msgid "Bo"
 msgstr "Bo"
 
 msgid "Chagigah"
-msgstr "Chagigah"
+msgstr "Chogigo"
 
 msgid "Chanukah"
-msgstr "Chanukah"
+msgstr "Chanuko"
 
 msgid "Chanukah: 1 Candle"
-msgstr "Chanukah: 1 Candle"
+msgstr "Chanuko: 1 Candle"
 
 msgid "Chanukah: 2 Candles"
-msgstr "Chanukah: 2 Candles"
+msgstr "Chanuko: 2 Candles"
 
 msgid "Chanukah: 3 Candles"
-msgstr "Chanukah: 3 Candles"
+msgstr "Chanuko: 3 Candles"
 
 msgid "Chanukah: 4 Candles"
-msgstr "Chanukah: 4 Candles"
+msgstr "Chanuko: 4 Candles"
 
 msgid "Chanukah: 5 Candles"
-msgstr "Chanukah: 5 Candles"
+msgstr "Chanuko: 5 Candles"
 
 msgid "Chanukah: 6 Candles"
-msgstr "Chanukah: 6 Candles"
+msgstr "Chanuko: 6 Candles"
 
 msgid "Chanukah: 7 Candles"
-msgstr "Chanukah: 7 Candles"
+msgstr "Chanuko: 7 Candles"
 
 msgid "Chanukah: 8 Candles"
-msgstr "Chanukah: 8 Candles"
+msgstr "Chanuko: 8 Candles"
 
 msgid "Chanukah: 8th Day"
-msgstr "Chanukah: 8th Day"
+msgstr "Chanuko: 8th Day"
 
 msgid "Chatzot HaYom"
 msgstr "Chatzos HaYom"
@@ -206,10 +208,10 @@ msgid "Chatzot hayom"
 msgstr "Chatzos HaYom"
 
 msgid "Chayei Sara"
-msgstr "Chayei Sarah"
+msgstr "Chayei Soro"
 
 msgid "Cheshvan"
-msgstr "Cheshvan"
+msgstr "Cheshvon"
 
 msgid "Chukat"
 msgstr "Chukas"
@@ -224,7 +226,7 @@ msgid "Days of the Omer"
 msgstr "Days of the Omer"
 
 msgid "Devarim"
-msgstr "Devarim"
+msgstr "D'vorim"
 
 msgid "Eikev"
 msgstr "Eikev"
@@ -242,19 +244,19 @@ msgid "Erev Purim"
 msgstr "Erev Purim"
 
 msgid "Erev Rosh Hashana"
-msgstr "Erev Rosh Hashanah"
+msgstr "Erev Rosh Hashono"
 
 msgid "Erev Shavuot"
-msgstr "Erev Shavuos"
+msgstr "Erev Shovu'os"
 
 msgid "Erev Simchat Torah"
-msgstr "Erev Simchas Torah"
+msgstr "Erev Simchas Toro"
 
 msgid "Erev Sukkot"
 msgstr "Erev Sukkos"
 
 msgid "Erev Tish'a B'Av"
-msgstr "Erev Tishah BeAv"
+msgstr "Erev Tisho B'Ov"
 
 msgid "Erev Yom Kippur"
 msgstr "Erev Yom Kippur"
@@ -269,31 +271,31 @@ msgid "Ha'azinu"
 msgstr "Ha'azinu"
 
 msgid "Havdalah"
-msgstr "Havdalah"
+msgstr "Havdolo"
 
 msgid "Horayot"
-msgstr "Horayos"
+msgstr "Horoyos"
 
 msgid "Iyyar"
-msgstr "Iyyar"
+msgstr "Iyyor"
 
 msgid "Kedoshim"
-msgstr "Kedoshim"
+msgstr "K'doshim"
 
 msgid "Keritot"
-msgstr "Kerisos"
+msgstr "K'risos"
 
 msgid "Ketubot"
-msgstr "Kesubos"
+msgstr "K'subos"
 
 msgid "Ki Tavo"
-msgstr "Ki Savo"
+msgstr "Ki Sovo"
 
 msgid "Ki Teitzei"
 msgstr "Ki Seitzei"
 
 msgid "Ki Tisa"
-msgstr "Ki Sisa"
+msgstr "Ki Siso"
 
 msgid "Kiddushin"
 msgstr "Kiddushin"
@@ -308,13 +310,13 @@ msgid "Korach"
 msgstr "Korach"
 
 msgid "Kriat Shema, sof zeman"
-msgstr "Sof Zman Krias Shma"
+msgstr "Sof Z'man Kri'as Sh'ma"
 
 msgid "Lag BaOmer"
-msgstr "Lag BaOmer"
+msgstr "Lag BoOmer"
 
 msgid "Lech-Lecha"
-msgstr "Lech Lecha"
+msgstr "Lech L'cho"
 
 msgid "Leil Selichot"
 msgstr "Slichos"
@@ -329,16 +331,16 @@ msgid "Matot"
 msgstr "Matos"
 
 msgid "Megillah"
-msgstr "Megillah"
+msgstr "M'gillo"
 
 msgid "Meilah"
-msgstr "Meilah"
+msgstr "M'ilo"
 
 msgid "Menachot"
-msgstr "Menachos"
+msgstr "M'nochos"
 
 msgid "Metzora"
-msgstr "Metzora"
+msgstr "M'tzoro"
 
 msgid "Midot"
 msgstr "Midos"
@@ -347,43 +349,43 @@ msgid "Miketz"
 msgstr "Miketz"
 
 msgid "Mincha Gedolah"
-msgstr "Minchah Gedolah"
+msgstr "Mincho G'dolo"
 
 msgid "Mincha Ketanah"
-msgstr "Minchah Ketanah"
+msgstr "Mincho K'tano"
 
 msgid "Mishpatim"
-msgstr "Mishpatim"
+msgstr "Mishpotim"
 
 msgid "Moed Katan"
-msgstr "Moed Katan"
+msgstr "Mo'ed Koton"
 
 msgid "Nasso"
-msgstr "Nasso"
+msgstr "Nosso"
 
 msgid "Nazir"
-msgstr "Nazir"
+msgstr "Nozir"
 
 msgid "Nedarim"
-msgstr "Nedarim"
+msgstr "N'dorim"
 
 msgid "Niddah"
-msgstr "Niddah"
+msgstr "Niddo"
 
 msgid "Nisan"
-msgstr "Nisan"
+msgstr "Nison"
 
 msgid "Nitzavim"
-msgstr "Nitzavim"
+msgstr "Nitzovim"
 
 msgid "Noach"
 msgstr "Noach"
 
 msgid "Parashat"
-msgstr "Parshas"
+msgstr "Porshas"
 
 msgid "Pekudei"
-msgstr "Pekudei"
+msgstr "P'kudei"
 
 msgid "Pesach"
 msgstr "Pesach"
@@ -419,22 +421,22 @@ msgid "Pesach VIII"
 msgstr "Pesach VIII"
 
 msgid "Pesachim"
-msgstr "Pesachim"
+msgstr "P'sochim"
 
 msgid "Plag HaMincha"
-msgstr "Plag HaMinchah"
+msgstr "Plag HaMincho"
 
 msgid "Purim"
 msgstr "Purim"
 
 msgid "Purim Katan"
-msgstr "Purim Katan"
+msgstr "Purim Koton"
 
 msgid "Pinchas"
-msgstr "Pinchas"
+msgstr "Pinchos"
 
 msgid "Re'eh"
-msgstr "Re'ei"
+msgstr "R'ei"
 
 msgid "Rosh Chodesh %s"
 msgstr "Rosh Chodesh %s"
@@ -443,19 +445,19 @@ msgid "Rosh Chodesh"
 msgstr "Rosh Chodesh"
 
 msgid "Rosh Hashana"
-msgstr "Rosh Hashanah"
+msgstr "Rosh Hashono"
 
 msgid "Rosh Hashana I"
-msgstr "Rosh Hashanah I"
+msgstr "Rosh Hashono I"
 
 msgid "Rosh Hashana II"
-msgstr "Rosh Hashanah II"
+msgstr "Rosh Hashono II"
 
 msgid "Sanhedrin"
 msgstr "Sanhedrin"
 
 msgid "Sh'lach"
-msgstr "Shelach"
+msgstr "Sh'lach"
 
 msgid "Shabbat"
 msgstr "Shabbos"
@@ -467,79 +469,79 @@ msgid "Shabbat HaChodesh"
 msgstr "Shabbos HaChodesh"
 
 msgid "Shabbat HaGadol"
-msgstr "Shabbos HaGadol"
+msgstr "Shabbos HaGodol"
 
 msgid "Shabbat Machar Chodesh"
-msgstr "Shabbos Machar Chodesh"
+msgstr "Shabbos Mochor Chodesh"
 
 msgid "Shabbat Mevarchim Chodesh"
-msgstr "Shabbos Mevarchim Chodesh"
+msgstr "Shabbos M'vorchim Chodesh"
 
 msgid "Shabbat Nachamu"
 msgstr "Shabbos Nachamu"
 
 msgid "Shabbat Parah"
-msgstr "Shabbos Parah"
+msgstr "Shabbos Poro"
 
 msgid "Shabbat Rosh Chodesh"
 msgstr "Shabbos Rosh Chodesh"
 
 msgid "Shabbat Shekalim"
-msgstr "Shabbos Shekalim"
+msgstr "Shabbos Shekolim"
 
 msgid "Shabbat Shuva"
-msgstr "Shabbos Shuvah"
+msgstr "Shabbos Shuvo"
 
 msgid "Shabbat Zachor"
-msgstr "Shabbos Zachor"
+msgstr "Shabbos Zochor"
 
 msgid "Shavuot"
-msgstr "Shavuos"
+msgstr "Shovu'os"
 
 msgid "Shavuot I"
-msgstr "Shavuos I"
+msgstr "Shovu'os I"
 
 msgid "Shavuot II"
-msgstr "Shavuos II"
+msgstr "Shovu'os II"
 
 msgid "Shekalim"
-msgstr "Shekalim"
+msgstr "Sh'kolim"
 
 msgid "Shemot"
-msgstr "Shemos"
+msgstr "Sh'mos"
 
 msgid "Shevuot"
-msgstr "Shevuos"
+msgstr "Sh'vu'os"
 
 msgid "Shmini"
-msgstr "Shemini"
+msgstr "Sh'mini"
 
 msgid "Shoftim"
 msgstr "Shoftim"
 
 msgid "Sh'vat"
-msgstr "Shvat"
+msgstr "Shvot"
 
 msgid "Shmini Atzeret"
-msgstr "Shemini Atzeres"
+msgstr "Sh'mini Atzeres"
 
 msgid "Shushan Purim"
-msgstr "Shushan Purim"
+msgstr "Shushon Purim"
 
 msgid "Sigd"
 msgstr "Sigd"
 
 msgid "Simchat Torah"
-msgstr "Simchas Torah"
+msgstr "Simchas Toro"
 
 msgid "Sivan"
-msgstr "Sivan"
+msgstr "Sivon"
 
 msgid "Sotah"
-msgstr "Sotah"
+msgstr "Soto"
 
 msgid "Sukkah"
-msgstr "Sukkah"
+msgstr "Sukko"
 
 msgid "Sukkot"
 msgstr "Sukkos"
@@ -566,25 +568,25 @@ msgid "Sukkot VI (CH''M)"
 msgstr "Sukkos VI (CH''M)"
 
 msgid "Sukkot VII (Hoshana Raba)"
-msgstr "Sukkos VII (Hosha'ana Rabah)"
+msgstr "Sukkos VII (Hosha'ano Rabo)"
 
 msgid "Sunrise"
-msgid "Neitz HaChamah"
+msgid "Neitz HaChamo"
 
 msgid "Sunset"
-msgid "Shkiah"
+msgid "Shki'o"
 
 msgid "Taanit"
 msgstr "Ta'anis"
 
 msgid "Ta'anit Bechorot"
-msgstr "Ta'anis Bechoros"
+msgstr "Ta'anis B'choros"
 
 msgid "Ta'anit Esther"
 msgstr "Ta'anis Ester"
 
 msgid "Tamid"
-msgstr "Tamid"
+msgstr "Tomid"
 
 msgid "Tamuz"
 msgstr "Tammuz"
@@ -593,55 +595,55 @@ msgid "Tammuz"
 msgstr "Tammuz"
 
 msgid "Tazria"
-msgstr "Tazria"
+msgstr "Tazri'a"
 
 msgid "Temurah"
-msgstr "Temurah"
+msgstr "T'muro"
 
 msgid "Terumah"
-msgstr "Terumah"
+msgstr "T'rumo"
 
 msgid "Tetzaveh"
-msgstr "Tetzaveh"
+msgstr "T'tzave"
 
 msgid "Tevet"
 msgstr "Teives"
 
 msgid "Tefilah, sof zeman"
-msgstr "Sof Zman Tefilah"
+msgstr "Sof Z'man T'filo"
 
 msgid "Tish'a B'Av"
-msgstr "Tishah BeAv"
+msgstr "Tisho B'Ov"
 
 msgid "Tish'a B'Av (observed)"
-msgstr "Tishah BeAv (observed)"
+msgstr "Tisho B'Ov (observed)"
 
 msgid "Toldot"
 msgstr "Toldos"
 
 msgid "Tu B'Av"
-msgstr "Tu BeAv"
+msgstr "Tu B'Ov"
 
 msgid "Tu BiShvat"
-msgstr "Tu BiShvat"
+msgstr "Tu BiShvot"
 
 msgid "Tu B'Shvat"
-msgstr "Tu BiShvat"
+msgstr "Tu BiShvot"
 
 msgid "Tzav"
 msgstr "Tzav"
 
 msgid "Tzom Gedaliah"
-msgstr "Tzom Gedalyah"
+msgstr "Tzom G'dalyo"
 
 msgid "Tzom Tammuz"
-msgstr "Shivah Asar BeSammuz"
+msgstr "Shivo Osor B'Sammuz"
 
 msgid "Vaera"
-msgstr "Vaeira"
+msgstr "Vo'eiro"
 
 msgid "Vaetchanan"
-msgstr "Vaeschanan"
+msgstr "Vo'eschanan"
 
 msgid "Vayakhel"
 msgstr "Vayakhel"
@@ -653,7 +655,7 @@ msgid "Vayeilech"
 msgstr "Vayeilech"
 
 msgid "Vayera"
-msgstr "Vayeira"
+msgstr "Vayeiro"
 
 msgid "Vayeshev"
 msgstr "Vayeishev"
@@ -665,25 +667,25 @@ msgid "Vayigash"
 msgstr "Vayigash"
 
 msgid "Vayikra"
-msgstr "Vayikra"
+msgstr "Vayikro"
 
 msgid "Vayishlach"
 msgstr "Vayishlach"
 
 msgid "Vezot Haberakhah"
-msgstr "Vezos Habrachah"
+msgstr "V'zos Habrocho"
 
 msgid "Yevamot"
-msgstr "Yevamos"
+msgstr "Y'vomos"
 
 msgid "Yitro"
 msgstr "Yisro"
 
 msgid "Yom HaAtzma'ut"
-msgstr "Yom HaAtzmaut"
+msgstr "Yom HaAtzma'ut"
 
 msgid "Yom HaShoah"
-msgstr "Yom HaShoah"
+msgstr "Yom HaSho'a"
 
 msgid "Yom HaZikaron"
 msgstr "Yom HaZikaron"
@@ -692,16 +694,16 @@ msgid "Yom Kippur"
 msgstr "Yom Kippur"
 
 msgid "Yom Yerushalayim"
-msgstr "Yom Yerushalayim"
+msgstr "Yom Y'rushalayim"
 
 msgid "Yom HaAliyah"
-msgstr "Yom HaAliyah"
+msgstr "Yom HaAliya"
 
 msgid "Yom Kippur Katan"
-msgstr "Yom Kippur Katan"
+msgstr "Yom Kippur Koton"
 
 msgid "Yoma"
-msgstr "Yuma"
+msgstr "Yumo"
 
 msgid "Zevachim"
-msgstr "Zevachim"
+msgstr "Z'vochim"
