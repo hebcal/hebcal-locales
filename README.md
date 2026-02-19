@@ -3,6 +3,7 @@ Translations for Hebcal events in multiple languages
 
 Adds support for the following locales:
 
+* `ashkenazi_komatz` - courtesy Chaim Leib Halbert
 * `ashkenazi_litvish` - courtesy Andrey Rozenberg
 * `ashkenazi_poylish` - courtesy Andrey Rozenberg
 * `ashkenazi_standard` - courtesy Andrey Rozenberg
