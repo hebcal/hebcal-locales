@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/locales",
-  "version": "6.4.1",
+  "version": "6.4.2",
   "description": "Translations for Hebcal events in multiple languages",
   "module": "dist/index.js",
   "type": "module",
@@ -37,6 +37,6 @@
     "@rollup/plugin-terser": "^0.4.4",
     "ava": "^6.4.1",
     "gettext-parser": "^9.0.1",
-    "rollup": "^4.57.1"
+    "rollup": "^4.58.0"
   }
 }

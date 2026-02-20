@@ -28,15 +28,25 @@ for (const arg of process.argv.slice(2)) {
   langs.add(langName);
 }
 
+const dir = './go';
+if (!fs.existsSync(dir)) {
+  try {
+    fs.mkdirSync(dir);
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
+}
+
 for (const langName of langs.values()) {
   const baseName = langName.replaceAll('-', '_');
-  const outpath = `./go/strings_${baseName}.go`;
+  const outpath = `${dir}/strings_${baseName}.go`;
   console.log(`${langName} => ${outpath}`);
   writePoFile(parsedPoData.get(langName), outpath, langName);
   langs.add(langName);
 }
 
-const outstream = fs.createWriteStream('./go/locales.go', {flags: 'w'});
+const outstream = fs.createWriteStream(`${dir}/locales.go`, {flags: 'w'});
 outstream.write(`package locales
 
 ${autogenMsg}
