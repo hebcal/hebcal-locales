@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/hdate": "^0.22.2"
+    "@hebcal/hdate": "^0.22.3"
   },
   "files": [
     "dist"
@@ -27,7 +27,6 @@
   "scripts": {
     "build:rollup": "rollup -c",
     "po2json": "node ./po2json.js po/*.po",
-    "po2golang": "node ./po2golang.js ../hdate-js/po/ashkenazi.po ../hdate-js/po/he.po ../hebcal-es6/po/ashkenazi.po ../hebcal-es6/po/he.po ../hebcal-es6/po/he-x-NoNikud.po ../hebcal-leyning/po/*.po ../hebcal-learning/po/*.po po/*.po",
     "build": "npm run po2json && npm run build:rollup",
     "prepublish": "npm run build",
     "test": "ava"
@@ -35,8 +34,8 @@
   "devDependencies": {
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-terser": "^1.0.0",
-    "ava": "^8.0.0",
+    "ava": "^8.0.1",
     "gettext-parser": "^9.0.2",
-    "rollup": "^4.60.3"
+    "rollup": "^4.61.1"
   }
 }
