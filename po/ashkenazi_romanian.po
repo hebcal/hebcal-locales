@@ -1,177 +1,132 @@
 # Translation to Romanian.
 # Copyright (C) 2022 FlorinCB orynider@gmail.com
-# This file is distributed under the same license as the PACKAGE package.
 # Florin C Bodin, 2022. <orynider@gmail.com>, 2020.
 # 200 difrences from Normal to Ashkenazaic
 msgid ""
 msgstr ""
-"Project-Id-Version: hebcal 4.23\n"
-"Report-Msgid-Bugs-To: hebcal-bugs@sadinoff.com\n"
-"POT-Creation-Date: 2015-12-30 14:54-0500\n"
 "PO-Revision-Date: 2020-12-29 08:02-0800\n"
 "Language: ashkenazic_standard\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: FlorinCB aka orynider <orynider@gmail.com>\n"
-"Language-Team: \n"
-"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../dafyomi.c:26
 msgid "Berachot"
 msgstr "Broĥos"
 
-#: ../dafyomi.c:27
 msgid "Shabbat"
 msgstr "Şabos"
 
-#: ../dafyomi.c:28
 msgid "Eruvin"
 msgstr "Eiruvin"
 
-#: ../dafyomi.c:29
 msgid "Pesachim"
 msgstr "Pâsoĥim"
 
-#: ../dafyomi.c:30
 msgid "Shekalim"
 msgstr "Şqolim"
 
-#: ../dafyomi.c:31
 msgid "Yoma"
 msgstr "Iumo"
 
-#: ../dafyomi.c:32
 msgid "Sukkah"
 msgstr "Suco"
 
-#: ../dafyomi.c:33
 msgid "Beitzah"
 msgstr "Beiţo"
 
-#: ../dafyomi.c:35
 msgid "Taanit"
 msgstr "Taanis"
 
-#: ../dafyomi.c:36
 msgid "Megillah"
 msgstr "Megillo"
 
-#: ../dafyomi.c:37
 msgid "Moed Katan"
 msgstr "Moied Coton"
 
-#: ../dafyomi.c:38
 msgid "Chagigah"
 msgstr "Chagigo"
 
-#: ../dafyomi.c:39
 msgid "Yevamot"
 msgstr "Ievomos"
 
-#: ../dafyomi.c:40
 msgid "Ketubot"
 msgstr "Câsubos"
 
-#: ../dafyomi.c:41
 msgid "Nedarim"
 msgstr "Nedorim"
 
-#: ../dafyomi.c:42
 msgid "Nazir"
 msgstr "Nozir"
 
-#: ../dafyomi.c:43
 msgid "Sotah"
 msgstr "Soito"
 
-#: ../dafyomi.c:44
 msgid "Gitin"
 msgstr "Gitin"
 
-#: ../dafyomi.c:45
 msgid "Kiddushin"
 msgstr "Chiduşin"
 
 # msgid "Ketubot"
-#: ../dafyomi.c:46
 msgid "Baba Kamma"
 msgstr "Bovo Camo"
 
-#: ../dafyomi.c:47
 msgid "Baba Metzia"
 msgstr "Bovo Meţio"
 
-#: ../dafyomi.c:48
 msgid "Baba Batra"
 msgstr "Bovo Basro"
 
-#: ../dafyomi.c:49
 msgid "Sanhedrin"
 msgstr "Sanhedrin"
 
-#: ../dafyomi.c:50
 msgid "Makkot"
 msgstr "Makos"
 
-#: ../dafyomi.c:51
 msgid "Shevuot"
 msgstr "Şâvuos"
 
-#: ../dafyomi.c:52
 msgid "Avodah Zarah"
 msgstr "Avoydo Zoro"
 
-#: ../dafyomi.c:53
 msgid "Horayot"
 msgstr "Hoiroios"
 
-#: ../dafyomi.c:54
 msgid "Zevachim"
 msgstr "Zvochim"
 
-#: ../dafyomi.c:55
 msgid "Menachot"
 msgstr "Menochos"
 
-#: ../dafyomi.c:56
 msgid "Chullin"
 msgstr "Ĥulin"
 
-#: ../dafyomi.c:57
 msgid "Bechorot"
 msgstr "Bâĥoiros"
 
-#: ../dafyomi.c:58
 msgid "Arachin"
 msgstr "Arochin"
 
-#: ../dafyomi.c:59
 msgid "Temurah"
 msgstr "Tâmuro"
 
-#: ../dafyomi.c:60
 msgid "Keritot"
 msgstr "Cârisos"
 
-#: ../dafyomi.c:61
 msgid "Meilah"
 msgstr "Meilo"
 
-#: ../dafyomi.c:62
 msgid "Kinnim"
 msgstr "Chinim"
 
-#: ../dafyomi.c:63
 msgid "Tamid"
 msgstr "Tomid"
 
-#: ../dafyomi.c:64
 msgid "Midot"
 msgstr "Midos"
 
-#: ../dafyomi.c:65
 msgid "Niddah"
 msgstr "Nido"
 
@@ -432,22 +387,22 @@ msgid "Pesach II"
 msgstr "Peisaĥ II"
 
 msgid "Pesach II (CH''M)"
-msgstr "Peisaĥ II (Co''M)"
+msgstr "Peisaĥ II (Co’’M)"
 
 msgid "Pesach III (CH''M)"
-msgstr "Peisaĥ III (Co''M)"
+msgstr "Peisaĥ III (Co’’M)"
 
 msgid "Pesach IV (CH''M)"
-msgstr "Peisaĥ IV (Co''M)"
+msgstr "Peisaĥ IV (Co’’M)"
 
 msgid "Pesach Sheni"
 msgstr "Peisaĥ Şeini"
 
 msgid "Pesach V (CH''M)"
-msgstr "Peisaĥ V (CH''M)"
+msgstr "Peisaĥ V (CH’’M)"
 
 msgid "Pesach VI (CH''M)"
-msgstr "Peisaĥ VI (CH''M)"
+msgstr "Peisaĥ VI (CH’’M)"
 
 msgid "Pesach VII"
 msgstr "Peisaĥ VII"
@@ -460,9 +415,6 @@ msgstr "Purim"
 
 msgid "Purim Katan"
 msgstr "Purim Coton"
-
-msgid "Rosh Chodesh %s"
-msgstr "Roş Ĥydeş %s"
 
 msgid "Rosh Chodesh"
 msgstr "Roş Ĥoideş"
@@ -582,19 +534,19 @@ msgid "Sukkot II"
 msgstr "Sucos II"
 
 msgid "Sukkot II (CH''M)"
-msgstr "Sucos II (Co''M)"
+msgstr "Sucos II (Co’’M)"
 
 msgid "Sukkot III (CH''M)"
-msgstr "Sucos III (Co''M)"
+msgstr "Sucos III (Co’’M)"
 
 msgid "Sukkot IV (CH''M)"
-msgstr "Sucos IV (Co''M)"
+msgstr "Sucos IV (Co’’M)"
 
 msgid "Sukkot V (CH''M)"
-msgstr "Sucos V (CH''M)"
+msgstr "Sucos V (CH’’M)"
 
 msgid "Sukkot VI (CH''M)"
-msgstr "Sucos VI (CH''M)"
+msgstr "Sucos VI (CH’’M)"
 
 msgid "Sukkot VII (Hoshana Raba)"
 msgstr "Sucos VII (Hoişano Rabo)"

@@ -1,177 +1,129 @@
 # Translation to German.
-# Copyright (C) 2020 Danny Sadinoff
-# This file is distributed under the same license as the PACKAGE package.
 # Dr Oliver Maor <oliver@maor.de>, 2020.
 # 
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hebcal 4.23\n"
-"Report-Msgid-Bugs-To: hebcal-bugs@sadinoff.com\n"
-"POT-Creation-Date: 2015-12-30 14:54-0500\n"
-"PO-Revision-Date: 2021-04-07 08:02-0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language-Team: \n"
-"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
 "Language: de\n"
 
-#: ../dafyomi.c:26
 msgid "Berachot"
 msgstr "Brachot"
 
-#: ../dafyomi.c:27
 msgid "Shabbat"
 msgstr "Schabbat"
 
-#: ../dafyomi.c:28
 msgid "Eruvin"
 msgstr "Eruwin"
 
-#: ../dafyomi.c:29
 msgid "Pesachim"
 msgstr "Pessachim"
 
-#: ../dafyomi.c:30
 msgid "Shekalim"
 msgstr "Schkalim"
 
-#: ../dafyomi.c:31
 msgid "Yoma"
 msgstr "Joma"
 
-#: ../dafyomi.c:32
 msgid "Sukkah"
 msgstr "Sukkah"
 
-#: ../dafyomi.c:33
 msgid "Beitzah"
 msgstr "Beizah"
 
-#: ../dafyomi.c:35
 msgid "Taanit"
 msgstr "Taanit"
 
-#: ../dafyomi.c:36
 msgid "Megillah"
 msgstr "Megillah"
 
-#: ../dafyomi.c:37
 msgid "Moed Katan"
 msgstr "Moed Katan"
 
-#: ../dafyomi.c:38
 msgid "Chagigah"
 msgstr "Chagigah"
 
-#: ../dafyomi.c:39
 msgid "Yevamot"
 msgstr "Yewamot"
 
-#: ../dafyomi.c:40
 msgid "Ketubot"
 msgstr "Ketubot"
 
-#: ../dafyomi.c:41
 msgid "Nedarim"
 msgstr "Nedarim"
 
-#: ../dafyomi.c:42
 msgid "Nazir"
 msgstr "Nasir"
 
-#: ../dafyomi.c:43
 msgid "Sotah"
 msgstr "Sotah"
 
-#: ../dafyomi.c:44
 msgid "Gitin"
 msgstr "Gittin"
 
-#: ../dafyomi.c:45
 msgid "Kiddushin"
 msgstr "Kidduschin"
 
-#: ../dafyomi.c:46
 msgid "Baba Kamma"
 msgstr "Baba Kamma"
 
-#: ../dafyomi.c:47
 msgid "Baba Metzia"
 msgstr "Baba Mezia"
 
-#: ../dafyomi.c:48
 msgid "Baba Batra"
 msgstr "Baba Batra"
 
-#: ../dafyomi.c:49
 msgid "Sanhedrin"
 msgstr "Sanhedrin"
 
-#: ../dafyomi.c:50
 msgid "Makkot"
 msgstr "Makkot"
 
-#: ../dafyomi.c:51
 msgid "Shevuot"
 msgstr "Schewuot"
 
-#: ../dafyomi.c:52
 msgid "Avodah Zarah"
 msgstr "Awodah Sara"
 
-#: ../dafyomi.c:53
 msgid "Horayot"
 msgstr "Horajot"
 
-#: ../dafyomi.c:54
 msgid "Zevachim"
 msgstr "Sewachim"
 
-#: ../dafyomi.c:55
 msgid "Menachot"
 msgstr "Menachot"
 
-#: ../dafyomi.c:56
 msgid "Chullin"
 msgstr "Chullin"
 
-#: ../dafyomi.c:57
 msgid "Bechorot"
 msgstr "Bechorot"
 
-#: ../dafyomi.c:58
 msgid "Arachin"
 msgstr "Arachin"
 
-#: ../dafyomi.c:59
 msgid "Temurah"
 msgstr "Temurah"
 
-#: ../dafyomi.c:60
 msgid "Keritot"
 msgstr "Keritot"
 
-#: ../dafyomi.c:61
 msgid "Meilah"
 msgstr "Meilah"
 
-#: ../dafyomi.c:62
 msgid "Kinnim"
 msgstr "Kinnim"
 
-#: ../dafyomi.c:63
 msgid "Tamid"
 msgstr "Tamid"
 
-#: ../dafyomi.c:64
 msgid "Midot"
 msgstr "Midot"
 
-#: ../dafyomi.c:65
 msgid "Niddah"
 msgstr "Niddah"
 
@@ -431,22 +383,22 @@ msgid "Pesach II"
 msgstr "Pessach II"
 
 msgid "Pesach II (CH''M)"
-msgstr "Pessach II (Ch''M)"
+msgstr "Pessach II (Ch’’M)"
 
 msgid "Pesach III (CH''M)"
-msgstr "Pessach III (Ch''M)"
+msgstr "Pessach III (Ch’’M)"
 
 msgid "Pesach IV (CH''M)"
-msgstr "Pessach IV (Ch''M)"
+msgstr "Pessach IV (Ch’’M)"
 
 msgid "Pesach Sheni"
 msgstr "Pessach Scheni"
 
 msgid "Pesach V (CH''M)"
-msgstr "Pessach V (Ch''M)"
+msgstr "Pessach V (Ch’’M)"
 
 msgid "Pesach VI (CH''M)"
-msgstr "Pessach VI (Ch''M)"
+msgstr "Pessach VI (Ch’’M)"
 
 msgid "Pesach VII"
 msgstr "Pessach VII"
@@ -459,9 +411,6 @@ msgstr "Purim"
 
 msgid "Purim Katan"
 msgstr "Purim Katan"
-
-msgid "Rosh Chodesh %s"
-msgstr "Rosch Chodesch %s"
 
 msgid "Rosh Chodesh"
 msgstr "Rosch Chodesch"
@@ -578,19 +527,19 @@ msgid "Sukkot II"
 msgstr "Sukkot II"
 
 msgid "Sukkot II (CH''M)"
-msgstr "Sukkot II (Ch''M)"
+msgstr "Sukkot II (Ch’’M)"
 
 msgid "Sukkot III (CH''M)"
-msgstr "Sukkot III (Ch''M)"
+msgstr "Sukkot III (Ch’’M)"
 
 msgid "Sukkot IV (CH''M)"
-msgstr "Sukkot IV (Ch''M)"
+msgstr "Sukkot IV (Ch’’M)"
 
 msgid "Sukkot V (CH''M)"
-msgstr "Sukkot V (Ch''M)"
+msgstr "Sukkot V (Ch’’M)"
 
 msgid "Sukkot VI (CH''M)"
-msgstr "Sukkot VI (Ch''M)"
+msgstr "Sukkot VI (Ch’’M)"
 
 msgid "Sukkot VII (Hoshana Raba)"
 msgstr "Sukkot VII (Hoschana Raba)"

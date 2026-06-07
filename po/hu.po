@@ -1,172 +1,127 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016 Danny Sadinoff
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # Marc Neiger <marc@neiger.org>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hebcal 4.16\n"
-"Report-Msgid-Bugs-To: hebcal-bugs@sadinoff.com\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../dafyomi.c:26
 msgid "Berachot"
 msgstr "Bráchot"
 
-#: ../dafyomi.c:27
 msgid "Shabbat"
 msgstr "Sábát"
 
-#: ../dafyomi.c:28
 msgid "Eruvin"
 msgstr "Éruvin"
 
-#: ../dafyomi.c:29
 msgid "Pesachim"
 msgstr "Peszáchim"
 
-#: ../dafyomi.c:30
 msgid "Shekalim"
 msgstr "Skálim"
 
-#: ../dafyomi.c:31
 msgid "Yoma"
 msgstr "Jomá"
 
-#: ../dafyomi.c:32
 msgid "Sukkah"
 msgstr "Szukká"
 
-#: ../dafyomi.c:33
 msgid "Beitzah"
 msgstr "Bécá"
 
-#: ../dafyomi.c:35
 msgid "Taanit"
 msgstr "Táánit"
 
-#: ../dafyomi.c:36
 msgid "Megillah"
 msgstr "Mögilá"
 
-#: ../dafyomi.c:37
 msgid "Moed Katan"
 msgstr "Moéd Kátán"
 
-#: ../dafyomi.c:38
 msgid "Chagigah"
 msgstr "Chágigá"
 
-#: ../dafyomi.c:39
 msgid "Yevamot"
 msgstr "Jövámot"
 
-#: ../dafyomi.c:40
 msgid "Ketubot"
 msgstr "Kötubot"
 
-#: ../dafyomi.c:41
 msgid "Nedarim"
 msgstr "Nödárim"
 
-#: ../dafyomi.c:42
 msgid "Nazir"
 msgstr "Názír"
 
-#: ../dafyomi.c:43
 msgid "Sotah"
 msgstr "Szotá"
 
-#: ../dafyomi.c:44
 msgid "Gitin"
 msgstr "Gitin"
 
-#: ../dafyomi.c:45
 msgid "Kiddushin"
 msgstr "Kidusin"
 
-#: ../dafyomi.c:46
 msgid "Baba Kamma"
 msgstr "Bává Kámá"
 
-#: ../dafyomi.c:47
 msgid "Baba Metzia"
 msgstr "Bává Möciá"
 
-#: ../dafyomi.c:48
 msgid "Baba Batra"
 msgstr "Bává Bátrá"
 
-#: ../dafyomi.c:49
 msgid "Sanhedrin"
 msgstr "Szánhedrin"
 
-#: ../dafyomi.c:50
 msgid "Makkot"
 msgstr "Mákot"
 
-#: ../dafyomi.c:51
 msgid "Shevuot"
 msgstr "Sávuot"
 
-#: ../dafyomi.c:52
 msgid "Avodah Zarah"
 msgstr "Ávodá Zárá"
 
-#: ../dafyomi.c:53
 msgid "Horayot"
 msgstr "Horájot"
 
-#: ../dafyomi.c:54
 msgid "Zevachim"
 msgstr "Zváchim"
 
-#: ../dafyomi.c:55
 msgid "Menachot"
 msgstr "Mönáchot"
 
-#: ../dafyomi.c:56
 msgid "Chullin"
 msgstr "Chulin"
 
-#: ../dafyomi.c:57
 msgid "Bechorot"
 msgstr "Böchorot"
 
-#: ../dafyomi.c:58
 msgid "Arachin"
 msgstr "Áráchin"
 
-#: ../dafyomi.c:59
 msgid "Temurah"
 msgstr "Tmurá"
 
-#: ../dafyomi.c:60
 msgid "Keritot"
 msgstr "Kritot"
 
-#: ../dafyomi.c:61
 msgid "Meilah"
 msgstr "Möilá"
 
-#: ../dafyomi.c:62
 msgid "Kinnim"
 msgstr "Kinim"
 
-#: ../dafyomi.c:63
 msgid "Tamid"
 msgstr "Támid"
 
-#: ../dafyomi.c:64
 msgid "Midot"
 msgstr "Midot"
 
-#: ../dafyomi.c:65
 msgid "Niddah"
 msgstr "Nidá"
 
@@ -420,22 +375,22 @@ msgid "Pesach II"
 msgstr "Peszách II"
 
 msgid "Pesach II (CH''M)"
-msgstr "Peszách II (CH''M)"
+msgstr "Peszách II (CH’’M)"
 
 msgid "Pesach III (CH''M)"
-msgstr "Peszách III (CH''M)"
+msgstr "Peszách III (CH’’M)"
 
 msgid "Pesach IV (CH''M)"
-msgstr "Peszách IV (CH''M)"
+msgstr "Peszách IV (CH’’M)"
 
 msgid "Pesach Sheni"
 msgstr "Peszách séni"
 
 msgid "Pesach V (CH''M)"
-msgstr "Peszách V (CH''M)"
+msgstr "Peszách V (CH’’M)"
 
 msgid "Pesach VI (CH''M)"
-msgstr "Peszách VI (CH''M)"
+msgstr "Peszách VI (CH’’M)"
 
 msgid "Pesach VII"
 msgstr "Peszách VII"
@@ -448,9 +403,6 @@ msgstr "Purim"
 
 msgid "Purim Katan"
 msgstr "Purim Kátán"
-
-msgid "Rosh Chodesh %s"
-msgstr "Ros chódes %s"
 
 msgid "Rosh Chodesh"
 msgstr "Ros chódes"
@@ -564,19 +516,19 @@ msgid "Sukkot II"
 msgstr "Szukkot II"
 
 msgid "Sukkot II (CH''M)"
-msgstr "Szukkot II (CH''M)"
+msgstr "Szukkot II (CH’’M)"
 
 msgid "Sukkot III (CH''M)"
-msgstr "Szukkot III (CH''M)"
+msgstr "Szukkot III (CH’’M)"
 
 msgid "Sukkot IV (CH''M)"
-msgstr "Szukkot IV (CH''M)"
+msgstr "Szukkot IV (CH’’M)"
 
 msgid "Sukkot V (CH''M)"
-msgstr "Szukkot V (CH''M)"
+msgstr "Szukkot V (CH’’M)"
 
 msgid "Sukkot VI (CH''M)"
-msgstr "Szukkot VI (CH''M)"
+msgstr "Szukkot VI (CH’’M)"
 
 msgid "Sukkot VII (Hoshana Raba)"
 msgstr "Szukkot VII (Hosáná rábá)"

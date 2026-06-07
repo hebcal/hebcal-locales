@@ -1,176 +1,126 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016 Danny Sadinoff
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: hebcal 4.2\n"
-"Report-Msgid-Bugs-To: hebcal-bugs@sadinoff.com\n"
-"POT-Creation-Date: 2015-12-30 14:54-0500\n"
 "PO-Revision-Date: 2017-03-09 16:13+0200\n"
 "Language: fi_FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.8.12\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../dafyomi.c:26
 msgid "Berachot"
 msgstr "Brachot"
 
-#: ../dafyomi.c:27
 msgid "Shabbat"
 msgstr "Shabat"
 
-#: ../dafyomi.c:28
 msgid "Eruvin"
 msgstr "Eruvin"
 
-#: ../dafyomi.c:29
 msgid "Pesachim"
 msgstr "Psachim"
 
-#: ../dafyomi.c:30
 msgid "Shekalim"
 msgstr "Shkalim"
 
-#: ../dafyomi.c:31
 msgid "Yoma"
 msgstr "Joma"
 
-#: ../dafyomi.c:32
 msgid "Sukkah"
 msgstr "Suka"
 
-#: ../dafyomi.c:33
 msgid "Beitzah"
 msgstr "Beitsa"
 
-#: ../dafyomi.c:35
 msgid "Taanit"
 msgstr "Taanit"
 
-#: ../dafyomi.c:36
 msgid "Megillah"
 msgstr "Megila"
 
-#: ../dafyomi.c:37
 msgid "Moed Katan"
 msgstr "Moed katan"
 
-#: ../dafyomi.c:38
 msgid "Chagigah"
 msgstr "Chagiga"
 
-#: ../dafyomi.c:39
 msgid "Yevamot"
 msgstr "Jevamot"
 
-#: ../dafyomi.c:40
 msgid "Ketubot"
 msgstr "Ketubot"
 
-#: ../dafyomi.c:41
 msgid "Nedarim"
 msgstr "Nedarim"
 
-#: ../dafyomi.c:42
 msgid "Nazir"
 msgstr "Nazir"
 
-#: ../dafyomi.c:43
 msgid "Sotah"
 msgstr "Sota"
 
-#: ../dafyomi.c:44
 msgid "Gitin"
 msgstr "Gitin"
 
-#: ../dafyomi.c:45
 msgid "Kiddushin"
 msgstr "Kidushin"
 
-#: ../dafyomi.c:46
 msgid "Baba Kamma"
 msgstr "Bava kama"
 
-#: ../dafyomi.c:47
 msgid "Baba Metzia"
 msgstr "Bava metsia"
 
-#: ../dafyomi.c:48
 msgid "Baba Batra"
 msgstr "Bava batra"
 
-#: ../dafyomi.c:49
 msgid "Sanhedrin"
 msgstr "Sanhedrin"
 
-#: ../dafyomi.c:50
 msgid "Makkot"
 msgstr "Makot"
 
-#: ../dafyomi.c:51
 msgid "Shevuot"
 msgstr "Shavuot"
 
-#: ../dafyomi.c:52
 msgid "Avodah Zarah"
 msgstr "Avoda zara"
 
-#: ../dafyomi.c:53
 msgid "Horayot"
 msgstr "Horajot"
 
-#: ../dafyomi.c:54
 msgid "Zevachim"
 msgstr "Zvachim"
 
-#: ../dafyomi.c:55
 msgid "Menachot"
 msgstr "Menachot"
 
-#: ../dafyomi.c:56
 msgid "Chullin"
 msgstr "Chulin"
 
-#: ../dafyomi.c:57
 msgid "Bechorot"
 msgstr "Bechorot"
 
-#: ../dafyomi.c:58
 msgid "Arachin"
 msgstr "Arachin"
 
-#: ../dafyomi.c:59
 msgid "Temurah"
 msgstr "Tmura"
 
-#: ../dafyomi.c:60
 msgid "Keritot"
 msgstr "Kritot"
 
-#: ../dafyomi.c:61
 msgid "Meilah"
 msgstr "Meila"
 
-#: ../dafyomi.c:62
 msgid "Kinnim"
 msgstr "Kinim"
 
-#: ../dafyomi.c:63
 msgid "Tamid"
 msgstr "Tamid"
 
-#: ../dafyomi.c:64
 msgid "Midot"
 msgstr "Midot"
 
-#: ../dafyomi.c:65
 msgid "Niddah"
 msgstr "Nida"
 
@@ -452,9 +402,6 @@ msgstr "Purim"
 
 msgid "Purim Katan"
 msgstr "Purim katan"
-
-msgid "Rosh Chodesh %s"
-msgstr "Rosh chodesh %s"
 
 msgid "Rosh Chodesh"
 msgstr "Rosh chodesh"
