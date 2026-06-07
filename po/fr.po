@@ -157,6 +157,9 @@ msgstr "Bechalah̲"
 msgid "Bo"
 msgstr "Bo"
 
+msgid "Birkat Hachamah"
+msgstr "Birkat Hakhama"
+
 msgid "Chayei Sara"
 msgstr "H̲ayé Sarah"
 
@@ -301,6 +304,9 @@ msgstr "Allumage des bougies"
 msgid "Chanukah"
 msgstr "H̲anoukah"
 
+msgid "Chag HaBanot"
+msgstr "Hag HaBanot"
+
 msgid "Chanukah: 1 Candle"
 msgstr "H̲anoukah: 1 Bougie"
 
@@ -403,6 +409,9 @@ msgstr "Pourim"
 msgid "Purim Katan"
 msgstr "Pourim Katan"
 
+msgid "Purim Meshulash"
+msgstr "Pourim Mechoulach"
+
 msgid "Rosh Chodesh"
 msgstr "Roch H̲odech"
 
@@ -448,6 +457,9 @@ msgstr "Tévet"
 msgid "Rosh Hashana"
 msgstr "Roch Hachanah"
 
+msgid "Rosh Hashana LaBehemot"
+msgstr "Roch Hachanah LaBehemot"
+
 msgid "Rosh Hashana I"
 msgstr "Roch Hachanah I"
 
@@ -481,6 +493,9 @@ msgstr "Chabbat Chekalim"
 msgid "Shabbat Shuva"
 msgstr "Chabbat Chouvah"
 
+msgid "Shabbat Shirah"
+msgstr "Chabbat Chira"
+
 msgid "Shabbat Zachor"
 msgstr "Chabbat Zakhor"
 
@@ -498,6 +513,9 @@ msgstr "Chemini Atzéret"
 
 msgid "Shushan Purim"
 msgstr "Chouchan Pourim"
+
+msgid "Shushan Purim Katan"
+msgstr "Chouchan Pourim Katan"
 
 msgid "Sigd"
 msgstr "Sigd"

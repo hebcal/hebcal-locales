@@ -158,6 +158,9 @@ msgstr "Бешалах"
 msgid "Bo"
 msgstr "Бо"
 
+msgid "Birkat Hachamah"
+msgstr "Біркат Хахама"
+
 msgid "Chayei Sara"
 msgstr "Хаей Сара"
 
@@ -302,6 +305,9 @@ msgstr "Засвічування свічок"
 msgid "Chanukah"
 msgstr "Ханука"
 
+msgid "Chag HaBanot"
+msgstr "Хаг ха-Банот"
+
 msgid "Chanukah: 1 Candle"
 msgstr "Ханука: 1 Свічка"
 
@@ -404,6 +410,9 @@ msgstr "Пурім"
 msgid "Purim Katan"
 msgstr "Малий Пурім"
 
+msgid "Purim Meshulash"
+msgstr "Пурім Мешулаш"
+
 msgid "Rosh Chodesh"
 msgstr "Новий Місяць"
 
@@ -449,6 +458,9 @@ msgstr "Тевет"
 msgid "Rosh Hashana"
 msgstr "Рош-А-Шана"
 
+msgid "Rosh Hashana LaBehemot"
+msgstr "Рош-А-Шана ла-Бехемот"
+
 msgid "Rosh Hashana I"
 msgstr "Рош-А-Шана I"
 
@@ -482,6 +494,9 @@ msgstr "Шаббат Шкалім"
 msgid "Shabbat Shuva"
 msgstr "Шаббат Шува"
 
+msgid "Shabbat Shirah"
+msgstr "Шаббат Шира"
+
 msgid "Shabbat Zachor"
 msgstr "Шаббат Захор"
 
@@ -499,6 +514,9 @@ msgstr "Шміні Ацерет"
 
 msgid "Shushan Purim"
 msgstr "Шушан Пурім"
+
+msgid "Shushan Purim Katan"
+msgstr "Шушан Пурім Катан"
 
 msgid "Sigd"
 msgstr "Сігд"
@@ -571,6 +589,9 @@ msgstr "День Пам'яті"
 
 msgid "Yom Kippur"
 msgstr "День Розкаяння"
+
+msgid "Yom HaAliyah"
+msgstr "День Сходження"
 
 msgid "Yom Yerushalayim"
 msgstr "День Єрусалима"

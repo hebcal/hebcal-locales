@@ -163,6 +163,9 @@ msgstr "Beşalach"
 msgid "Bo"
 msgstr "Boi"
 
+msgid "Birkat Hachamah"
+msgstr "Bircas Haĥamo"
+
 msgid "Chayei Sara"
 msgstr "Ĥaiei Soro"
 
@@ -308,6 +311,9 @@ msgstr "Hadlokas neiros"
 msgid "Chanukah"
 msgstr "Ĥanuco"
 
+msgid "Chag HaBanot"
+msgstr "Ĥag HaBonos"
+
 msgid "Chanukah: 1 Candle"
 msgstr "Ĥanuco: 1 Candelă"
 
@@ -416,6 +422,9 @@ msgstr "Purim"
 msgid "Purim Katan"
 msgstr "Purim Coton"
 
+msgid "Purim Meshulash"
+msgstr "Purim Meşulaş"
+
 msgid "Rosh Chodesh"
 msgstr "Roş Ĥoideş"
 
@@ -500,6 +509,9 @@ msgstr "Şavos Şâqolim"
 msgid "Shabbat Shuva"
 msgstr "Şavos Şuvo"
 
+msgid "Shabbat Shirah"
+msgstr "Şavos Şiro"
+
 msgid "Shabbat Zachor"
 msgstr "Şavos Zoĥor"
 
@@ -517,6 +529,9 @@ msgstr "Şmini Aţeres"
 
 msgid "Shushan Purim"
 msgstr "Şuşon Purim"
+
+msgid "Shushan Purim Katan"
+msgstr "Şuşon Purim Coton"
 
 msgid "Sigd"
 msgstr "Sigd"

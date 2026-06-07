@@ -160,6 +160,9 @@ msgstr "Besjalach"
 msgid "Bo"
 msgstr "Bo"
 
+msgid "Birkat Hachamah"
+msgstr "Birkat Hachama"
+
 msgid "Chayei Sara"
 msgstr "Chajei Sara"
 
@@ -304,6 +307,9 @@ msgstr "Kaarsen aansteken"
 msgid "Chanukah"
 msgstr "Chanoeka"
 
+msgid "Chag HaBanot"
+msgstr "Chag HaBanot"
+
 msgid "Chanukah: 1 Candle"
 msgstr "Chanoeka: 1 kaars"
 
@@ -412,6 +418,9 @@ msgstr "Poeriem"
 msgid "Purim Katan"
 msgstr "Poeriem Katan"
 
+msgid "Purim Meshulash"
+msgstr "Poeriem Mesjoelasj"
+
 msgid "Rosh Chodesh"
 msgstr "Rosj Chodesj"
 
@@ -460,6 +469,9 @@ msgstr "Tisjri"
 msgid "Rosh Hashana"
 msgstr "Rosj Hasjana"
 
+msgid "Rosh Hashana LaBehemot"
+msgstr "Rosj Hasjana LaBehemot"
+
 msgid "Rosh Hashana I"
 msgstr "Rosj Hasjana I"
 
@@ -493,6 +505,9 @@ msgstr "Sjabbat Sjekaliem"
 msgid "Shabbat Shuva"
 msgstr "Sjabbat Sjoeva"
 
+msgid "Shabbat Shirah"
+msgstr "Sjabbat Sjira"
+
 msgid "Shabbat Zachor"
 msgstr "Sjabbat Zachor"
 
@@ -510,6 +525,9 @@ msgstr "Sjemini Atseret"
 
 msgid "Shushan Purim"
 msgstr "Sjoesjaan Poeriem"
+
+msgid "Shushan Purim Katan"
+msgstr "Sjoesjaan Poeriem Katan"
 
 msgid "Sigd"
 msgstr "Sigd"

@@ -157,6 +157,9 @@ msgstr "Beshalach"
 msgid "Bo"
 msgstr "Bo"
 
+msgid "Birkat Hachamah"
+msgstr "Birkat hachama"
+
 msgid "Chayei Sara"
 msgstr "Chajei Sara"
 
@@ -301,6 +304,9 @@ msgstr "Kynttilöiden sytytys"
 msgid "Chanukah"
 msgstr "Hanuka"
 
+msgid "Chag HaBanot"
+msgstr "Chag habanot"
+
 msgid "Chanukah: 1 Candle"
 msgstr "Hanuka 1. kynttilä"
 
@@ -403,6 +409,9 @@ msgstr "Purim"
 msgid "Purim Katan"
 msgstr "Purim katan"
 
+msgid "Purim Meshulash"
+msgstr "Purim meshulash"
+
 msgid "Rosh Chodesh"
 msgstr "Rosh chodesh"
 
@@ -448,6 +457,9 @@ msgstr "Tevet"
 msgid "Rosh Hashana"
 msgstr "Rosh hashana"
 
+msgid "Rosh Hashana LaBehemot"
+msgstr "Rosh hashana labehemot"
+
 msgid "Rosh Hashana I"
 msgstr "Rosh hashana 1. päivä"
 
@@ -481,6 +493,9 @@ msgstr "Shabat shkalim"
 msgid "Shabbat Shuva"
 msgstr "Shabat shuva"
 
+msgid "Shabbat Shirah"
+msgstr "Shabat shira"
+
 msgid "Shabbat Zachor"
 msgstr "Shabat zachor"
 
@@ -498,6 +513,9 @@ msgstr "Shmini atseret"
 
 msgid "Shushan Purim"
 msgstr "Shushan purim"
+
+msgid "Shushan Purim Katan"
+msgstr "Shushan purim katan"
 
 msgid "Sigd"
 msgstr "Sigd"

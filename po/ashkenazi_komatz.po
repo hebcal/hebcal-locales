@@ -162,11 +162,17 @@ msgstr "B'shalach"
 msgid "Bo"
 msgstr "Bo"
 
+msgid "Birkat Hachamah"
+msgstr "Birkas Hachamo"
+
 msgid "Chagigah"
 msgstr "Chogigo"
 
 msgid "Chanukah"
 msgstr "Chanuko"
+
+msgid "Chag HaBanot"
+msgstr "Chag HaBonos"
 
 msgid "Chanukah: 1 Candle"
 msgstr "Chanuko: 1 Candle"
@@ -426,6 +432,9 @@ msgstr "Purim"
 msgid "Purim Katan"
 msgstr "Purim Koton"
 
+msgid "Purim Meshulash"
+msgstr "Purim Meshulash"
+
 msgid "Pinchas"
 msgstr "Pinchos"
 
@@ -486,6 +495,9 @@ msgstr "Shabbos Shekolim"
 msgid "Shabbat Shuva"
 msgstr "Shabbos Shuvo"
 
+msgid "Shabbat Shirah"
+msgstr "Shabbos Shiro"
+
 msgid "Shabbat Zachor"
 msgstr "Shabbos Zochor"
 
@@ -521,6 +533,9 @@ msgstr "Sh'mini Atzeres"
 
 msgid "Shushan Purim"
 msgstr "Shushon Purim"
+
+msgid "Shushan Purim Katan"
+msgstr "Shushon Purim Koton"
 
 msgid "Sigd"
 msgstr "Sigd"

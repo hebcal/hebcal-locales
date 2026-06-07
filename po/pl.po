@@ -154,6 +154,9 @@ msgstr "Beszalach"
 msgid "Bo"
 msgstr ""
 
+msgid "Birkat Hachamah"
+msgstr "Birkat Hachama"
+
 msgid "Chayei Sara"
 msgstr "Chaje Sara"
 
@@ -298,6 +301,9 @@ msgstr "Zapalenie świec"
 msgid "Chanukah"
 msgstr "Chanuka"
 
+msgid "Chag HaBanot"
+msgstr "Chag HaBanot"
+
 msgid "Chanukah: 1 Candle"
 msgstr "Chanuka: Pierwsza świeca"
 
@@ -400,6 +406,9 @@ msgstr ""
 msgid "Purim Katan"
 msgstr ""
 
+msgid "Purim Meshulash"
+msgstr "Purim Meszulasz"
+
 msgid "Rosh Chodesh"
 msgstr "Rosz Chodesz"
 
@@ -445,6 +454,9 @@ msgstr ""
 msgid "Rosh Hashana"
 msgstr "rosz Haszana"
 
+msgid "Rosh Hashana LaBehemot"
+msgstr "Rosz Haszana LaBehemot"
+
 msgid "Rosh Hashana I"
 msgstr "Rosz Haszana I"
 
@@ -478,6 +490,9 @@ msgstr "Szabbat Szekalim"
 msgid "Shabbat Shuva"
 msgstr "Szabbat Szuva"
 
+msgid "Shabbat Shirah"
+msgstr "Szabbat Szira"
+
 msgid "Shabbat Zachor"
 msgstr "Szabbat Zachor"
 
@@ -495,6 +510,9 @@ msgstr "Szmini Aceret"
 
 msgid "Shushan Purim"
 msgstr "Szuszan Purim"
+
+msgid "Shushan Purim Katan"
+msgstr "Szuszan Purim Katan"
 
 msgid "Sigd"
 msgstr ""
@@ -564,6 +582,9 @@ msgstr "Jom HaZikaron"
 
 msgid "Yom Kippur"
 msgstr "Jom Kippur"
+
+msgid "Yom HaAliyah"
+msgstr "Jom HaAliyah"
 
 msgid "Yom Yerushalayim"
 msgstr "Jom Yerushalayim"

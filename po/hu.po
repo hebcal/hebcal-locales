@@ -158,6 +158,9 @@ msgstr "Bösálách"
 msgid "Bo"
 msgstr "Bo"
 
+msgid "Birkat Hachamah"
+msgstr "Birkát Háchámá"
+
 msgid "Chayei Sara"
 msgstr "Chájé Szárá"
 
@@ -302,6 +305,9 @@ msgstr "Gyertyagyújtás"
 msgid "Chanukah"
 msgstr "Chánuká"
 
+msgid "Chag HaBanot"
+msgstr "Chág HáBánot"
+
 msgid "Chanukah: 1 Candle"
 msgstr "Chánuká: 1 gyertya"
 
@@ -404,6 +410,9 @@ msgstr "Purim"
 msgid "Purim Katan"
 msgstr "Purim Kátán"
 
+msgid "Purim Meshulash"
+msgstr "Purim Mesulás"
+
 msgid "Rosh Chodesh"
 msgstr "Ros chódes"
 
@@ -449,6 +458,9 @@ msgstr "Tévét"
 msgid "Rosh Hashana"
 msgstr "Ros hásáná"
 
+msgid "Rosh Hashana LaBehemot"
+msgstr "Ros hásáná LáBehemot"
+
 msgid "Rosh Hashana I"
 msgstr "Ros hásáná I"
 
@@ -482,6 +494,9 @@ msgstr "Sábát Skálim"
 msgid "Shabbat Shuva"
 msgstr "Sábát Suvá"
 
+msgid "Shabbat Shirah"
+msgstr "Sábát Sirá"
+
 msgid "Shabbat Zachor"
 msgstr "Sábát Záchor"
 
@@ -499,6 +514,9 @@ msgstr "Smini áceret"
 
 msgid "Shushan Purim"
 msgstr "Susán purim"
+
+msgid "Shushan Purim Katan"
+msgstr "Susán purim Kátán"
 
 msgid "Sigd"
 msgstr "Sigd"

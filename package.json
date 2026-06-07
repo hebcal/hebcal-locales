@@ -1,6 +1,6 @@
 {
   "name": "@hebcal/locales",
-  "version": "6.5.0",
+  "version": "6.5.1",
   "description": "Translations for Hebcal events in multiple languages",
   "module": "dist/index.js",
   "type": "module",
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/hdate": "^0.22.3"
+    "@hebcal/hdate": "^0.22.4"
   },
   "files": [
     "dist",
