@@ -451,6 +451,9 @@ msgstr "Rosh Hashanah I"
 msgid "Rosh Hashana II"
 msgstr "Rosh Hashanah II"
 
+msgid "Rosh Hashana LaBehemot"
+msgstr "Rosh Hashanah LaBeheimos"
+
 msgid "Sanhedrin"
 msgstr "Sanhedrin"
 

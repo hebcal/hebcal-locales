@@ -504,6 +504,9 @@ msgstr "Reish Hashono I"
 msgid "Rosh Hashana II"
 msgstr "Reish Hashono II"
 
+msgid "Rosh Hashana LaBehemot"
+msgstr "Reish Hashono LaBeheimos"
+
 msgid "Shabbat Chazon"
 msgstr "Shabbos Chazon"
 

@@ -518,6 +518,9 @@ msgstr "Roş Haşono I"
 msgid "Rosh Hashana II"
 msgstr "Roş Haşono II"
 
+msgid "Rosh Hashana LaBehemot"
+msgstr "Roş Haşono LaBeheimos"
+
 msgid "Shabbat Chazon"
 msgstr "Şavos Ĥazon"
 
