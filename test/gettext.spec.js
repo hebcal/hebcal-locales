@@ -14,6 +14,10 @@ test('ro', (t) => {
   t.is(Locale.gettext('Pesach I', 'ro'), 'Pesaĥ I');
 });
 
+test('ashkenazi_litvish', (t) => {
+  t.is(Locale.gettext('Rosh Hashana', 'ashkenazi_litvish'), 'Reish Hashono');
+});
+
 test('ashkenazi_romanian', (t) => {
   t.is(Locale.gettext('Pesach I', 'ashkenazi_romanian'), 'Peisaĥ I');
 });
