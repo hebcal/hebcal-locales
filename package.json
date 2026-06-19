@@ -30,12 +30,11 @@
     "po2json": "node ./po2json.js po/*.po",
     "build": "npm run po2json && npm run build:rollup",
     "prepublish": "npm run build",
-    "test": "ava"
+    "test": "node --test"
   },
   "devDependencies": {
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-terser": "^1.0.0",
-    "ava": "^8.0.1",
     "gettext-parser": "^9.0.2",
     "rollup": "^4.61.1"
   }
