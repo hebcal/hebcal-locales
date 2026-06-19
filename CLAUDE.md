@@ -34,7 +34,7 @@ One `.po` file per locale:
 npm run build       # = po2json + build:rollup
 npm run po2json      # po/*.po -> src/<locale>.po.js, src/<locale>.js, src/index.js
 npm run build:rollup # src/ -> dist/ (ES modules + IIFE bundles, via rollup)
-npm test             # ava (test/gettext.spec.js)
+npm test             # node --test (test/gettext.spec.js)
 ```
 
 `po2json.js` parses each `.po` with `gettext-parser` and emits a compact JSON dict
