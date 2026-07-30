@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/hebcal/hebcal-locales#readme",
   "dependencies": {
-    "@hebcal/hdate": "^0.22.4"
+    "@hebcal/hdate": "^0.22.7"
   },
   "files": [
     "dist",
@@ -33,9 +33,8 @@
     "test": "node --test"
   },
   "devDependencies": {
-    "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-terser": "^1.0.0",
-    "gettext-parser": "^9.0.2",
-    "rollup": "^4.62.2"
+    "gettext-parser": "^9.1.1",
+    "rollup": "^4.62.3"
   }
 }
