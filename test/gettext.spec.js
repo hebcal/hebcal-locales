@@ -80,3 +80,32 @@ test('getLocaleNames', () => {
   assert.ok(names.includes('he-x-nonikud'));
   assert.ok(names.includes('yi'));
 });
+
+test('hebcal-web strings merged into existing locales', () => {
+  assert.strictEqual(Locale.gettext('Shabbat Times for', 'es'), 'Horarios de Shabat para');
+  assert.strictEqual(Locale.gettext('occurs on', 'fr'), 'a lieu le');
+  assert.strictEqual(Locale.gettext('on', 'nl'), 'op');
+  assert.strictEqual(Locale.gettext('This week’s Torah portion is', 'pt'), 'A porção da Torá desta semana é');
+  // existing translations are untouched
+  assert.strictEqual(Locale.gettext('Pesach I', 'es'), 'Pésaj I');
+});
+
+test('en adds to the built-in locale', () => {
+  assert.strictEqual(Locale.gettext('TITLE:chatzotNight', 'en'), 'Chatzot HaLailah');
+  assert.strictEqual(Locale.gettext('MEMO:alotHaShachar', 'en'), 'Sun is 16.1° below the horizon in the morning');
+});
+
+test('ashkenazi adds to the built-in locale', () => {
+  assert.strictEqual(Locale.gettext('Shabbat Times for', 'ashkenazi'), 'Shabbos Times for');
+  // built-in translations from @hebcal/hdate are preserved
+  assert.strictEqual(Locale.gettext('Tevet', 'ashkenazi'), 'Teves');
+});
+
+test('he and he-x-NoNikud', () => {
+  assert.strictEqual(Locale.gettext('Shabbat Times for', 'he'), 'זְמַנֵּי שַׁבָּת');
+  assert.strictEqual(Locale.gettext('Shabbat Times for', 'he-x-NoNikud'), 'זמני שבת');
+  // he-x-NoNikud.po override wins over the nikud-stripped he.po
+  assert.strictEqual(Locale.gettext('Latest Kiddush Levana (15 days)', 'he-x-NoNikud'), 'סוף זמן קידוש לבנה (15 ימים)');
+  // built-in translations from @hebcal/hdate are preserved
+  assert.strictEqual(Locale.gettext('Elul', 'he'), 'אֱלוּל');
+});

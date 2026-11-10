@@ -720,3 +720,15 @@ msgstr "Diáspora"
 
 msgid "Jewish Calendar"
 msgstr "Calendario judío"
+
+msgid "Shabbat Times for"
+msgstr "Horarios de Shabat para"
+
+msgid "This week’s Torah portion is"
+msgstr "La parashá de la semana es"
+
+msgid "on"
+msgstr "en el"
+
+msgid "occurs on"
+msgstr "se celebra el"

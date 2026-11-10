@@ -732,3 +732,15 @@ msgstr "Diaspora"
 
 msgid "Jewish Calendar"
 msgstr "Joodse kalender"
+
+msgid "Shabbat Times for"
+msgstr "Sjabbat-tijden voor"
+
+msgid "This week’s Torah portion is"
+msgstr "De Toraportie van deze week is"
+
+msgid "occurs on"
+msgstr "valt op"
+
+msgid "on"
+msgstr "op"

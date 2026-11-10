@@ -24,9 +24,26 @@ One `.po` file per locale:
   for `ashkenazi_standard`).
 - `de`, `es`, `fi`, `fr`, `hu`, `nl`, `pl`, `pt`, `ro`, `ru`, `uk` — European languages.
 - `yi` — Yiddish (Hebrew script).
-- `he` — special: contains only structural strings (`Israel`, `Diaspora`,
-  `Jewish Calendar`) with nikud, **not** holiday names. The canonical Hebrew holiday
-  names live in `@hebcal/core`. Do not add holiday msgids to `he.po`.
+- `he` — special: contains structural strings (`Israel`, `Diaspora`,
+  `Jewish Calendar`) and hebcal.com website strings (Shabbat page headings,
+  zmanim names, Kiddush Levana) with nikud, **not** holiday names. The canonical
+  Hebrew holiday names live in `@hebcal/core`. Do not add holiday msgids to `he.po`.
+  Some zmanim msgids here deliberately differ from `@hebcal/core`'s `he.po`
+  (e.g. `Sunset` → `שְׁקִיעָה`); hebcal.com relies on these winning, which works
+  because `addTranslations` merges and this package is evaluated after core's
+  `locale.js`.
+- `he-x-NoNikud` — not a standalone locale. `he.js` derives `he-x-NoNikud` from
+  `he.po` by stripping nikud, then applies `he-x-NoNikud.po` on top as an override.
+  Add an entry there only when stripping nikud would leave a word ambiguous
+  (a cholam/chirik that must be written out as a vav/yud _mater lectionis_).
+- `en`, `ashkenazi` — hebcal.com website strings layered onto the locales
+  `@hebcal/hdate` already registers. `en.po` holds the `TITLE:<zman>` /
+  `MEMO:<zman>` strings for the zmanim pages. Note that `en` is hdate's no-op
+  locale, so these also become the fallback when no locale is given.
+
+`po2json.js` emits `Locale.addTranslations()` (merge) for the built-in locales
+`en`, `he` and `ashkenazi`, and `Locale.addLocale()` (replace) for everything else.
+The merged hebcal.com strings came from `hebcal-web/po/`, which no longer exists.
 
 ## Build pipeline
 

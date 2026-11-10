@@ -3,19 +3,44 @@ import path from 'node:path';
 import {po} from 'gettext-parser';
 
 const folderName = './src';
+
+// Locales that @hebcal/hdate (and @hebcal/core) already register.
+// For these we merge our strings into the existing dictionary with
+// Locale.addTranslations() instead of replacing it with Locale.addLocale().
+const builtinLocales = new Set(['en', 'he', 'ashkenazi']);
+
+// `he-x-NoNikud` is not a standalone locale: it is derived from `he` by
+// stripping nikud, and `po/he-x-NoNikud.po` is then applied on top as an
+// override for words that would be ambiguous without vowel marks.
+const noNikudOverride = 'he-x-NoNikud';
+
+if (!fs.existsSync(folderName)) {
+  fs.mkdirSync(folderName);
+}
+
+const args = process.argv.slice(2);
+const hasNoNikudOverride = args.some(
+    (arg) => localeName(path.basename(arg)) === noNikudOverride);
 const locales = [];
-for (const arg of process.argv.slice(2)) {
+for (const arg of args) {
   const bn = path.basename(arg);
   const outpath = path.join(folderName, bn + '.js');
   console.log(`${arg} => ${outpath}`);
   writePoFile(arg, outpath);
-  const locale = bn.substring(0, bn.indexOf('.'));
-  const outpath2 = path.join(folderName, bn.substring(0, bn.indexOf('.')) + '.js');
+  const locale = localeName(bn);
+  if (locale === noNikudOverride) {
+    continue; // imported by he.js
+  }
+  const outpath2 = path.join(folderName, locale + '.js');
   writeImportFile(locale, outpath2);
   locales.push(locale);
 }
 
 writeIndexJs(folderName, locales);
+
+function localeName(basename) {
+  return basename.substring(0, basename.indexOf('.'));
+}
 
 function assertHeader(name, value) {
   if (!value) {
@@ -54,9 +79,15 @@ function writePoFile(inpath, outpath) {
 
 function writeImportFile(locale, outpath) {
   const outstream = fs.createWriteStream(outpath, {flags: 'w'});
-  const fn = locale === 'he' ? 'addTranslations' : 'addLocale';
+  const fn = builtinLocales.has(locale) ? 'addTranslations' : 'addLocale';
   outstream.write(`import {Locale} from '@hebcal/hdate';
 import poData from './${locale}.po.js';
+`);
+  if (locale === 'he' && hasNoNikudOverride) {
+    outstream.write(`import noNikudOverride from './${noNikudOverride}.po.js';
+`);
+  }
+  outstream.write(`
 Locale.${fn}('${locale}', poData);
 `);
   if (locale === 'he') {
@@ -64,14 +95,15 @@ Locale.${fn}('${locale}', poData);
 const poHeNoNikud = Locale.copyLocaleNoNikud(poData);
 Locale.addTranslations('he-x-NoNikud', poHeNoNikud);
 `);
+    if (hasNoNikudOverride) {
+      outstream.write(`Locale.addTranslations('he-x-NoNikud', noNikudOverride);
+`);
+    }
   }
   outstream.end();
 }
 
 function writeIndexJs(folderName, locales) {
-  if (!fs.existsSync(folderName)) {
-    fs.mkdirSync(folderName);
-  }
   const outpath = path.join(folderName, 'index.js');
   const outstream = fs.createWriteStream(outpath, {flags: 'w'});
   for (const locale of locales) {

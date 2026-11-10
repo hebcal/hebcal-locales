@@ -22,6 +22,11 @@ Adds support for the following locales:
 Note that `@hebcal/core` has built-in support for `he` and `ashkenazi` locales.
 This package is needed only if you need other locales.
 
+This package also adds hebcal.com website strings (Shabbat times page
+headings, zmanim titles and descriptions, etc.) to the built-in `en`, `he`,
+`he-x-NoNikud` and `ashkenazi` locales. Those are merged into the existing
+dictionaries, so the built-in holiday translations are preserved.
+
 ## Installation
 ```bash
 $ npm install @hebcal/locales
