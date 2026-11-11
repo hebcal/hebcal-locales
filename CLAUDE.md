@@ -26,7 +26,8 @@ One `.po` file per locale:
 - `yi` — Yiddish (Hebrew script).
 - `he` — special: contains structural strings (`Israel`, `Diaspora`,
   `Jewish Calendar`) and hebcal.com website strings (Shabbat page headings,
-  zmanim names, Kiddush Levana) with nikud, **not** holiday names. The canonical
+  zmanim names, Kiddush Levana) with nikud, **not** holiday names. It also holds
+  the Hebrew Sefaria parsha summaries (see `MEMO:<parsha>` below). The canonical
   Hebrew holiday names live in `@hebcal/core`. Do not add holiday msgids to `he.po`.
   Some zmanim msgids here deliberately differ from `@hebcal/core`'s `he.po`
   (e.g. `Sunset` → `שְׁקִיעָה`); hebcal.com relies on these winning, which works
@@ -40,6 +41,19 @@ One `.po` file per locale:
   `@hebcal/hdate` already registers. `en.po` holds the `TITLE:<zman>` /
   `MEMO:<zman>` strings for the zmanim pages. Note that `en` is hdate's no-op
   locale, so these also become the fallback when no locale is given.
+
+### Parsha summaries: `MEMO:<parsha>`
+
+`en.po` and `he.po` carry Sefaria's prose summary of each weekly Torah portion
+(scraped from sefaria.org / sefaria.org.il topic pages), keyed `MEMO:` + the
+`@hebcal/core` parsha name exactly as `ev.getDesc()` gives it after
+`Parashat ` (e.g. `MEMO:Lech-Lecha`, `MEMO:Beha'alotcha`, `MEMO:Achrei Mot`).
+There are no entries for doubled parshiyot (`Vayakhel-Pekudei`); hebcal-web
+joins the two halves. The Hebrew text is unvocalized, so the derived
+`he-x-NoNikud` gets the same string. These used to live in hebcal-web's
+`src/drash.json` (`sefaria.summaryEn`/`summaryHe`). Sefaria edits the prose over
+time and sometimes embeds Markdown; flatten `[text](url)` and `*emphasis*` to
+plain text when re-scraping, and escape `"` as `\"` in the `.po`.
 
 `po2json.js` emits `Locale.addTranslations()` (merge) for the built-in locales
 `en`, `he` and `ashkenazi`, and `Locale.addLocale()` (replace) for everything else.

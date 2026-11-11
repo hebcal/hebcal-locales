@@ -258,3 +258,168 @@ msgstr "Latest Kiddush Levana (15 days)"
 
 msgid "MEMO:sofZmanKidushLevana15Days"
 msgstr "Latest time to recite Kiddush Levana according to the Shulchan Aruch (15 days after the molad). Moved back to alot haShachar if it falls during the day"
+
+# Parsha summaries from Sefaria (sefaria.org topics, parashat-*).
+# msgid is "MEMO:" followed by the @hebcal/core parsha name.
+
+msgid "MEMO:Bereshit"
+msgstr "Bereshit (“In the Beginning”) is the first parashah in the annual Torah reading cycle, which restarts at the beginning of the book of Genesis. The reading begins with God’s creation of the world. The first people, Adam and Eve, eat from the Tree of Knowledge and are then banished from the Garden of Eden. Their elder son, Cain, kills their younger son, Abel, and Cain is destined to a life of wandering."
+
+msgid "MEMO:Noach"
+msgstr "Noach (“Noah”) begins as God decides to destroy mankind with a flood. At God’s command, the righteous Noah builds an ark, where Noah, his family, and select animals survive the flood. Noah’s children bear children, and several generations develop. God confounds the speech of people building the Tower of Babel."
+
+msgid "MEMO:Lech-Lecha"
+msgstr "Lech Lecha (“Go Forth”) recounts Abraham’s (here known as Abram) first encounter with God, his journey to Canaan, the birth of his son Ishmael, the covenant between him, his descendants, and God, and God’s commandment to circumcise the males of his household."
+
+msgid "MEMO:Vayera"
+msgstr "Vayera (“He Appeared”) opens as guests inform Abraham that Sarah will give birth. Despite Abraham’s attempts to convince God otherwise, God destroys the cities of Sodom and Gomorrah. Sarah gives birth to Isaac, and Abraham sends away Hagar and Ishmael. At God’s command, Abraham prepares to sacrifice Isaac, but an angel of God tells Abraham to offer a ram instead."
+
+msgid "MEMO:Chayei Sara"
+msgstr "Chayyei Sarah (“The Life of Sarah”) opens as Sarah dies and Abraham buys the Cave of Machpelah to bury her. Abraham sends his servant to find a wife for Isaac. The servant meets Rebecca at a well, and Rebecca returns with the servant to marry Isaac. Abraham remarries, has more children, and dies at age 175."
+
+msgid "MEMO:Toldot"
+msgstr "Toldot (“Generations”) opens with the births of Isaac and Rebecca’s twins, Jacob and Esau. Esau sells his birthright to Jacob in exchange for soup. Isaac and Rebecca travel to Gerar, where Isaac makes a peace treaty with King Abimelech. Isaac gives Jacob the blessing meant for Esau, and Jacob runs away to his uncle Laban."
+
+msgid "MEMO:Vayetzei"
+msgstr "Vayeitzei (“He Went Out”) opens as Jacob dreams about angels going up and down a ladder, and then continues on his journey toward the home of his uncle Laban. During years of indentured servitude, Jacob marries Laban’s daughters Leah and Rachel, bearing children with them and with their maidservants, Bilhah and Zilpah."
+
+msgid "MEMO:Vayishlach"
+msgstr "Vayishlach (“He Sent”) follows Jacob and his family as Jacob wrestles with a man (commonly understood as an angel), is renamed Israel, and reconciles with his brother, Esau. Jacob’s daughter, Dina, is raped by a Hivite prince, and her brothers sack a city in response. Rachel dies as she gives birth to Jacob’s youngest child, Benjamin."
+
+msgid "MEMO:Vayeshev"
+msgstr "Vayeshev (“He Settled”) begins the story of Joseph, describing his rivalry with his brothers, slavery in Egypt, and imprisonment after his master’s wife frames him in response to Joseph’s refusal of her advances. It also contains the story of Tamar, her husbands, and her father-in-law, Judah."
+
+msgid "MEMO:Miketz"
+msgstr "Mikketz (“After”) follows Joseph as he interprets Pharaoh’s dreams and rises to become second-in-command to Pharaoh. When Joseph’s brothers come to Egypt seeking food during a famine, Joseph accuses them of spying. He insists that they return with their youngest brother, Benjamin, and later plants a goblet in Benjamin’s bag."
+
+msgid "MEMO:Vayigash"
+msgstr "Vayiggash (“He Approached”) opens as Judah pleads with Joseph not to keep Benjamin as a prisoner. Joseph reveals his true identity to his brothers, crying and kissing them. The brothers bring Jacob from Canaan to Egypt, and Jacob and his children settle in Goshen. The portion ends as Joseph buys most of Egypt’s land in exchange for food."
+
+msgid "MEMO:Vayechi"
+msgstr "Vayechi (“He Lived”) is the final Torah portion in the Book of Genesis. It opens as Jacob prepares for his death, making his son Joseph swear to bury him in the Cave of Machpelah. Jacob blesses Joseph’s two sons and his own 12 sons and then dies. Jacob’s sons bury him. The portion ends with Joseph’s death."
+
+msgid "MEMO:Shemot"
+msgstr "Shemot (“Names”) is the first Torah reading in the book of Exodus. It opens describing the enslavement of the Israelites in Egypt. Moses is born, placed in a basket on the Nile, and adopted into Pharaoh’s household. He later encounters God at a burning bush and begins his mission of demanding that Pharaoh let the Israelites go."
+
+msgid "MEMO:Vaera"
+msgstr "Vaera (“I Appeared”) opens as God promises to redeem the enslaved Israelites and bring them to the Promised Land. When Pharaoh repeatedly refuses to let the Israelites go, God sends a series of plagues: water turning to blood, frogs, lice, wild animals, death of livestock, boils, and hail."
+
+msgid "MEMO:Bo"
+msgstr "Bo (“Come”) recounts the last three plagues that God inflicts on the Egyptians: locusts, darkness, and death of firstborns. God commands the Israelites to offer a Passover lamb sacrifice. After the last plague, Pharaoh and the Egyptians demand that the Israelites leave."
+
+msgid "MEMO:Beshalach"
+msgstr "Beshalach (“When He Let Go”) describes the splitting of the Red Sea and the song the Israelites sing upon crossing through. In the desert, God sweetens bitter water and provides manna and quail. The portion ends recounting the victory of the Israelites against an attack by the Amalekites."
+
+msgid "MEMO:Yitro"
+msgstr "Yitro (“Jethro”) begins as Moses reunites with his father-in-law Yitro and accepts his advice to appoint judges who will help govern the Israelites. The Israelites prepare to encounter God at Mount Sinai. God descends amidst fire, smoke, thunder, and the blast of a shofar and gives the Ten Commandments."
+
+msgid "MEMO:Mishpatim"
+msgstr "Mishpatim (“Laws”) recounts a series of God’s laws that Moses gives to the Israelites. These include laws about treatment of slaves, damages, loans, returning lost property, the Sabbath, the sabbatical year, holidays, and destroying idolatry. The portion ends as Moses ascends Mount Sinai for 40 days."
+
+msgid "MEMO:Terumah"
+msgstr "Terumah (“Donation”) opens as God tells Moses to collect donated materials in order to build a dwelling place for God called the Mishkan (Tabernacle). God describes how to build the vessels that will fill the Mishkan – including the ark, table, menorah, and sacrificial altar – as well as the Mishkan’s walls and curtains."
+
+msgid "MEMO:Tetzaveh"
+msgstr "Tetzaveh (“You Shall Command”) opens as God instructs Moses to appoint Aaron and his sons as priests. God details how to make the priestly clothing, how to sanctify the priests and offer sacrifices during the seven days of inauguration in the Mishkan (Tabernacle), and how to build the golden altar."
+
+msgid "MEMO:Ki Tisa"
+msgstr "Ki-Tisa (“When You Elevate”) opens as God tells Moses to collect a half-shekel donation from all Israelite adult males and to anoint the Mishkan (Tabernacle), its vessels, and the priests. The Israelites worship the golden calf, and Moses breaks the tablets. Moses beseeches God to forgive, returning with a second set of tablets."
+
+msgid "MEMO:Vayakhel"
+msgstr "Vayakhel (“He Assembled”) opens as God commands the Israelites to observe the Sabbath. Moses asks for material donations for the building of the Mishkan (Tabernacle), and the people donate. A group of artisans designated by God begin building the Mishkan and its vessels."
+
+msgid "MEMO:Pekudei"
+msgstr "Pekudei (“Accountings Of”) is the final Torah reading in the book of Exodus. It describes the making of priestly garments worn in the Mishkan (Tabernacle) and the completion of its construction. At God’s command, Moses erects the Mishkan and puts its vessels in place, and God’s presence fills the Mishkan."
+
+msgid "MEMO:Vayikra"
+msgstr "In Vayikra (“He Called”), the first Torah portion in the book of Leviticus, God tells Moses about the sacrifices offered in the Mishkan (Tabernacle). Among these are sacrifices entirely burnt on the altar, meal offerings made of flour and oil, peace offerings, and sacrifices brought for sinning inadvertently."
+
+msgid "MEMO:Tzav"
+msgstr "In Tzav (“Command”), God tells Moses about the sacrifices offered in the Tabernacle (portable sanctuary), including a meal offering brought by the high priest, guilt offerings, and offerings of thanks. Moses initiates Aaron and Aaron’s sons for priestly service in the Tabernacle."
+
+msgid "MEMO:Shmini"
+msgstr "Shemini (“Eighth”) opens with the consecration of the Tabernacle (portable sanctuary). Two of Aaron’s sons are consumed by a fire sent from God when they attempt to offer an “alien fire.” God describes the animals, birds, and fish that are permissible and prohibited for consumption, as well as some laws of ritual purity."
+
+msgid "MEMO:Tazria"
+msgstr "Tazria (“She Bears Seed”) opens by describing the purification process for a woman after childbirth. It then describes different forms of tzara’at, a discoloration condition on skin or clothing, and the requirement of an infected person to dwell alone outside the camp and be inspected by a priest."
+
+msgid "MEMO:Metzora"
+msgstr "Metzora opens by describing the purification process and accompanying sacrifices for one infected with tzara’at, a discoloration condition on the skin, clothing, or house. It then describes the process of treating a house infected with tzara’at and the ritual impurity generated by certain bodily discharges."
+
+msgid "MEMO:Achrei Mot"
+msgstr "Acharei Mot (“After The Death”) opens by describing the ritual service of Yom Kippur, the Day of Atonement. It then details the prohibitions of offering sacrifices outside of the Tabernacle and of eating animal blood and ends with a list of forbidden sexual relations."
+
+msgid "MEMO:Kedoshim"
+msgstr "Kedoshim (“Holy”) opens by instructing the Israelites to be holy. It details dozens of laws regulating all aspects of life, including observing Shabbat, loving one’s neighbor, and leaving portions of a field for the poor. It ends by detailing punishments for certain types of idolatry and sexual misconduct."
+
+msgid "MEMO:Emor"
+msgstr "Emor (“Say”) opens with laws regulating priestly behavior, working in the Tabernacle, and consuming sacrifices and priestly food. It describes the biblical holidays of Passover, Shavuot, Rosh Hashanah, Yom Kippur, and Sukkot, and ends with a story about a blasphemer and his punishment."
+
+msgid "MEMO:Behar"
+msgstr "Behar (“On The Mountain”) details the laws of the sabbatical year (shemittah), when working the land is prohibited and debts are forgiven. It also sets out laws of indentured servitude and of the jubilee year (yovel), when property reverts to its original ownership."
+
+msgid "MEMO:Bechukotai"
+msgstr "Bechukotai (“In My Laws”), the final Torah portion in the book of Leviticus, describes blessings that follow obedience to God’s laws and curses that come with desecration of them. It ends with the laws of vows and consecration of people and property."
+
+msgid "MEMO:Bamidbar"
+msgstr "Bamidbar (“In The Desert”) is the first Torah portion in the book of Numbers. It describes God’s command to take a census and details the camping formation of the people of Israel in the desert. It also begins to enumerate the responsibilities of the Levites when transporting the Tabernacle."
+
+msgid "MEMO:Nasso"
+msgstr "Naso (“Take A Census”), the longest portion in the Torah, opens by detailing the responsibilities of the Levites. It also describes the laws of a woman suspected of adultery (sotah), the Nazirite, and the priestly blessing. The portion ends by listing the gifts that heads of tribes bring to the Tabernacle."
+
+msgid "MEMO:Beha'alotcha"
+msgstr "Beha’alotekha (“When You Raise”) opens with God instructing Moses to inaugurate the Levites for service in the Tabernacle. It also recounts the stories of people who request a second chance to offer the Passover sacrifice, the people of Israel’s complaints and punishments, and a disease that affects Miriam."
+
+msgid "MEMO:Sh'lach"
+msgstr "Shelach (“Send”) tells the story of Israelite spies journeying into Canaan, the negative report they bring back, and the resulting punishment decreed upon the Israelites: to wander and die in the desert over forty years. It ends with laws about sacrifices, the story of a man who desecrates Shabbat, and the commandment to wear ritual fringes."
+
+msgid "MEMO:Korach"
+msgstr "Parashat Korach recounts the rebellion of Korach (a cousin of Moses and Aaron), Dathan, Abiram, and 250 of their followers. Some rebels are swallowed by the ground, while others are consumed by a fire from God and others die in a plague. The portion ends by describing gifts given to priests and Levites."
+
+msgid "MEMO:Chukat"
+msgstr "Chukat (“Law Of”) opens by describing the process of burning the red heifer and using its ashes for purification. It also tells the stories of the deaths of Miriam and Aaron, Moses’ striking of a rock to bring forth water, a plague of venomous snakes, and battles against the Emorite kings Sihon and Og."
+
+msgid "MEMO:Balak"
+msgstr "Balak tells the story of the Moabite king Balak, who hires Balaam to curse the Israelites. Balaam’s donkey speaks along the way, and Balaam ends up blessing the people of Israel. The portion ends with a story about Israelite men sinning with Moabite women and the stabbing of an Israelite and a Midianite."
+
+msgid "MEMO:Pinchas"
+msgstr "Pinchas opens with God’s promise of a “covenant of peace” for the zealot Pinchas, followed by a census. The daughters of Tzelofchad request and receive new laws regarding inheritance. God instructs Moses to prepare Joshua for leadership, and God describes sacrifices brought daily and on special occasions."
+
+msgid "MEMO:Matot"
+msgstr "Matot (“Tribes”) opens with laws about vows, and continues to describe the Israelites’ war against the Midianites and the allocation of spoils. The tribes of Reuben and Gad request to dwell outside of the Land of Israel, and Moses acquiesces on the condition that they help conquer it."
+
+msgid "MEMO:Masei"
+msgstr "Masei (“Travels”), the final Torah portion in the book of Numbers, opens with a list of places that the Israelites traveled in the desert. God commands the Israelites to destroy idolatry in the Land of Israel, outlines Israel’s boundaries, and details the laws of cities of refuge for accidental killers."
+
+msgid "MEMO:Devarim"
+msgstr "Devarim (“Words”) is the first Torah portion in the Book of Deuteronomy, the final book of the Torah. In it, Moses recounts events from the Israelites’ travels in the desert, like the appointment of judges, the sin of the spies, and the wars with the Emorite kings Sihon and Og."
+
+msgid "MEMO:Vaetchanan"
+msgstr "Vaetchanan (“I Pleaded”) opens as Moses describes his pleading with God to be allowed into the Land of Israel. Moses warns the Israelites not to pursue idolatry and recounts the giving of the Ten Commandments. The portion also contains the Shema, a declaration of faith and a central text in Jewish prayer."
+
+msgid "MEMO:Eikev"
+msgstr "In Eikev (“As a Result”), Moses recounts events that happened in the desert, including the manna, the golden calf, and Aaron’s death. Moses describes the blessings God will bestow upon the Israelites if they follow God’s law and the punishments they will encounter if they disobey."
+
+msgid "MEMO:Re'eh"
+msgstr "Re’eh (“See”) details a series of laws in advance of the Israelites’ entrance into the Land of Israel. These include the obligation to destroy idolatry, laws of tithing and charity, dietary laws, holiday laws, and the prohibition of offering sacrifices outside of the place designated by God."
+
+msgid "MEMO:Shoftim"
+msgstr "Shoftim (“Judges”) discusses guidelines of leadership, opening with a command to appoint judges and continuing to detail laws of kings, priests, and prophets. It also describes laws relating to cities of refuge for accidental killers, false witnesses, warfare, and the rite performed in a case of unsolved murder."
+
+msgid "MEMO:Ki Teitzei"
+msgstr "Ki Teitzei (“When You Go Out”) contains numerous laws, more than appear in any other Torah portion. These include laws about the treatment of a captive woman, returning lost objects, forbidden mixtures, the erection of a rooftop fence, rape, collateral, and workers’ wages."
+
+msgid "MEMO:Ki Tavo"
+msgstr "Ki Tavo (“When You Come”) opens by describing the ceremony of the first fruit offering (bikkurim) and the declaration made upon the completion of tithing. It concludes with a detailed description of blessings that follow obedience to God’s laws and curses that come with their desecration."
+
+msgid "MEMO:Nitzavim"
+msgstr "In Nitzavim (“Standing”), Moses addresses the Israelites, emphasizing the importance of following God’s covenant and of not worshiping other gods. He describes the process of repentance and returning to God, and stresses that God’s commandments are achievable and “not in the heavens.”"
+
+msgid "MEMO:Vayeilech"
+msgstr "Vayelekh (“He Went”) opens as Moses tells the people of Israel that he will not lead them into the land of Israel and that Joshua will take over. He instructs the people to gather and read Torah publicly every seven years. At God’s command, Moses writes a poem bearing witness to God’s covenant with the people of Israel."
+
+msgid "MEMO:Ha'azinu"
+msgstr "In Ha’azinu (“Listen”) , Moses recites a poem praising God and criticizing the sins of the Israelites. He describes the misfortunes that the Israelites will face and the damage God will ultimately wreak on their oppressors. The portion ends as God commands Moses to ascend Mount Nebo, where he is to die."
+
+msgid "MEMO:Vezot Haberakhah"
+msgstr "VeZot HaBerakhah is the final portion in the annual cycle of Torah reading. In it, Moses blesses each of the tribes, excluding the tribe of Simeon. He then ascends Mount Nebo, sees the land of Israel, and dies at the age of 120. The Israelites mourn, and the portion ends highlighting Moses’ unparalleled greatness."

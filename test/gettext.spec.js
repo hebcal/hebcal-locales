@@ -109,3 +109,11 @@ test('he and he-x-NoNikud', () => {
   // built-in translations from @hebcal/hdate are preserved
   assert.strictEqual(Locale.gettext('Elul', 'he'), 'אֱלוּל');
 });
+
+test('parsha-summary-memo', () => {
+  assert.ok(Locale.lookupTranslation('MEMO:Bereshit', 'en').startsWith('Bereshit (“In the Beginning”) is the first parashah'));
+  assert.ok(Locale.lookupTranslation('MEMO:Bereshit', 'he').startsWith('פרשת בראשית, הפרשה הראשונה בתורה'));
+  assert.ok(Locale.lookupTranslation('MEMO:Bereshit', 'he-x-NoNikud').startsWith('פרשת בראשית'));
+  assert.ok(Locale.lookupTranslation("MEMO:Beha'alotcha", 'en').length > 100);
+  assert.strictEqual(Locale.lookupTranslation('MEMO:Vayakhel-Pekudei', 'en'), undefined);
+});
