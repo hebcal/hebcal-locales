@@ -14,7 +14,7 @@ import (`import '@hebcal/locales'`) which registers each locale with `@hebcal/hd
 ## Source of truth: `po/*.po`
 
 The GNU gettext `.po` files in `po/` are the **only** hand-edited, version-controlled
-source. Everything in `src/` and `dist/` is generated and git-ignored — never edit
+source. Everything in `dist/` is generated and git-ignored — never edit
 those by hand and don't expect them in `git status`.
 
 One `.po` file per locale:
@@ -62,11 +62,14 @@ The merged hebcal.com strings came from `hebcal-web/po/`, which no longer exists
 ## Build pipeline
 
 ```bash
-npm run build       # = po2json + build:rollup
-npm run po2json      # po/*.po -> src/<locale>.po.js, src/<locale>.js, src/index.js
-npm run build:rollup # src/ -> dist/ (ES modules + IIFE bundles, via rollup)
+npm run build    # = po2json
+npm run po2json  # po/*.po -> dist/<locale>.po.js, dist/<locale>.js, dist/index.js
 npm test             # node --test (test/gettext.spec.js)
 ```
+
+There is no bundler: `po2json.js` writes plain ES modules straight into `dist/`,
+which is what ships. (Before v7, rollup also produced IIFE `dist/bundle.js` /
+`bundle.min.js` builds; those were dropped.)
 
 `po2json.js` parses each `.po` with `gettext-parser` and emits a compact JSON dict
 (`{headers, contexts: {'': {msgid: msgstr}}}`). Notes that matter when editing `.po`:
@@ -101,7 +104,7 @@ parse and tests pass.
 ## Tests & CI
 
 Tests are in `test/gettext.spec.js` (ava) and assert specific `Locale.gettext(...)`
-results per locale; they import `../src/index.js`, so run `npm run po2json` first if
+results per locale; they import `../dist/index.js`, so run `npm run po2json` first if
 you've changed `.po` files. CI (`.github/workflows/node.js.yml`) runs `npm ci && npm
 run build && npm test` on Node 22/24/26. Releases publish to npm via OIDC trusted
 publishing when a GitHub Release is published (`release.yml`).

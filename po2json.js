@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {po} from 'gettext-parser';
 
-const folderName = './src';
+const folderName = './dist';
 
 // Locales that @hebcal/hdate (and @hebcal/core) already register.
 // For these we merge our strings into the existing dictionary with
@@ -15,7 +15,7 @@ const builtinLocales = new Set(['en', 'he', 'ashkenazi']);
 const noNikudOverride = 'he-x-NoNikud';
 
 if (!fs.existsSync(folderName)) {
-  fs.mkdirSync(folderName);
+  fs.mkdirSync(folderName, {recursive: true});
 }
 
 const args = process.argv.slice(2);

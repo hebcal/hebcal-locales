@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert';
 import {Locale} from '@hebcal/hdate';
-import '../src/index.js';
+import '../dist/index.js';
 
 test('locale-ru', () => {
   assert.strictEqual(Locale.gettext('Shabbat HaGadol', 'ru'), 'Большой Шаббат');
